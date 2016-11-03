@@ -1,37 +1,37 @@
 #EXTM3U
 
 #EXTINF:0,WIP
-http://15093.live.streamtheworld.com/WIPFM_SC
+http://provisioning.streamtheworld.com/pls/wipfm.pls
 
 #EXTINF:0,WSOX
-http://16113.live.streamtheworld.com/WSOXFM_SC
+http://provisioning.streamtheworld.com/pls/wsoxfm.pls
 
 #EXTINF:0,WCTO
-http://16083.live.streamtheworld.com/WCTOFM_SC
+http://provisioning.streamtheworld.com/pls/wctofm.pls
 
 #EXTINF:0,WEGH
 http://65.19.131.163/sunbury-weghfmaac-ibc2?session-id=1758511862
 
 #EXTINF:0,WBZD
-http://13763.live.streamtheworld.com/WBZDFM_SC
+http://provisioning.streamtheworld.com/pls/wbzdfm.pls
 
 #EXTINF:0,WEEU
 http://relay1.181.fm:8132
 
 #EXTINF:0,WAFL
-http://14153.live.streamtheworld.com/WAFLFM_SC
+http://provisioning.streamtheworld.com/pls/waflfm.pls
 
 #EXTINF:0,WENJ
-http://14853.live.streamtheworld.com/WENJFM_SC
+http://provisioning.streamtheworld.com/pls/wenjfm.pls
 
 #EXTINF:0,WBCB
 http://live.wbcb1490.com:88/broadwavehigh.mp3
 
 #EXTINF:0,WDEL
-http://14833.live.streamtheworld.com/WDELAM_SC
+http://provisioning.streamtheworld.com/pls/wdelfm.pls
 
 #EXTINF:0,WPPA
-http://14213.live.streamtheworld.com/WPPAAM_SC
+http://provisioning.streamtheworld.com/pls/wppaam.pls
 
 #EXTINF:0,WEZX
 http://ais7.streamon.fm/ais/WEZX-48k.aac
