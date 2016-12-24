@@ -17,8 +17,6 @@
 
 <!--
 
-      https://www.thisamericanlife.org/radio-archives
-
       <item>
          <title>#xxx: Title</title>
          <link>http://www.thisamericanlife.org/radio-archives/episode/xxx</link>
@@ -28,7 +26,181 @@
          <pubDate>Fri, dd mmm 2016 00:00:00 GMT</pubDate>
          <description>Description</description>
       </item>
+      
 -->
+      <item>
+         <title>#606: Just What I Wanted</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/606</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/606/606.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/606</guid>
+         <pubDate>Fri, 23 Dec 2016 00:00:00 GMT</pubDate>
+         <description>Stories from people who want something desperately—for Christmas or otherwise—and then have their wishes fulfilled. Or do they?</description>
+      </item>
+      <item>
+         <title>#605: Kid Logic 2016</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/605</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/605/605.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/605</guid>
+         <pubDate>Fri, 16 Dec 2016 00:00:00 GMT</pubDate>
+         <description>Stories of kids using perfectly logical arguments, and arriving at perfectly wrong conclusions. 
+
+An updated version of an episode from 2001, with one story swapped.</description>
+      </item>
+      <item>
+         <title>#604: 20 Years Later</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/604</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/604/604.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/604</guid>
+         <pubDate>Fri, 09 Dec 2016 00:00:00 GMT</pubDate>
+         <description>Samantha Broun talks to cops, politicians, inmates, and family closest to the crime that changed policy 20 years ago for inmates serving life sentences in Pennsylvania. It's a crime Samantha knows well, because it happened to her mom.</description>
+      </item>
+      <item>
+         <title>#603: Once More, With Feeling</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/603</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/603/603.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/603</guid>
+         <pubDate>Fri, 02 Dec 2016 00:00:00 GMT</pubDate>
+         <description>Stories of people who decide to rethink the way they’ve been doing things... or try to get others to do that. Including the story of a veteran who finds a new way to talk about war.</description>
+      </item>
+      <item>
+         <title>#602: The Sun Comes Up</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/602</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/602/602.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/602</guid>
+         <pubDate>Fri, 11 Nov 2016 00:00:00 GMT</pubDate>
+         <description>People around the country talking about the coming four years. Some of them exultant, some of them, as President Obama said Wednesday, "less so."</description>
+      </item>
+      <item>
+         <title>#601: Master of Her Domain… Name</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/601</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/601/601.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/601</guid>
+         <pubDate>Fri, 04 Nov 2016 00:00:00 GMT</pubDate>
+         <description>A story about Hillary Clinton that offers a different picture than what we’ve been hearing from both sides during this campaign. And some funny stuff, because everyone’s tired of the election.</description>
+      </item>
+      <item>
+         <title>#600: Will I Know Anyone at This Party?</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/600</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/600/600.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/600</guid>
+         <pubDate>Fri, 28 Oct 2016 00:00:00 GMT</pubDate>
+         <description>Right now lots of Republicans feel like they don’t recognize their own party. Like a Minnesota congressman who’s confused when the residents in his district, people he’s known for years, start calling for a ban on Muslims moving to their town.</description>
+      </item>
+      <item>
+         <title>#599: Seriously?</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/599</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/599/599.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/599</guid>
+         <pubDate>Fri, 21 Oct 2016 00:00:00 GMT</pubDate>
+         <description>Watching lies become the truth in this year's election. And a few people who try to bridge the gap between the way the two sides see the facts.</description>
+      </item>
+      <item>
+         <title>#598: My Undesirable Talent</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/598</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/598/598.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/598</guid>
+         <pubDate>Fri, 07 Oct 2016 00:00:00 GMT</pubDate>
+         <description>San Francisco’s Spider-Man burglar was remarkable. He dropped into buildings from skylights, leapt 10 feet from one roof to another. But mostly, his talent got him into trouble. This week, his story, and stories of other undesirable talents.</description>
+      </item>
+      <item>
+         <title>#597: One Last Thing Before I Go</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/597</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/597/597.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/597</guid>
+         <pubDate>Fri, 23 Sep 2016 00:00:00 GMT</pubDate>
+         <description>Words can seem so puny and ineffective sometimes. On this show, we have stories in which ordinary people make last ditch efforts to get through to their loved ones, using a combination of small talk and not-so-small talk.</description>
+      </item>
+      <item>
+         <title>#596: Becoming a Badger</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/596</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/596/596.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/596</guid>
+         <pubDate>Fri, 09 Sep 2016 00:00:00 GMT</pubDate>
+         <description>This week, stories about people trying their best to turn themselves into something else—like a badger. Or a professional comedian, in a language they didn’t grow up speaking.</description>
+      </item>
+      <item>
+         <title>#595: Deep End of the Pool</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/595</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/595/595.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/595</guid>
+         <pubDate>Fri, 26 Aug 2016 00:00:00 GMT</pubDate>
+         <description>What do you do when you're thrown into a situation you’re not prepared for? And while you’re flailing around—what happens to the people who depend on you? This week we present stories of people who find themselves in over their heads, including an attorney who knows little about criminal law assigned to defend a young man facing twenty years in prison.</description>
+      </item>
+      <item>
+         <title>#594: My Summer Self</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/594</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/594/594.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/594</guid>
+         <pubDate>Fri, 12 Aug 2016 00:00:00 GMT</pubDate>
+         <description>Summer is a time when change seems more possible than ever. But is that really how it happens? Can people actually reinvent themselves in the warmer months? This week we present stories — and some comedy — about people and their summer selves.</description>
+      </item>
+      <item>
+         <title>#593: Don’t Have to Live Like a Refugee</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/593</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/593/593.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/593</guid>
+         <pubDate>Fri, 05 Aug 2016 00:00:00 GMT</pubDate>
+         <description>We return to Greece with stories of people trying to move on with their lives in whatever way they can. We meet a couple who fell in love even though they weren't expecting anything like that to happen, and even though her family didn't approve. We also meet a shopkeeper in a camp who's running what amounts to a cigarette charity. </description>
+      </item>
+      <item>
+         <title>#592: Are We There Yet?</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/592</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/592/592.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/592</guid>
+         <pubDate>Fri, 29 Jul 2016 00:00:00 GMT</pubDate>
+         <description>A bunch of us from our show went to refugee camps all over Greece. We found people falling in love, kids mad at their parents for dragging them to Europe, women doing their laundry in a baseball stadium locker room, and hundreds of people living at a gas station—sitting next to the pumps, smoking. Also: wild pigs. 57,000 refugees are stuck in Greece, making homes in some surprising locations. We hear what that’s really like.</description>
+      </item>
+      <item>
+         <title>#591: Get Your Money's Worth</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/591</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/591/591.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/591</guid>
+         <pubDate>Fri, 15 Jul 2016 00:00:00 GMT</pubDate>
+         <description>Stories of people trying to make sure they get what they paid for, from political change to bedroom slippers. We follow a donor as he vets presidential candidates, and go inside a company wrestling with the consequences of its "no questions asked,” lifetime return policy.</description>
+      </item>
+      <item>
+         <title>#590: Choosing Wrong</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/590</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/590/590.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/590</guid>
+         <pubDate>Fri, 24 Jun 2016 00:00:00 GMT</pubDate>
+         <description>Stories of people making the wrong choice, even though the right one is staring them squarely in the eye. Basketball players making a conscious decision to not do the thing that makes them better, pollsters refusing to see the truth of Donald Trump, and more.</description>
+      </item>
+      <item>
+         <title>#589: Tell Me I’m Fat</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/589</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/589/589.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/589</guid>
+         <pubDate>Fri, 17 Jun 2016 00:00:00 GMT</pubDate>
+         <description>The way people talk about being fat is shifting. With one-third of Americans classified as overweight, and another third as obese, and almost none of us losing weight and keeping it off, maybe it’s time to rethink the way we see being fat. A show inspired by Lindy West’s book Shrill.</description>
+      </item>
+      <item>
+         <title>#588: Mind Games 2016</title>
+         <link>http://www.thisamericanlife.org/radio-archives/episode/588</link>
+         <author>Chicago Public Media</author>
+         <enclosure type="audio/mpeg" length="nnnn" url="http://audio.thisamericanlife.org/588/588.mp3" />
+         <guid isPermaLink="true">http://www.thisamericanlife.org/radio-archives/episode/xxx</guid>
+         <pubDate>Fri, 03 Jun 2016 00:00:00 GMT</pubDate>
+         <description>Stories of people who try simple mind games on others, and then find themselves in way over their heads.</description>
+      </item>
       <item>
          <title>#587: The Perils of Intimacy</title>
          <link>http://www.thisamericanlife.org/radio-archives/episode/587</link>
