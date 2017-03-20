@@ -1,37 +1,37 @@
 #EXTM3U
 
 #EXTINF:0,WIP
-http://provisioning.streamtheworld.com/pls/wipfm.pls
+https://playerservices.streamtheworld.com/api/livestream-redirect/WIPFM.mp3
 
 #EXTINF:0,WSOX
-http://provisioning.streamtheworld.com/pls/wsoxfm.pls
+https://playerservices.streamtheworld.com/api/livestream-redirect/WSOXFM.mp3
 
 #EXTINF:0,WCTO
-http://provisioning.streamtheworld.com/pls/wctofm.pls
+https://playerservices.streamtheworld.com/api/livestream-redirect/WCTOFM.mp3
 
 #EXTINF:0,WEGH
 http://65.19.131.163/sunbury-weghfmaac-ibc2?session-id=1758511862
 
 #EXTINF:0,WBZD
-http://provisioning.streamtheworld.com/pls/wbzdfm.pls
+https://playerservices.streamtheworld.com/api/livestream-redirect/WBZDFM.mp3
 
 #EXTINF:0,WEEU
 http://relay1.181.fm:8132
 
 #EXTINF:0,WAFL
-http://provisioning.streamtheworld.com/pls/waflfm.pls
+https://playerservices.streamtheworld.com/api/livestream-redirect/WAFLFM.mp3
 
 #EXTINF:0,WENJ
-http://provisioning.streamtheworld.com/pls/wenjfm.pls
+https://playerservices.streamtheworld.com/api/livestream-redirect/WENJFM.mp3
 
 #EXTINF:0,WBCB
 http://live.wbcb1490.com:88/broadwavehigh.mp3
 
 #EXTINF:0,WDEL
-http://provisioning.streamtheworld.com/pls/wdelam.pls
+https://playerservices.streamtheworld.com/api/livestream-redirect/WDELAM.mp3
 
 #EXTINF:0,WPPA
-http://provisioning.streamtheworld.com/pls/wppaam.pls
+https://playerservices.streamtheworld.com/api/livestream-redirect/WPPAAM.mp3
 
 #EXTINF:0,WEZX
 http://ais7.streamon.fm/ais/WEZX-48k.aac
