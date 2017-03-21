@@ -22,7 +22,7 @@ http://relay1.181.fm:8132
 https://playerservices.streamtheworld.com/api/livestream-redirect/WAFLFM.mp3
 
 #EXTINF:0,WENJ
-https://playerservices.streamtheworld.com/api/livestream-redirect/WENJFM.mp3
+http://107.20.56.41/townsquare-wenjfmaac-ibc3
 
 #EXTINF:0,WBCB
 http://live.wbcb1490.com:88/broadwavehigh.mp3
