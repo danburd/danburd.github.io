@@ -23,11 +23,7 @@ https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8
 #EXTINF:-1,Arirang
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1,RAI News (Italy)
-https://b2everyrai-lh.akamaihd.net/i/rainews_1@179616/master.m3u8
-#EXTINF:-1,TV Azteca Mexico
-https://aztecalive-lh.akamaihd.net/i/1ym9yab3c_1@66742/master.m3u8
-#EXTINF:-1,All Jezeera English
+#EXTINF:-1,Al Jezeera English
 http://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index255.m3u8
 #EXTINF:-1,RT
 http://rt-eng-live.hls.adaptive.level3.net/rt/eng/index.m3u8
