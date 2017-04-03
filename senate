@@ -1,0 +1,25 @@
+Date.prototype.toMyString = function () {
+   //If month/day is single digit value add perfix as 0
+    function AddZero(obj) {
+          obj = obj + '';
+          if (obj.length == 1)
+              obj = "0" + obj
+          return obj;
+    }
+
+    var output = "";
+    output += this.getFullYear();
+    output += AddZero(this.getMonth()+1);
+    output += AddZero(this.getDate());
+
+    return output; 
+}
+
+var d = new Date();
+
+var link = document.getElementById("link");
+
+link.setAttribute("href","https://video-dev.github.io/hls.js/demo/?src=https://ag-f.akamaihd.net/i/ag"+d.toMyString()"_1@76440/master.m3u8");
+<ul>
+    <li><a id="link" href="#">Agriculture</a></li>
+</ul>
