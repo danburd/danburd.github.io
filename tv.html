@@ -1,0 +1,20 @@
+<html>
+
+<head>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+  <script type="text/javascript" src="dist/level-selector.js"></script>
+</head>
+
+<body>
+  <div id="player"></div>
+  <script>
+    var player = new Clappr.Player({source: "https://cspan1-lh.akamaihd.net/i/cspan1_1@304727/master.m3u8",
+    plugins: {
+    'core': [LevelSelector]
+    }
+    parentId: "#player"
+    });
+  </script>
+</body>
+
+</html>
