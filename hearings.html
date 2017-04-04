@@ -1,0 +1,202 @@
+<html>
+<head>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+</head>
+<body>
+<style>
+  .left{float:left; width:660px;}
+</style>
+<script>
+var current_month = <?= $init['MMDDYY']; ?>;
+</script>
+<script>
+    var date = new Date();
+    var formattedDate = ('0' + date.getDate()).slice(-2);
+    var formattedMonth = ('0' + (date.getMonth() + 1)).slice(-2);
+    var formattedYear = date.getFullYear().toString().substr(2,2);
+    var dateString = formattedMonth + formattedDate + formattedYear;
+    var output = document.querySelector('#output');
+    var MMDDYY = dateString;
+</script>
+<div id="ag" class="left">
+Agriculture
+<script>
+(function () {
+    var url = "https://ag-f.akamaihd.net/i/ag"+MMDDYY+"_1@76440/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#ag"});
+})();
+</script>
+</div>
+<div id="aging" class="left">
+Aging
+<script>
+(function () {
+    var url = "https://aging-f.akamaihd.net/i/aging"+MMDDYY+"_1@76442/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#aging"});
+})();
+</script>
+</div>
+<div id="approps" class="left">
+Appropriations
+<script>
+(function () {
+    var url = "https://approps-f.akamaihd.net/i/appropsA"+MMDDYY+"_1@76441/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#approps"});
+})();
+</script>
+</div>
+<div id="armed" class="left">
+Armed Services
+<script>
+(function () {
+    var url = "https://armed-f.akamaihd.net/i/armed"+MMDDYY+"_1@76445/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#armed"});
+})();
+</script>
+</div>
+<div id="banking" class="left">
+Banking
+<script>
+(function () {
+    var url = "https://banking-f.akamaihd.net/i/banking"+MMDDYY+"_1@76446/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#banking"});
+})();
+</script>
+</div>
+<div id="budget" class="left">
+Budget
+<script>
+(function () {
+    var url = "https://budget-f.akamaihd.net/i/budget"+MMDDYY+"_1@76447/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#budget"});
+})();
+</script>
+</div>
+<div id="commerce" class="left">
+Commerce
+<script>
+(function () {
+    var url = "https://commerce1-f.akamaihd.net/i/commerce"+MMDDYY+"_1@80177/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#commerce"});
+})();
+</script>
+</div>
+<div id="energy" class="left">
+Energy
+<script>
+(function () {
+    var url = "https://energy-f.akamaihd.net/i/energy"+MMDDYY+"_1@76448/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#energy"});
+})();
+</script>
+</div>
+<div id="epw" class="left">
+Environment and Public Works
+<script>
+(function () {
+    var url = "https://epw-f.akamaihd.net/i/epw"+MMDDYY+"_1@76478/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#epw"});
+})();
+</script>
+</div>
+<div id="ethics" class="left">
+Ethics
+<script>
+(function () {
+    var url = "https://ethics-f.akamaihd.net/i/ethics"+MMDDYY+"_1@76449/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#ethics"});
+})();
+</script>
+</div>
+<div id="finance" class="left">
+Finance
+<script>
+(function () {
+    var url = "https://finance-f.akamaihd.net/i/finance"+MMDDYY+"_1@76450/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#finance"});
+})();
+</script>
+</div>
+<div id="foreign" class="left">
+Foreign Affairs
+<script>
+(function () {
+    var url = "https://foreign-f.akamaihd.net/i/foreign"+MMDDYY+"_1@76451/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#foreign"}); 
+})();
+</script>
+</div>
+<div id="govtaff" class="left">
+Homeland Security and Government Affairs
+<script>
+(function () {
+    var url = "https://govtaff-f.akamaihd.net/i/govtaff"+MMDDYY+"_1@76453/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#govtaff"}); 
+})();
+</script>
+</div>
+<div id="help" class="left">
+Health, Education, Labor and Pensions
+<script>
+(function () {
+    var url = "https://help-f.akamaihd.net/i/help"+MMDDYY+"_1@76452/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#help"}); 
+})();
+</script>
+</div>
+<div id="indian" class="left">
+Indian Affairs
+<script>
+(function () {
+    var url = "https://indian-f.akamaihd.net/i/indian"+MMDDYY+"_1@76455/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#indian"}); 
+})();
+</script>
+</div>
+<div id="intel" class="left">
+Intelligence
+<script>
+(function () {
+    var url = "https://intel-f.akamaihd.net/i/intel"+MMDDYY+"_1@76456/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#intel"}); 
+})();
+</script>
+</div>
+<div id="judiciary" class="left">
+Judiciary
+<script>
+(function () {
+    var url = "https://judiciary-f.akamaihd.net/i/judiciary"+MMDDYY+"_1@76459/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#judiciary"}); 
+})();
+</script>
+</div>
+<div id="rules" class="left">
+Rules
+<script>
+(function () {
+    var url = "https://rules-f.akamaihd.net/i/rules"+MMDDYY+"_1@76460/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#rules"}); 
+})();
+</script>
+</div>
+<div id="smbiz" class="left">
+Small Business
+<script>
+(function () {
+    var url = "https://smbiz-f.akamaihd.net/i/smbiz"+MMDDYY+"_1@76461/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#smbiz"}); 
+})();
+</script>
+</div>
+<div id="vetaff" class="left">
+Veterans Affairs
+<script>
+(function () {
+    var url = "https://vetaff-f.akamaihd.net/i/vetaff"+MMDDYY+"_1@76462/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#vetaff"}); 
+})();
+</script>
+</div>
+</body>
+</html> 
