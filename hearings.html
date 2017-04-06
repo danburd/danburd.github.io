@@ -3,8 +3,6 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
 </head>
 <body>
-
-<a href="https://www.senate.gov/committees/committee_hearings.htm">Schedule</a>
   
 <style>
   .left{float:left; width:660px;}
@@ -22,7 +20,7 @@ var current_month = <?= $init['MMDDYY']; ?>;
     var MMDDYY = dateString;
 </script>
 <div id="ag" class="left">
-Agriculture
+Agriculture <a href="https://www.senate.gov/committees/committee_hearings.htm">Schedule</a>
 <script>
 (function () {
     var url = "https://ag-f.akamaihd.net/i/ag"+MMDDYY+"_1@76440/master.m3u8";
