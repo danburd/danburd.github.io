@@ -22,7 +22,20 @@ var current_month = <?= $init['MMDDYY']; ?>;
 </script>
 <a href="https://www.senate.gov/committees/committee_hearings.htm">Schedule</a><br>
 <div id="ag" class="left">
-Agriculture
+Agriculture (
+
+<script>
+	document.write('<a href="https://ag-f.akamaihd.net/i/ag' + MMDDYY + '_1@76440/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://ag-f.akamaihd.net/i/ag' + MMDDYY + '_1@76440/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=ag&filename=ag' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://ag-f.akamaihd.net/i/ag"+MMDDYY+"_1@76440/master.m3u8";
@@ -31,7 +44,20 @@ Agriculture
 </script>
 </div>
 <div id="aging" class="left">
-Aging
+Aging (
+
+<script>
+	document.write('<a href="https://aging-f.akamaihd.net/i/aging' + MMDDYY + '_1@76442/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://aging-f.akamaihd.net/i/aging' + MMDDYY + '_1@76442/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=aging&filename=aging' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://aging-f.akamaihd.net/i/aging"+MMDDYY+"_1@76442/master.m3u8";
@@ -40,16 +66,42 @@ Aging
 </script>
 </div>
 <div id="approps" class="left">
-Appropriations
+Appropriations (
+
+<script>
+	document.write('<a href="https://approps-f.akamaihd.net/i/approps' + MMDDYY + '_1@76441/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://approps-f.akamaihd.net/i/approps' + MMDDYY + '_1@76441/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=approps&filename=approps' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
-    var url = "https://approps-f.akamaihd.net/i/appropsA"+MMDDYY+"_1@76441/master.m3u8";
+    var url = "https://approps-f.akamaihd.net/i/approps"+MMDDYY+"_1@76441/master.m3u8";
     var player = new Clappr.Player({source: url, parentId: "#approps"});
 })();
 </script>
 </div>
 <div id="armed" class="left">
-Armed Services
+Armed Services (
+
+<script>
+	document.write('<a href="https://armed-f.akamaihd.net/i/armed' + MMDDYY + '_1@76445/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://armed-f.akamaihd.net/i/armed' + MMDDYY + '_1@76445/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=armed&filename=armed' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://armed-f.akamaihd.net/i/armed"+MMDDYY+"_1@76445/master.m3u8";
@@ -58,7 +110,20 @@ Armed Services
 </script>
 </div>
 <div id="banking" class="left">
-Banking
+Banking (
+
+<script>
+	document.write('<a href="https://banking-f.akamaihd.net/i/banking' + MMDDYY + '_1@76446/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://banking-f.akamaihd.net/i/banking' + MMDDYY + '_1@76446/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=banking&filename=banking' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://banking-f.akamaihd.net/i/banking"+MMDDYY+"_1@76446/master.m3u8";
@@ -67,7 +132,20 @@ Banking
 </script>
 </div>
 <div id="budget" class="left">
-Budget
+Budget (
+
+<script>
+	document.write('<a href="https://budget-f.akamaihd.net/i/budget' + MMDDYY + '_1@76447/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://budget-f.akamaihd.net/i/budget' + MMDDYY + '_1@76447/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=budget&filename=budget' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://budget-f.akamaihd.net/i/budget"+MMDDYY+"_1@76447/master.m3u8";
@@ -76,7 +154,20 @@ Budget
 </script>
 </div>
 <div id="commerce" class="left">
-Commerce
+Commerce (
+
+<script>
+	document.write('<a href="https://commerce1-f.akamaihd.net/i/commerce1' + MMDDYY + '_1@80177/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://commerce1-f.akamaihd.net/i/commerce1' + MMDDYY + '_1@80177/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=commerce1&filename=commerce1' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://commerce1-f.akamaihd.net/i/commerce"+MMDDYY+"_1@80177/master.m3u8";
@@ -85,7 +176,20 @@ Commerce
 </script>
 </div>
 <div id="energy" class="left">
-Energy
+Energy (
+
+<script>
+	document.write('<a href="https://energy-f.akamaihd.net/i/energy' + MMDDYY + '_1@76448/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://energy-f.akamaihd.net/i/energy' + MMDDYY + '_1@76448/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=energy&filename=energy' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://energy-f.akamaihd.net/i/energy"+MMDDYY+"_1@76448/master.m3u8";
@@ -94,7 +198,20 @@ Energy
 </script>
 </div>
 <div id="epw" class="left">
-Environment and Public Works
+Environment and Public Works (
+
+<script>
+	document.write('<a href="https://epw-f.akamaihd.net/i/epw' + MMDDYY + '_1@76478/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://epw-f.akamaihd.net/i/epw' + MMDDYY + '_1@76478/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=epw&filename=epw' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://epw-f.akamaihd.net/i/epw"+MMDDYY+"_1@76478/master.m3u8";
@@ -103,7 +220,20 @@ Environment and Public Works
 </script>
 </div>
 <div id="ethics" class="left">
-Ethics
+Ethics (
+
+<script>
+	document.write('<a href="https://ethics-f.akamaihd.net/i/ethics' + MMDDYY + '_1@76449/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://ethics-f.akamaihd.net/i/ethics' + MMDDYY + '_1@76449/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=ethics&filename=ethics' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://ethics-f.akamaihd.net/i/ethics"+MMDDYY+"_1@76449/master.m3u8";
@@ -112,7 +242,20 @@ Ethics
 </script>
 </div>
 <div id="finance" class="left">
-Finance
+Finance (
+
+<script>
+	document.write('<a href="https://finance-f.akamaihd.net/i/finance' + MMDDYY + '_1@76450/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://finance-f.akamaihd.net/i/finance' + MMDDYY + '_1@76450/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=finance&filename=finance' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://finance-f.akamaihd.net/i/finance"+MMDDYY+"_1@76450/master.m3u8";
@@ -121,7 +264,20 @@ Finance
 </script>
 </div>
 <div id="foreign" class="left">
-Foreign Relations
+Foreign Relations (
+
+<script>
+	document.write('<a href="https://foreign-f.akamaihd.net/i/agforeign+ MMDDYY + '_1@76451/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://foreign-f.akamaihd.net/i/foreign' + MMDDYY + '_1@76451/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=foreign&filename=foreign' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://foreign-f.akamaihd.net/i/foreign"+MMDDYY+"_1@76451/master.m3u8";
@@ -130,7 +286,20 @@ Foreign Relations
 </script>
 </div>
 <div id="govtaff" class="left">
-Homeland Security and Government Affairs
+Homeland Security and Government Affairs (
+
+<script>
+	document.write('<a href="https://govtaff-f.akamaihd.net/i/govtaff' + MMDDYY + '_1@76453/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://govtaff-f.akamaihd.net/i/govtaff' + MMDDYY + '_1@76453/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=govtaff&filename=govtaff' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://govtaff-f.akamaihd.net/i/govtaff"+MMDDYY+"_1@76453/master.m3u8";
@@ -139,7 +308,20 @@ Homeland Security and Government Affairs
 </script>
 </div>
 <div id="help" class="left">
-Health, Education, Labor and Pensions
+Health, Education, Labor and Pensions (
+
+<script>
+	document.write('<a href="https://help-f.akamaihd.net/i/help' + MMDDYY + '_1@76452/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://help-f.akamaihd.net/i/help' + MMDDYY + '_1@76452/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=help&filename=help' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://help-f.akamaihd.net/i/help"+MMDDYY+"_1@76452/master.m3u8";
@@ -148,7 +330,20 @@ Health, Education, Labor and Pensions
 </script>
 </div>
 <div id="indian" class="left">
-Indian Affairs
+Indian Affairs (
+
+<script>
+	document.write('<a href="https://indian-f.akamaihd.net/i/indian' + MMDDYY + '_1@76455/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://indian-f.akamaihd.net/i/indian' + MMDDYY + '_1@76455/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=indian&filename=indian' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://indian-f.akamaihd.net/i/indian"+MMDDYY+"_1@76455/master.m3u8";
@@ -157,7 +352,20 @@ Indian Affairs
 </script>
 </div>
 <div id="intel" class="left">
-Intelligence
+Intelligence (
+
+<script>
+	document.write('<a href="https://intel-f.akamaihd.net/i/intel' + MMDDYY + '_1@76456/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://intel-f.akamaihd.net/i/intel' + MMDDYY + '_1@76456/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=intel&filename=intel' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://intel-f.akamaihd.net/i/intel"+MMDDYY+"_1@76456/master.m3u8";
@@ -166,7 +374,20 @@ Intelligence
 </script>
 </div>
 <div id="judiciary" class="left">
-Judiciary
+Judiciary (
+
+<script>
+	document.write('<a href="https://judiciary-f.akamaihd.net/i/judiciary' + MMDDYY + '_1@76459/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://judiciary-f.akamaihd.net/i/judiciary' + MMDDYY + '_1@76459/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=judiciary&filename=judiciary' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://judiciary-f.akamaihd.net/i/judiciary"+MMDDYY+"_1@76459/master.m3u8";
@@ -175,7 +396,20 @@ Judiciary
 </script>
 </div>
 <div id="rules" class="left">
-Rules
+Rules (
+
+<script>
+	document.write('<a href="https://rules-f.akamaihd.net/i/rules' + MMDDYY + '_1@76460/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://rules-f.akamaihd.net/i/rules' + MMDDYY + '_1@76460/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=rules&filename=rules' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://rules-f.akamaihd.net/i/rules"+MMDDYY+"_1@76460/master.m3u8";
@@ -184,7 +418,20 @@ Rules
 </script>
 </div>
 <div id="smbiz" class="left">
-Small Business
+Small Business (
+
+<script>
+	document.write('<a href="https://smbiz-f.akamaihd.net/i/smbiz' + MMDDYY + '_1@76461/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://smbiz-f.akamaihd.net/i/smbiz' + MMDDYY + '_1@76461/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=smbiz&filename=smbiz' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://smbiz-f.akamaihd.net/i/smbiz"+MMDDYY+"_1@76461/master.m3u8";
@@ -193,7 +440,20 @@ Small Business
 </script>
 </div>
 <div id="vetaff" class="left">
-Veterans Affairs
+Veterans Affairs (
+
+<script>
+	document.write('<a href="https://vetaff-f.akamaihd.net/i/vetaff' + MMDDYY + '_1@76462/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://vetaff-f.akamaihd.net/i/vetaff' + MMDDYY + '_1@76462/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=vetaff&filename=vetaff' + MMDDYY + '">ISVP</a>');
+</script>)
+
 <script>
 (function () {
     var url = "https://vetaff-f.akamaihd.net/i/vetaff"+MMDDYY+"_1@76462/master.m3u8";
