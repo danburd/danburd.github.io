@@ -3,6 +3,9 @@
 #EXTINF:0,WIP
 https://playerservices.streamtheworld.com/api/livestream-redirect/WIPFM.mp3
 
+#EXTINF:0,ESPN
+http://espn-network.akacast.akamaistream.net/7/245/126490/v1/espn.akacast.akamaistream.net/espn-network
+
 #EXTINF:0,WSOX
 https://playerservices.streamtheworld.com/api/livestream-redirect/WSOXFM.mp3
 
