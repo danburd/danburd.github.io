@@ -568,9 +568,35 @@ Congressional-Executive Commission on China (
 <a href="https://www.cecc.gov/events/hearings">Committee Website</a>)
 
 <script>
+
 (function () {
-    var url = "https://srs-f.akamaihd.net/i/cecc' + MMDDYY + _1@76486/master.m3u8";
+    var url = "https://srs-f.akamaihd.net/i/cecc' + MMDDYY + '_1@76486/master.m3u8";
     var player = new Clappr.Player({source: url, parentId: "#cecc"}); 
+})();
+</script>
+</div>
+<div id="uscc" class="left">
+US-China Economic and Security Review Commission (
+
+<script>
+	document.write('<a href="https://srs-f.akamaihd.net/i/uscc' + MMDDYY + '_1@76487/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://srs-f.akamaihd.net/i/uscc' + MMDDYY + '_1@76487/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=uscc&filename=uscc' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.uscc.gov/Hearings">Committee Website</a>)
+
+<script>
+
+(function () {
+    var url = "https://srs-f.akamaihd.net/i/uscc' + MMDDYY + '_1@76487/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#uscc"}); 
 })();
 </script>
 </div>
