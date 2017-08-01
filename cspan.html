@@ -120,13 +120,13 @@ Dot Org 5 (<a href="https://dotorg5-lh.akamaihd.net/i/DotOrg5_1@129000/master.m3
 </script>
 </div>
   
-<video controls muted width="640" height="360" id="video"></video>
+<video controls muted width="640" height="360" id="cspan1"></video>
 <script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('video');
+    var video = document.getElementById('cspan1');
     var hls = new Hls();
     hls.loadSource('https://cspan1-lh.akamaihd.net/i/cspan1_1@304727/master.m3u8');
-    hls.attachMedia(video);
+    hls.attachMedia(cspan1);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
