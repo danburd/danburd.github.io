@@ -4,6 +4,7 @@
   
 <head>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/clappr/clappr@latest/dist/clappr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   
 <style>
   table, th, td {
@@ -118,6 +119,19 @@ Dot Org 5 (<a href="https://dotorg5-lh.akamaihd.net/i/DotOrg5_1@129000/master.m3
   });
 </script>
 </div>
+  
+<video id="video"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('video');
+    var hls = new Hls();
+    hls.loadSource('https://cspan1-lh.akamaihd.net/i/cspan1_1@304727/master.m3u8');
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
   
 <b>Other Live News Streams</b><br><br>
 
