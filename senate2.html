@@ -1,0 +1,807 @@
+<html>
+<title>Senate Hearings</title>
+<head>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/clappr/clappr@latest/dist/clappr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.light.min.js"></script>
+</head>
+<body>
+  
+<style>
+  .left{float:left; width:660px;}
+</style>
+<script>
+var current_month = <?= $init['MMDDYY']; ?>;
+</script>
+<script>
+    var date = new Date();
+    var formattedDate = ('0' + date.getDate()).slice(-2);
+    var formattedMonth = ('0' + (date.getMonth() + 1)).slice(-2);
+    var formattedYear = date.getFullYear().toString().substr(2,2);
+    var dateString = formattedMonth + formattedDate + formattedYear;
+    var output = document.querySelector('#output');
+    var MMDDYY = dateString;
+</script>
+<a href="https://www.senate.gov/committees/committee_hearings.htm">Schedule</a><br><br>
+
+<b>Go to:</b>
+<ul>
+<li><a href="#ag">Agriculture, Nutrition and Forestry</a><br>
+<li><a href="#aging">Aging</a><br>
+<li><a href="#approps">Appropriations</a><br>
+<li><a href="#armed">Armed Services</a><br>
+<li><a href="#banking">Banking, Housing, and Urban Affairs</a><br>
+<li><a href="#budget">Budget</a><br>
+<li><a href="#commerce">Commerce, Science, and Transportation</a><br>
+<li><a href="#energy">Energy and Natural Resources</a><br>
+<li><a href="#epw">Environment and Public Works</a><br>
+<li><a href="#ethics">Ethics</a><br>
+<li><a href="#finance">Finance</a><br>
+<li><a href="#foreign">Foreign Relations</a><br>
+<li><a href="#govtaff">Homeland Security and Government Affairs</a><br>
+<li><a href="#help">Health, Education, Labor and Pensions</a><br>
+<li><a href="#indian">Indian Affairs</a><br>
+<li><a href="#intel">Intelligence</a><br>
+<li><a href="#judiciary">Judiciary</a><br>
+<li><a href="#rules">Rules</a><br>
+<li><a href="#smbiz">Small Business and Entrepreneurship</a><br>
+<li><a href="#vetaff">Veterans Affairs</a><br>
+<li><a href="#jec">Joint Economic Committee</a><br>
+<li><a href="#csce">Commission on Security and Cooperation in Europe</a><br>
+<li><a href="#cecc">Congressional-Executive Commission on China</a><br>
+<li><a href="#uscc">US-China Economic and Security Review Commission</a><br>
+<li><a href="#intlnarc">International Narcotics Control Caucus</a><br>
+</ul><br>
+	
+<div id="ag" class="left">
+Agriculture, Nutrition and Forestry (
+
+<script>
+	document.write('<a href="https://ag-f.akamaihd.net/i/ag' + MMDDYY + '_1@76440/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://ag-f.akamaihd.net/i/ag' + MMDDYY + '_1@76440/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=ag&filename=ag' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.agriculture.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="ag1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('ag1');
+    var hls = new Hls();
+    hls.loadSource('https://ag-f.akamaihd.net/i/ag'+MMDDYY+'_1@76440/master.m3u8');
+    hls.attachMedia(ag1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="aging" class="left">
+Aging (
+
+<script>
+	document.write('<a href="https://aging-f.akamaihd.net/i/aging' + MMDDYY + '_1@76442/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://aging-f.akamaihd.net/i/aging' + MMDDYY + '_1@76442/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=aging&filename=aging' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.aging.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="aging1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('aging1');
+    var hls = new Hls();
+    hls.loadSource('https://aging-f.akamaihd.net/i/aging'+MMDDYY+'_1@76442/master.m3u8');
+    hls.attachMedia(aging1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="approps" class="left">
+Appropriations (
+
+<script>
+	document.write('<a href="https://approps-f.akamaihd.net/i/appropsA' + MMDDYY + '_1@76441/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://appropsA-f.akamaihd.net/i/approps' + MMDDYY + '_1@76441/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=approps&filename=appropsA' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.appropriations.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="approps1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('approps1');
+    var hls = new Hls();
+    hls.loadSource('https://approps-f.akamaihd.net/i/appropsA'+MMDDYY+'_1@76441/master.m3u8');
+    hls.attachMedia(approps1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="armed" class="left">
+Armed Services (
+
+<script>
+	document.write('<a href="https://armed-f.akamaihd.net/i/armed' + MMDDYY + '_1@76445/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://armed-f.akamaihd.net/i/armed' + MMDDYY + '_1@76445/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=armed&filename=armed' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.armed-services.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="armed1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('armed1');
+    var hls = new Hls();
+    hls.loadSource('https://armed-f.akamaihd.net/i/armed'+MMDDYY+'_1@76445/master.m3u8');
+    hls.attachMedia(armed1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="banking" class="left">
+Banking, Housing, and Urban Affairs (
+
+<script>
+	document.write('<a href="https://banking-f.akamaihd.net/i/banking' + MMDDYY + '_1@76446/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://banking-f.akamaihd.net/i/banking' + MMDDYY + '_1@76446/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=banking&filename=banking' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.banking.senate.gov/public/index.cfm/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="banking1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('banking1');
+    var hls = new Hls();
+    hls.loadSource('https://banking-f.akamaihd.net/i/banking'+MMDDYY+'_1@76446/master.m3u8');
+    hls.attachMedia(banking1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="budget" class="left">
+Budget (
+
+<script>
+	document.write('<a href="https://budget-f.akamaihd.net/i/budget' + MMDDYY + '_1@76447/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://budget-f.akamaihd.net/i/budget' + MMDDYY + '_1@76447/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=budget&filename=budget' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.budget.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="budget1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('budget1');
+    var hls = new Hls();
+    hls.loadSource('https://budget-f.akamaihd.net/i/budget'+MMDDYY+'_1@76447/master.m3u8');
+    hls.attachMedia(budget1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="commerce" class="left">
+Commerce, Science, and Transportation (
+
+<script>
+	document.write('<a href="https://commerce1-f.akamaihd.net/i/commerce' + MMDDYY + '_1@80177/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://commerce1-f.akamaihd.net/i/commerce' + MMDDYY + '_1@80177/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=commerce&filename=commerce' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.commerce.senate.gov/public/index.cfm/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="commerce1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('commerce1');
+    var hls = new Hls();
+    hls.loadSource('https://commerce1-f.akamaihd.net/i/commerce'+MMDDYY+'_1@80177/master.m3u8');
+    hls.attachMedia(commerce1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="energy" class="left">
+Energy and Natural Resources (
+
+<script>
+	document.write('<a href="https://energy-f.akamaihd.net/i/energy' + MMDDYY + '_1@76448/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://energy-f.akamaihd.net/i/energy' + MMDDYY + '_1@76448/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=energy&filename=energy' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.energy.senate.gov/public/index.cfm/hearings-and-business-meetings">Committee Website</a>)
+
+<video controls width="640" height="360" id="energy1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('energy1');
+    var hls = new Hls();
+    hls.loadSource('https://energy-f.akamaihd.net/i/energy'+MMDDYY+'_1@76448/master.m3u8');
+    hls.attachMedia(energy1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="epw" class="left">
+Environment and Public Works (
+
+<script>
+	document.write('<a href="https://epw-f.akamaihd.net/i/epw' + MMDDYY + '_1@76478/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://epw-f.akamaihd.net/i/epw' + MMDDYY + '_1@76478/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=epw&filename=epw' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.epw.senate.gov/public/index.cfm/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="epw1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('epw1');
+    var hls = new Hls();
+    hls.loadSource('https://epw-f.akamaihd.net/i/epw'+MMDDYY+'_1@76478/master.m3u8');
+    hls.attachMedia(epw1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="ethics" class="left">
+Ethics (
+
+<script>
+	document.write('<a href="https://ethics-f.akamaihd.net/i/ethics' + MMDDYY + '_1@76449/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://ethics-f.akamaihd.net/i/ethics' + MMDDYY + '_1@76449/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=ethics&filename=ethics' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.ethics.senate.gov">Committee Website</a>)
+
+<script>
+(function () {
+    var url = "https://ethics-f.akamaihd.net/i/ethics"+MMDDYY+"_1@76449/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#ethics"});
+})();
+</script>
+</div>
+<div id="finance" class="left">
+Finance (
+
+<script>
+	document.write('<a href="https://finance-f.akamaihd.net/i/finance' + MMDDYY + '_1@76450/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://finance-f.akamaihd.net/i/finance' + MMDDYY + '_1@76450/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=finance&filename=finance' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.finance.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="finance1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('finance');
+    var hls = new Hls();
+    hls.loadSource('https://finance-f.akamaihd.net/i/finance'+MMDDYY+'_1@76450/master.m3u8');
+    hls.attachMedia(finance1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+Foreign Relations (
+
+<script>
+	document.write('<a href="https://foreign-f.akamaihd.net/i/foreign' + MMDDYY + '_1@76451/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://foreign-f.akamaihd.net/i/foreign' + MMDDYY + '_1@76451/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=foreign&filename=foreign' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.foreign.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="foreign1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('foreign1');
+    var hls = new Hls();
+    hls.loadSource('https://foreign-f.akamaihd.net/i/foreign'+MMDDYY+'_1@76451/master.m3u8');
+    hls.attachMedia(foreign1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="govtaff" class="left">
+Homeland Security and Government Affairs (
+
+<script>
+	document.write('<a href="https://govtaff-f.akamaihd.net/i/govtaff' + MMDDYY + '_1@76453/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://govtaff-f.akamaihd.net/i/govtaff' + MMDDYY + '_1@76453/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=govtaff&filename=govtaff' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.hsgac.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="govtaff1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('govtaff1');
+    var hls = new Hls();
+    hls.loadSource('https://govtaff-f.akamaihd.net/i/govtaff'+MMDDYY+'_1@76453/master.m3u8');
+    hls.attachMedia(govtaff1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="help" class="left">
+Health, Education, Labor and Pensions (
+
+<script>
+	document.write('<a href="https://help-f.akamaihd.net/i/help' + MMDDYY + '_1@76452/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://help-f.akamaihd.net/i/help' + MMDDYY + '_1@76452/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=help&filename=help' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.help.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="help1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('help1');
+    var hls = new Hls();
+    hls.loadSource('https://help-f.akamaihd.net/i/help'+MMDDYY+'_1@76452/master.m3u8');
+    hls.attachMedia(help1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="indian" class="left">
+Indian Affairs (
+
+<script>
+	document.write('<a href="https://indian-f.akamaihd.net/i/indian' + MMDDYY + '_1@76455/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://indian-f.akamaihd.net/i/indian' + MMDDYY + '_1@76455/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=indian&filename=indian' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.indian.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="indian1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('indian1');
+    var hls = new Hls();
+    hls.loadSource('https://indian-f.akamaihd.net/i/indian'+MMDDYY+'_1@76455/master.m3u8');
+    hls.attachMedia(indian1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="intel" class="left">
+Intelligence (
+
+<script>
+	document.write('<a href="https://intel-f.akamaihd.net/i/intel' + MMDDYY + '_1@76456/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://intel-f.akamaihd.net/i/intel' + MMDDYY + '_1@76456/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=intel&filename=intel' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.intelligence.senate.gov/hearings/open">Committee Website</a>)
+
+<video controls width="640" height="360" id="intel1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('intel1');
+    var hls = new Hls();
+    hls.loadSource('https://intel-f.akamaihd.net/i/intel'+MMDDYY+'_1@76456/master.m3u8');
+    hls.attachMedia(intel1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="judiciary" class="left">
+Judiciary (
+
+<script>
+	document.write('<a href="https://judiciary-f.akamaihd.net/i/judiciary' + MMDDYY + '_1@76459/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://judiciary-f.akamaihd.net/i/judiciary' + MMDDYY + '_1@76459/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=judiciary&filename=judiciary' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.judiciary.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="judiciary1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('judiciary1');
+    var hls = new Hls();
+    hls.loadSource('https://judiciary-f.akamaihd.net/i/judiciary'+MMDDYY+'_1@76459/master.m3u8');
+    hls.attachMedia(judiciary1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="rules" class="left">
+Rules (
+
+<script>
+	document.write('<a href="https://rules-f.akamaihd.net/i/rules' + MMDDYY + '_1@76460/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://rules-f.akamaihd.net/i/rules' + MMDDYY + '_1@76460/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=rules&filename=rules' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.rules.senate.gov/public/index.cfm?p=CommitteeHearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="rules1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('rules1');
+    var hls = new Hls();
+    hls.loadSource('https://rules-f.akamaihd.net/i/rules'+MMDDYY+'_1@76460/master.m3u8');
+    hls.attachMedia(rules1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="smbiz" class="left">
+Small Business and Entrepreneurship (
+
+<script>
+	document.write('<a href="https://smbiz-f.akamaihd.net/i/smbiz' + MMDDYY + '_1@76461/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://smbiz-f.akamaihd.net/i/smbiz' + MMDDYY + '_1@76461/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=smbiz&filename=smbiz' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.sbc.senate.gov/public/index.cfm/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="smbiz1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('smbiz1');
+    var hls = new Hls();
+    hls.loadSource('https://smbiz-f.akamaihd.net/i/smbiz'+MMDDYY+'_1@76461/master.m3u8');
+    hls.attachMedia(smbiz1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="vetaff" class="left">
+Veterans Affairs (
+
+<script>
+	document.write('<a href="https://vetaff-f.akamaihd.net/i/vetaff' + MMDDYY + '_1@76462/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://vetaff-f.akamaihd.net/i/vetaff' + MMDDYY + '_1@76462/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=vetaff&filename=vetaff' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.veterans.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="vetaff1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('vetaff1');
+    var hls = new Hls();
+    hls.loadSource('https://vetaff-f.akamaihd.net/i/vetaff'+MMDDYY+'_1@76462/master.m3u8');
+    hls.attachMedia(vetaff1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="jec" class="left">
+Joint Economic Committee (
+
+<script>
+	document.write('<a href="https://jec-f.akamaihd.net/i/jec' + MMDDYY + '_1@76458/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://jec-f.akamaihd.net/i/jec' + MMDDYY + '_1@76458/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=jec&filename=jec' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.jec.senate.gov/public/index.cfm/hearings-calendar">Committee Website</a>)
+
+<video controls width="640" height="360" id="jec1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('jec1');
+    var hls = new Hls();
+    hls.loadSource('https://jec-f.akamaihd.net/i/jec' + MMDDYY + '_1@76458/master.m3u8');
+    hls.attachMedia(jec1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="csce" class="left">
+Commission on Security and Cooperation in Europe (
+
+<script>
+	document.write('<a href="https://srs-f.akamaihd.net/i/csce' + MMDDYY + '_1@75229/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://srs-f.akamaihd.net/i/csce' + MMDDYY + '_1@75229/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=csce&filename=csce' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.csce.gov/international-impact/events/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="csce1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('csce1');
+    var hls = new Hls();
+    hls.loadSource('https://srs-f.akamaihd.net/i/csce' + MMDDYY + '_1@75229/master.m3u8');
+    hls.attachMedia(csce1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="cecc" class="left">
+Congressional-Executive Commission on China (
+
+<script>
+	document.write('<a href="https://srs-f.akamaihd.net/i/cecc' + MMDDYY + '_1@76486/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://srs-f.akamaihd.net/i/cecc' + MMDDYY + '_1@76486/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=cecc&filename=cecc' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.cecc.gov/events/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="cecc1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('cecc1');
+    var hls = new Hls();
+    hls.loadSource('https://srs-f.akamaihd.net/i/cecc' + MMDDYY + '_1@76486/master.m3u8');
+    hls.attachMedia(cecc1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+<script>
+(function () {
+    var url = "https://srs-f.akamaihd.net/i/cecc" + MMDDYY + "_1@76486/master.m3u8";
+    var player = new Clappr.Player({source: url, parentId: "#cecc"}); 
+})();
+</script>
+</div>
+<div id="uscc" class="left">
+US-China Economic and Security Review Commission (
+
+<script>
+	document.write('<a href="https://srs-f.akamaihd.net/i/uscc' + MMDDYY + '_1@76487/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://srs-f.akamaihd.net/i/uscc' + MMDDYY + '_1@76487/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=uscc&filename=uscc' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.uscc.gov/Hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="uscc1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('uscc1');
+    var hls = new Hls();
+    hls.loadSource('https://srs-f.akamaihd.net/i/uscc' + MMDDYY + '_1@76487/master.m3u8');
+    hls.attachMedia(uscc1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+<div id="intlnarc" class="left">
+International Narcotics Control Caucus (
+
+<script>
+	document.write('<a href="https://intlnarc-f.akamaihd.net/i/intlnarc' + MMDDYY + '_1@76457/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://intlnarc-f.akamaihd.net/i/intlnarc' + MMDDYY + '_1@76457/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=intlnarc&filename=intlnarc' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.drugcaucus.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="intlnarc1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('intlnarc1');
+    var hls = new Hls();
+    hls.loadSource('https://intlnarc-f.akamaihd.net/i/intlnarc' + MMDDYY + '_1@76457/master.m3u8');
+    hls.attachMedia(intlnarc1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+</body>
+</html> 
