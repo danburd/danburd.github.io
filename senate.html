@@ -2,6 +2,7 @@
 <title>Senate Hearings</title>
 <head>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/clappr/clappr@latest/dist/clappr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.light.min.js"></script>
 </head>
 <body>
   
@@ -652,6 +653,38 @@ International Narcotics Control Caucus (
     var url = "https://intlnarc-f.akamaihd.net/i/intlnarc" + MMDDYY + "_1@76457/master.m3u8";
     var player = new Clappr.Player({source: url, parentId: "#intlnarc"}); 
 })();
+</script>
+</div>
+
+	
+<div id="finance2" class="left">
+Finance (
+
+<script>
+	document.write('<a href="https://finance-f.akamaihd.net/i/finance' + MMDDYY + '_1@76450/master.m3u8">Direct</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://video-dev.github.io/hls.js/demo/?src=https://finance-f.akamaihd.net/i/finance' + MMDDYY + '_1@76450/master.m3u8">hls.js</a>');
+</script>,
+
+<script>
+	document.write('<a href="https://www.senate.gov/isvp/?comm=finance&filename=finance' + MMDDYY + '">ISVP</a>');
+</script>,
+	
+<a href="https://www.finance.senate.gov/hearings">Committee Website</a>)
+
+<video controls width="640" height="360" id="finance1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('finance');
+    var hls = new Hls();
+    hls.loadSource('https://finance-f.akamaihd.net/i/finance"+MMDDYY+"_1@76450/master.m3u8');
+    hls.attachMedia(finance1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
 </script>
 </div>
 
