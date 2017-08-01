@@ -679,7 +679,7 @@ Finance (
   if(Hls.isSupported()) {
     var video = document.getElementById('finance');
     var hls = new Hls();
-    hls.loadSource('https://finance-f.akamaihd.net/i/finance"+MMDDYY+"_1@76450/master.m3u8');
+    hls.loadSource('https://finance-f.akamaihd.net/i/finance'+MMDDYY+'_1@76450/master.m3u8');
     hls.attachMedia(finance1);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
