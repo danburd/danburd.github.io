@@ -674,18 +674,6 @@ Finance (
 	
 <a href="https://www.finance.senate.gov/hearings">Committee Website</a>)
 
-<video controls width="640" height="360" id="finance1"></video>
-<script>
-  if(Hls.isSupported()) {
-    var video = document.getElementById('finance');
-    var hls = new Hls();
-    hls.loadSource('https://finance-f.akamaihd.net/i/finance'+MMDDYY+'_1@76450/master.m3u8');
-    hls.attachMedia(finance1);
-    hls.on(Hls.Events.MANIFEST_PARSED,function() {
-      video.play();
-  });
- }
-</script>
 </div>
 
 </body>
