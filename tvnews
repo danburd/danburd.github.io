@@ -1,0 +1,105 @@
+<html>
+
+<title>TV News Streams</title>
+  
+<head>
+  <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+  
+<style>
+  table, th, td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+
+<body>
+
+<style>
+  .left{float:left; width:660px;}
+</style>
+
+<div id="CBS" class="left">
+CBS  (<a href="https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8">Direct</a>, <a href="https://video-dev.github.io/hls.js/demo/?src=https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="640" height="360" id="cbs1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('cbs1');
+    var hls = new Hls();
+    hls.loadSource('https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8');
+    hls.attachMedia(cbs1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="MSNBC" class="left">
+MSNBC (<a href="https://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8">Direct</a>, <a href="https://video-dev.github.io/hls.js/demo/?src=https://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="640" height="360" id="msnbc1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('msnbc1');
+    var hls = new Hls();
+    hls.loadSource('https://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8');
+    hls.attachMedia(msnbc1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="ABC" class="left">
+ABC News (<a href="https://abclive-lh.akamaihd.net/i/abc_live5@136331/master.m3u8">Direct</a>, <a href="https://video-dev.github.io/hls.js/demo/?src=https://abclive-lh.akamaihd.net/i/abc_live5@136331/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="640" height="360" id="abc1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('abc1');
+    var hls = new Hls();
+    hls.loadSource('https://abclive-lh.akamaihd.net/i/abc_live5@136331/master.m3u8');
+    hls.attachMedia(abc1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="Politico" class="left">
+Politico (<a href="https://politico-lh.akamaihd.net/i/PoliticoLive_1@359706/master.m3u8">Direct</a>, <a href="https://video-dev.github.io/hls.js/demo/?src=https://politico-lh.akamaihd.net/i/PoliticoLive_1@359706/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="640" height="360" id="politico1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('politico1');
+    var hls = new Hls();
+    hls.loadSource('https://politico-lh.akamaihd.net/i/PoliticoLive_1@359706/master.m3u8');
+    hls.attachMedia(politico1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="Bloomberg" class="left">
+Bloomberg (<a href="https://mediauseast.akamaized.net/btv/desktop/live.m3u8">Direct</a>, <a href="https://video-dev.github.io/hls.js/demo/?src=https://mediauseast.akamaized.net/btv/desktop/live.m3u8">hls.js</a>)
+<video controls muted autoplay width="640" height="360" id="bloomberg1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('bloomberg1');
+    var hls = new Hls();
+    hls.loadSource('https://mediauseast.akamaized.net/btv/desktop/live.m3u8');
+    hls.attachMedia(bloomberg1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+</body>
+</html>
