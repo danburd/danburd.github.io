@@ -37,4 +37,4 @@ https://playerservices.streamtheworld.com/api/livestream-redirect/WDELAM.mp3
 https://playerservices.streamtheworld.com/api/livestream-redirect/WPPAAM.mp3
 
 #EXTINF:0,WEZX
-http://ais7.streamon.fm/ais/WEZX-48k.aac
+http://wezx.streamon.fm:8000/WEZX-48k.aac
