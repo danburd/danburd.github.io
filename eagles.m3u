@@ -10,7 +10,7 @@ http://espn-network.akacast.akamaistream.net/7/245/126490/v1/espn.akacast.akamai
 https://playerservices.streamtheworld.com/api/livestream-redirect/WSOXFM.mp3
 
 #EXTINF:0,WCTO
-https://playerservices.streamtheworld.com/api/livestream-redirect/WCTOFM.mp3
+https://playerservices.streamtheworld.com/api/livestream-redirect/WCTOFMAAC.aac
 
 #EXTINF:0,WEGH
 http://65.19.131.163/sunbury-weghfmaac-ibc2?session-id=1758511862
