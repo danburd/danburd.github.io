@@ -4,7 +4,10 @@
 https://playerservices.streamtheworld.com/api/livestream-redirect/WIPFM.mp3
 
 #EXTINF:0,ESPN — Nationwide
-http://espn-network.akacast.akamaistream.net/7/245/126490/v1/espn.akacast.akamaistream.net/espn-network
+https://espn-network.akacast.akamaistream.net/7/245/126490/v1/espn.akacast.akamaistream.net/espn-network
+
+#EXTINF:0,Fox Sports — Nationwide
+https://prn-foxsports-ic-pri.akacast.akamaistream.net/7/205/5833/v1/auth.akacast.akamaistream.net/prn_foxsports_ic_pri
 
 #EXTINF:0,WCTO — Allentown, PA
 https://playerservices.streamtheworld.com/api/livestream-redirect/WCTOFMAAC.aac
