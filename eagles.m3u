@@ -1,40 +1,40 @@
 #EXTM3U
 
-#EXTINF:0,WIP
+#EXTINF:0,WIP Philadelphia, PA
 https://playerservices.streamtheworld.com/api/livestream-redirect/WIPFM.mp3
 
-#EXTINF:0,ESPN
+#EXTINF:0,ESPN (Nationwide)
 http://espn-network.akacast.akamaistream.net/7/245/126490/v1/espn.akacast.akamaistream.net/espn-network
 
-#EXTINF:0,WSOX
-https://playerservices.streamtheworld.com/api/livestream-redirect/WSOXFM.mp3
-
-#EXTINF:0,WCTO
+#EXTINF:0,WCTO Allentown, PA
 https://playerservices.streamtheworld.com/api/livestream-redirect/WCTOFMAAC.aac
 
-#EXTINF:0,WEGH
-http://65.19.131.163/sunbury-weghfmaac-ibc2?session-id=1758511862
-
-#EXTINF:0,WBZD
-https://playerservices.streamtheworld.com/api/livestream-redirect/WBZDFM.mp3
-
-#EXTINF:0,WEEU
-http://relay1.181.fm:8132
-
-#EXTINF:0,WAFL
-https://playerservices.streamtheworld.com/api/livestream-redirect/WAFLFM.mp3
-
-#EXTINF:0,WENJ
+#EXTINF:0,WENJ Atlantic City/South Jersey
 http://107.20.56.41/townsquare-wenjfmaac-ibc3
 
-#EXTINF:0,WBCB
+#EXTINF:0,WBCB Levittown, PA
 http://live.wbcb1490.com:88/broadwavehigh.mp3
 
-#EXTINF:0,WDEL
-https://playerservices.streamtheworld.com/api/livestream-redirect/WDELAM.mp3
+#EXTINF:0,WEGH Northumberland, PA
+http://65.19.131.163/sunbury-weghfmaac-ibc2?session-id=1758511862
 
-#EXTINF:0,WPPA
+#EXTINF:0,WPPA Pottsville, PA
 https://playerservices.streamtheworld.com/api/livestream-redirect/WPPAAM.mp3
 
-#EXTINF:0,WEZX
+#EXTINF:0,WEEU Reading, PA
+http://relay1.181.fm:8132
+
+#EXTINF:0,WAFL Salisbury/Ocean City, MD
+https://playerservices.streamtheworld.com/api/livestream-redirect/WAFLFM.mp3
+
+#EXTINF:0,WBZD Williamsport, PA
+https://playerservices.streamtheworld.com/api/livestream-redirect/WBZDFM.mp3
+
+#EXTINF:0,WDEL Wilmington, DE
+https://playerservices.streamtheworld.com/api/livestream-redirect/WDELAM.mp3
+
+#EXTINF:0,WSOX York/Lancaster/Harrisburg, PA
+https://playerservices.streamtheworld.com/api/livestream-redirect/WSOXFM.mp3
+
+#EXTINF:0,WEZX Scranton, PA
 http://wezx.streamon.fm:8000/WEZX-48k.aac
