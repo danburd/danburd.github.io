@@ -3,6 +3,7 @@
 <title>ABC News Streams</title>
   
 <head>
+  <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
   
 <style>
   table, th, td {
@@ -26,6 +27,22 @@
 <div id="121" class="left">
 ABC News 4-2 (<a href="https://abclive-lh.akamaihd.net/i/abc_live4@97035/master.m3u8">Direct</a>)
 <video controls muted autoplay width="640" height="360" id="122" src="https://abclive-lh.akamaihd.net/i/abc_live4@97035/master.m3u8"></video>
+</div>
+
+<div id="test1" class="left">
+Test1  (<a href=https://abclive-lh.akamaihd.net/i/abc_live1@136327/master.m3u8">Direct</a>, <a href="https://video-dev.github.io/hls.js/demo/?src=https://abclive-lh.akamaihd.net/i/abc_live1@136327/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="640" height="360" id="test2"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('test2');
+    var hls = new Hls();
+    hls.loadSource('https://abclive-lh.akamaihd.net/i/abc_live1@136327/master.m3u8');
+    hls.attachMedia(test2);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
 </div>
 
 <div id="11" class="left">
