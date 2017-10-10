@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:0,WIP — Philadelphia, PA
+#EXTINF:0,WIP — Philadelphia
 https://playerservices.streamtheworld.com/api/livestream-redirect/WIPFM.mp3
 
 #EXTINF:0,ESPN — Nationwide
@@ -9,35 +9,35 @@ https://espn-network.akacast.akamaistream.net/7/245/126490/v1/espn.akacast.akama
 #EXTINF:0,Fox Sports — Nationwide
 https://prn-foxsports-ic-pri.akacast.akamaistream.net/7/205/5833/v1/auth.akacast.akamaistream.net/prn_foxsports_ic_pri
 
-#EXTINF:0,WCTO — Allentown, PA
+#EXTINF:0,WCTO — Allentown
 https://playerservices.streamtheworld.com/api/livestream-redirect/WCTOFMAAC.aac
 
-#EXTINF:0,WENJ — Atlantic City/South Jersey
+#EXTINF:0,WENJ — Atlantic City
 http://107.20.56.41/townsquare-wenjfmaac-ibc3
 
-#EXTINF:0,WBCB — Levittown, PA
+#EXTINF:0,WBCB — Levittown
 http://live.wbcb1490.com:88/broadwavehigh.mp3
 
-#EXTINF:0,WEGH — Northumberland, PA
+#EXTINF:0,WEGH — Northumberland
 http://65.19.131.163/sunbury-weghfmaac-ibc2?session-id=1758511862
 
-#EXTINF:0,WPPA — Pottsville, PA
+#EXTINF:0,WPPA — Pottsville
 https://playerservices.streamtheworld.com/api/livestream-redirect/WPPAAM.mp3
 
-#EXTINF:0,WEEU — Reading, PA
+#EXTINF:0,WEEU — Reading
 http://relay1.181.fm:8132
 
-#EXTINF:0,WAFL — Salisbury/Ocean City, MD
+#EXTINF:0,WAFL — Salisbury/Ocean City
 https://playerservices.streamtheworld.com/api/livestream-redirect/WAFLFM.mp3
 
-#EXTINF:0,WBZD — Williamsport, PA
+#EXTINF:0,WBZD — Williamsport
 https://playerservices.streamtheworld.com/api/livestream-redirect/WBZDFM.mp3
 
-#EXTINF:0,WDEL — Wilmington, DE
+#EXTINF:0,WDEL — Wilmington
 https://playerservices.streamtheworld.com/api/livestream-redirect/WDELAM.mp3
 
-#EXTINF:0,WSOX — York/Lancaster/Harrisburg, PA
+#EXTINF:0,WSOX — York/Lancaster/Harrisburg
 https://playerservices.streamtheworld.com/api/livestream-redirect/WSOXFM.mp3
 
-#EXTINF:0,WEZX — Scranton, PA
+#EXTINF:0,WEZX — Scranton
 http://wezx.streamon.fm:8000/WEZX-48k.aac
