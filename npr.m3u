@@ -1,5 +1,11 @@
 #EXTM3U
 
+#EXTINF:0,WUKY — Lexington, KY
+http://stream.qx.net:8000/xstream
+
+#EXTINF:0,WHRV — Norfolk, VA
+http://whrv.mediaplayer.whro.org/128
+
 #EXTINF:0,KEDM — Monroe, LA
 http://stream.kedm.org/listen
 
@@ -21,9 +27,6 @@ https://live.streamguys1.com:2645/wfdd1
 #EXTINF:0,WFIT — Melbourne, FL
 https://playerservices.streamtheworld.com/api/livestream-redirect/WFITFM.mp3
 
-#EXTINF:0,WHRV — Norfolk, VA
-http://whrv.mediaplayer.whro.org/128
-
 #EXTINF:0,WKSU — Kent, OH
 http://66.225.205.8:8010/
 
@@ -44,9 +47,6 @@ http://www.wqln.org:8000/
 
 #EXTINF:0,WSIU — Carbondale, IL
 http://peridot.streamguys.com:5230/wsiu-hd1
-
-#EXTINF:0,WUKY — Lexington, KY
-http://stream.qx.net:8000/xstream
 
 #EXTINF:0,WVTF — Roanoke, VA
 http://15903.live.streamtheworld.com/WVTFFMAAC_128.aac
