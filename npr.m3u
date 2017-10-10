@@ -18,12 +18,6 @@ http://66.225.205.169/wksu4.mp3.128
 #EXTINF:0,WKSU — Kent OH
 http://66.225.205.169/wksu1.mp3.128
 
-#EXTINF:0,KEDM — Monroe LA
-http://stream.kedm.org/listen
-
-#EXTINF:0,WBOI — Fort Wayne IN*
-http://12.bteradio.com:8300/WBOI.mp3
-
 #EXTINF:0,WBST — Muncie IN*
 http://dvisweb1.bsu.edu:9000/128k
 
@@ -32,6 +26,12 @@ http://whrv.mediaplayer.whro.org/128
 
 #EXTINF:0,WMRA — Harrisonburg VA
 http://media.wmra.org:8000/wmra
+
+#EXTINF:0,KEDM — Monroe LA
+http://stream.kedm.org/listen
+
+#EXTINF:0,WBOI — Fort Wayne IN*
+http://12.bteradio.com:8300/WBOI.mp3
 
 #EXTINF:0,WVTF — Roanoke VA*
 https://playerservices.streamtheworld.com/api/livestream-redirect/WVTFFM_128.mp3
