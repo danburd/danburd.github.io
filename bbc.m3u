@@ -1,5 +1,8 @@
 #EXTM3U
 
+#EXTINF:0,BBC World Service
+http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws
+
 #EXTINF:0,BBC Radio 1
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p
 
@@ -33,11 +36,8 @@ http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p
 #EXTINF:0,BBC Asian Network
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_asianet_mf_p
 
-#EXTINF:0,BBC World Service UK stream
+#EXTINF:0,BBC World Service UK
 http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
-
-#EXTINF:0,BBC World Service News stream
-http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws
 
 
 #EXTINF:0,BBC Radio Wales
