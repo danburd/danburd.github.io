@@ -3,10 +3,16 @@
 #EXTINF:0,BBC World Service (DASH)
 https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_world_service.mpd
 
-#EXTINF:0,BBC Radio 3
+#EXTINF:0,BBC Radio 3 (DASH)
+https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_three.mpd
+
+#EXTINF:0,BBC Radio 4FM (DASH)
+https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourfm.mpd
+
+#EXTINF:0,BBC Radio 3 (mp3)
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
 
-#EXTINF:0,BBC Radio 4FM
+#EXTINF:0,BBC Radio 4FM (mp3)
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
 
 #EXTINF:0,BBC World Service (mp3)
