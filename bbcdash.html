@@ -1,16 +1,25 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- peer5 client & plugin-->
+    <script src="//api.peer5.com/peer5.shakaplayer.plugin.js"></script>
+    <!-- shakaplayer script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/2.2.5/shaka-player.compiled.js"></script>
+  </head>
+  <body>
+    <audio controls></audio>
+    <script>
+      var video = document.getElementById('video');
+      window.shaka.polyfill.installAll();
 
-<title>C-SPAN Streams</title>
-  
-<head>
-  <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
-</head>
-
-<body>
-
-   <div>
-       <audio data-dashjs-player src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_world_service.mpd" controls></audio>
-   </div>
-   
-</body>
+      if (!shaka.Player.isBrowserSupported()) {
+          parentEl.innerHTML = 'Shaka player is not supported in this browser';
+      }
+      else {
+          var player = new shaka.Player(video);
+          player.load("https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_world_service.mpd");
+      }
+    </script>
+  </body>
 </html>
