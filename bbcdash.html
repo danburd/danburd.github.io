@@ -2,22 +2,34 @@
 <html>
   
 <head>
-  <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
-</head>
-
 <style>
     video {
        width: 450px;
        height: 30px;
     }
 </style>
-  
-<body>
+</head>
 
+<body>
+  
+<div>
+    <video id="videoPlayer" controls></video>
+</div>
+
+<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_world_service.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#videoPlayer"), url, true);
+    })();
+</script>
+<!--
     <audio data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_world_service.mpd"></audio>BBC World Service
 <br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_three.mpd"></video>BBC Radio 3
 <br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourfm.mpd"></video>BBC Radio 4
-<!--
+
 <br>
 <br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_one.mpd"></video>BBC Radio 1
 <br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_1xtra.mpd"></video>BBC Radio 1xtra
