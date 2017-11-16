@@ -2,18 +2,20 @@
 <html>
   
 <head>
+<!--
 <style>
     video {
-       width: 900px;
+       width: 450px;
        height: 30px;
     }
 </style>
+-->
 </head>
 
 <body>
   
 <div>
-    <audio id="videoPlayer" controls></audio>
+    <audio id="audioPlayer" controls muted preload="none"></audio>
 </div>
 
 <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
@@ -22,9 +24,24 @@
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_world_service.mpd";
         var player = dashjs.MediaPlayer().create();
-        player.initialize(document.querySelector("#videoPlayer"), url, true);
+        player.initialize(document.querySelector("#audioPlayer"), url, true);
     })();
-</script>
+</script><br>
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_three.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#audioPlayer"), url, true);
+    })();
+</script><br>
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourfm.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#audioPlayer"), url, true);
+    })();
+</script><br>
+
 <!--
     <audio data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_world_service.mpd"></audio>BBC World Service
 <br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_three.mpd"></video>BBC Radio 3
