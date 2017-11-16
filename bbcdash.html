@@ -26,7 +26,7 @@
         player.initialize(document.querySelector("#audioPlayer1"));
         player.isLive(true);
         player.setScheduleWhilePaused(false);
-        player.setAutoPlay(false);
+        player.autoPlay(false);
         player.attachSource(url);
     })();
 </script>
@@ -35,10 +35,9 @@
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_three.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer2"));
-        player.isLive(true);
         player.attachSource(url);
         player.setScheduleWhilePaused(false);
-        player.setAutoPlay(false);
+        player.autoPlay(false);
     })();
 </script>
 <script>
@@ -48,7 +47,7 @@
         player.initialize(document.querySelector("#audioPlayer3"), url, true);
         player.isLive(true);
         player.setScheduleWhilePaused(false);
-        player.setAutoPlay(false);
+        player.autoPlay(false);
     })();
 </script><br>
 
