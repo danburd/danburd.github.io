@@ -45,6 +45,7 @@
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer2"));
         player.setScheduleWhilePaused(false);
+        player.autoPlay(false);
         player.attachSource(url);
     })();
 </script>
@@ -55,6 +56,7 @@
         player.initialize(document.querySelector("#audioPlayer3"));
         player.setScheduleWhilePaused(false);
         player.attachSource(url);
+        player.autoPlay(false);
     })();
 </script><br>
 
