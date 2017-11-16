@@ -15,9 +15,9 @@
 <body>
   
 <div>
-    <audio id="audioPlayer1" controls muted></audio>
+    <audio id="audioPlayer1" controls muted></audio><br>
     <audio id="audioPlayer2" controls muted></audio><br>
-    <audio id="audioPlayer3" controls muted></audio><br>
+    <audio id="audioPlayer3" controls muted></audio>
 </div>
 
 <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
@@ -28,7 +28,7 @@
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer1"), url, true);
         player.setScheduleWhilePaused(false);
-        player.autoPlay(false);
+        player.setAutoPlay(false);
     })();
 </script>
 <script>
@@ -37,7 +37,7 @@
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer2"), url, true);
         player.setScheduleWhilePaused(false);
-        player.autoPlay(false);
+        player.setAutoPlay(false);
     })();
 </script>
 <script>
@@ -46,7 +46,7 @@
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer3"), url, true);
         player.setScheduleWhilePaused(false);
-        player.autoPlay(false);
+        player.setAutoPlay(false);
     })();
 </script><br>
 
