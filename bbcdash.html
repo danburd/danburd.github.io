@@ -50,9 +50,7 @@
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourfm.mpd";
         var player = dashjs.MediaPlayer().create();
-        player.startup();
-        player.attachView(document.querySelector("#audioPlayer3"));
-        player.attachSource(url);
+        player.initialize(document.querySelector("#audioPlayer3"), url, true);
     })();
 </script><br>
 
