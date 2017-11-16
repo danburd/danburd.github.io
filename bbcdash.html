@@ -38,10 +38,9 @@
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer1"), url, true);
         player.isLive(true);
+        player.autoPlay(false);
         player.setScheduleWhilePaused(false);
         player.attachSource(url);
-        player.autoPlay(false);
-
     })();
 </script>
 <script>
@@ -50,8 +49,8 @@
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer2"));
         player.isLive(true);
-        player.attachSource(url);
         player.autoPlay(false);
+        player.attachSource(url);
         player.setScheduleWhilePaused(false);
     })();
 </script>
@@ -61,9 +60,9 @@
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer3"));
         player.isLive(true);
-        player.attachSource(url);
         player.setScheduleWhilePaused(false);
         player.autoPlay(false);
+        player.attachSource(url);
     })();
 </script><br>
 
