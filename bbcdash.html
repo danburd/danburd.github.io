@@ -12,10 +12,23 @@
 <body>
   
 <div>
-    <audio id="audioPlayer1" controls muted></audio><br>
-    <audio id="audioPlayer2" controls muted></audio><br>
-    <audio id="audioPlayer3" controls muted></audio><br>
+    <audio id="audioPlayer1" controls muted></audio><br>BBC World Service
+    <audio id="audioPlayer2" controls muted></audio><br>BBC Radio 3
+    <audio id="audioPlayer3" controls muted></audio><br>BBC Radio 4
+<--
+    <audio id="audioPlayer4" controls muted></audio><br>BBC Radio 1
+    <audio id="audioPlayer5" controls muted></audio><br>BBC Radio 1xtra
+    <audio id="audioPlayer6" controls muted></audio><br>BBC Radio 2
+    <audio id="audioPlayer7" controls muted></audio><br>BBC Radio 4 LW
+    <audio id="audioPlayer8" controls muted></audio><br>BBC Radio 4 Extra
+    <audio id="audioPlayer9" controls muted></audio><br>BBC Radio 5 Live
+    <audio id="audioPlayer10" controls muted></audio><br>BBC Radio 6 Music
+    <audio id="audioPlayer11" controls muted></audio><br>BBC Radio Asian Network
+    <audio id="audioPlayer12" controls muted></audio><br>BBC Radio nan Gàidheal
+    <audio id="audioPlayer13" controls muted></audio><br>BBC Radio Cymru
+-->
 </div>
+  
 
 <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
 
@@ -41,22 +54,79 @@
     })();
 </script><br>
 
-<!--
-    <audio data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_world_service.mpd"></audio>BBC World Service
-<br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_three.mpd"></video>BBC Radio 3
-<br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourfm.mpd"></video>BBC Radio 4
+<--
 
-<br>
-<br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_one.mpd"></video>BBC Radio 1
-<br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_1xtra.mpd"></video>BBC Radio 1xtra
-<br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_two.mpd"></video>BBC Radio 2
-<br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourlw.mpd"></video>BBC Radio 4 LW
-<br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_four_extra.mpd"></video>BBC Radio 4 Extra
-<br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_five_live.mpd"></video>BBC Radio 5 Live
-<br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_6music.mpd"></video>BBC Radio 6 Music
-<br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_asian_network.mpd"></video>BBC Radio Asian Network
-<br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_nan_gaidheal.mpd"></video>BBC Radio nan Gàidheal
-<br><video data-dashjs-player controls autoplay muted src="https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_cymru.mpd"></video>BBC Radio Cymru
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_one.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#audioPlayer4"), url, true);
+    })();
+</script><br>
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_1xtra.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#audioPlayer5"), url, true);
+    })();
+</script><br>
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_two.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#audioPlayer6"), url, true);
+    })();
+</script><br>
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourlw.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#audioPlayer7"), url, true);
+    })();
+</script><br>
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_four_extra.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#audioPlayer8"), url, true);
+    })();
+</script><br>
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_five_live.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#audioPlayer9"), url, true);
+    })();
+</script><br>
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_6music.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#audioPlayer10"), url, true);
+    })();
+</script><br>
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_asian_network.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#audioPlayer11"), url, true);
+    })();
+</script><br>
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_nan_gaidheal.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#audioPlayer12"), url, true);
+    })();
+</script><br>
+<script>
+    (function(){
+        var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_cymru.mpd";
+        var player = dashjs.MediaPlayer().create();
+        player.initialize(document.querySelector("#audioPlayer13"), url, true);
+    })();
+</script><br>
+
 -->
 
 </body>
