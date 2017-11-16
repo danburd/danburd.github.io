@@ -44,15 +44,15 @@
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_three.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer2"), url, true);
-        player.setAutoPlay(false);
     })();
 </script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourfm.mpd";
         var player = dashjs.MediaPlayer().create();
-        player.setAutoPlay(false);
-        player.initialize(document.querySelector("#audioPlayer3"), url, true);
+        player.startup();
+        player.attachView(document.querySelector("#audioPlayer3"));
+        player.attachSource(url);
     })();
 </script><br>
 
