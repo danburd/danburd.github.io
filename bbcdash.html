@@ -44,9 +44,9 @@
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_three.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer2"));
-        player.setScheduleWhilePaused(false);
-        player.autoPlay(false);
         player.attachSource(url);
+        player.autoPlay(false);
+        player.setScheduleWhilePaused(false);
     })();
 </script>
 <script>
@@ -54,8 +54,8 @@
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourfm.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer3"));
-        player.setScheduleWhilePaused(false);
         player.attachSource(url);
+        player.setScheduleWhilePaused(false);
         player.autoPlay(false);
     })();
 </script><br>
