@@ -26,7 +26,7 @@
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_world_service.mpd";
         var player = dashjs.MediaPlayer().create();
-        player.initialize(document.querySelector("#audioPlayer1"), url, true);
+        player.initialize(document.querySelector("#audioPlayer1"));
         player.setScheduleWhilePaused(false);
         player.setAutoPlay(false);
         player.attachSource(url);
@@ -36,10 +36,10 @@
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_three.mpd";
         var player = dashjs.MediaPlayer().create();
-        player.initialize(document.querySelector("#audioPlayer2"));
+        player.initialize();
         player.setScheduleWhilePaused(false);
         player.setAutoPlay(false);
-        player.attachSource(url);
+        player.attachSource(document.querySelector("#audioPlayer2"), url);
     })();
 </script>
 <script>
