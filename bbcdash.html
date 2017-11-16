@@ -27,19 +27,19 @@
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_world_service.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer1"));
+        player.attachSource(url);
         player.setScheduleWhilePaused(false);
         player.setAutoPlay(false);
-        player.attachSource(url);
     })();
 </script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_three.mpd";
         var player = dashjs.MediaPlayer().create();
-        player.initialize();
+        player.initialize(document.querySelector("#audioPlayer2"));
+        player.attachSource(url);
         player.setScheduleWhilePaused(false);
         player.setAutoPlay(false);
-        player.attachSource(document.querySelector("#audioPlayer2"), url);
     })();
 </script>
 <script>
