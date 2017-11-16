@@ -15,9 +15,9 @@
 <body>
   
 <div>
-    <audio id="audioPlayer1" controls muted preload="none"></audio>
-    <audio id="audioPlayer2" controls muted preload="none"></audio>
-    <audio id="audioPlayer3" controls muted preload="none"></audio>
+    <audio id="audioPlayer1" controls muted></audio>
+    <audio id="audioPlayer2" controls muted></audio><br>
+    <audio id="audioPlayer3" controls muted></audio><br>
 </div>
 
 <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
@@ -27,20 +27,26 @@
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_world_service.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer1"), url, true);
+        player.setScheduleWhilePaused(false);
+        player.autoPlay(false);
     })();
-</script><br>
+</script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_three.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer2"), url, true);
+        player.setScheduleWhilePaused(false);
+        player.autoPlay(false);
     })();
-</script><br>
+</script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourfm.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer3"), url, true);
+        player.setScheduleWhilePaused(false);
+        player.autoPlay(false);
     })();
 </script><br>
 
