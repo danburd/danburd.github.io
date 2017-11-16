@@ -13,9 +13,9 @@
   
 <div>
         <audio id="audioPlayer1" controls muted></audio>BBC World Service
+  <!--
     <br><audio id="audioPlayer2" controls muted></audio>BBC Radio 3
     <br><audio id="audioPlayer3" controls muted></audio>BBC Radio 4
-<!--
     <br><audio id="audioPlayer4" controls muted></audio>BBC Radio 1
     <br><audio id="audioPlayer5" controls muted></audio>BBC Radio 1xtra
     <br><audio id="audioPlayer6" controls muted></audio>BBC Radio 2
@@ -29,7 +29,6 @@
 -->
 </div>
   
-
 <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
 
 <script>
@@ -52,17 +51,14 @@
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer3"), url, true);
     })();
-</script><br>
-
-<!--
-
+</script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_one.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer4"), url, true);
     })();
-</script><br>
+</script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_1xtra.mpd";
@@ -76,58 +72,56 @@
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer6"), url, true);
     })();
-</script><br>
+</script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourlw.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer7"), url, true);
     })();
-</script><br>
+</script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_four_extra.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer8"), url, true);
     })();
-</script><br>
+</script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_five_live.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer9"), url, true);
     })();
-</script><br>
+</script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_6music.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer10"), url, true);
     })();
-</script><br>
+</script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_asian_network.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer11"), url, true);
     })();
-</script><br>
+</script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_nan_gaidheal.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer12"), url, true);
     })();
-</script><br>
+</script>
 <script>
     (function(){
         var url = "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_cymru.mpd";
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer13"), url, true);
     })();
-</script><br>
-
--->
+</script>
 
 </body>
 </html>
