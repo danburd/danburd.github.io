@@ -6,10 +6,10 @@ https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_
 #EXTINF:0,BBC World Service (mp3)
 http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
 
-#EXTINF:0,BBC Radio 3 (mp3)
+#EXTINF:0,BBC Radio 3 
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
 
-#EXTINF:0,BBC Radio 4FM (mp3)
+#EXTINF:0,BBC Radio 4 FM
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
 
 #EXTINF:0,BBC Radio 1
@@ -21,7 +21,7 @@ http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1xtra_mf_p
 #EXTINF:0,BBC Radio 2
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p
 
-#EXTINF:0,BBC Radio 4LW
+#EXTINF:0,BBC Radio 4 LW
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4lw_mf_p
 
 #EXTINF:0,BBC Radio 4 Extra
