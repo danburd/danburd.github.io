@@ -30,7 +30,7 @@
             xhrSetup: function(xhr, url) {
                xhr.withCredentials = false;
                if (url.indexOf("m3u8.key") !== -1){
-                  var new_key = "https://danburd.github.io/m3u8.key";
+                  var new_key = "m3u8.key";
                   xhr.open('GET', new_key, true);
                }
             } 
@@ -40,7 +40,7 @@
             sources: [
                { 
                   type: "application/x-mpegURL",
-                  src : "https://danburd.github.io/test.m3u8" 
+                  src : "test.m3u8" 
                }
             ]
          }
