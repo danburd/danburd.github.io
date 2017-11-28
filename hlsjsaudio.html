@@ -31,7 +31,8 @@ function getQueryVariable(variable)
   if(Hls.isSupported()) {
     var video = document.getElementById('video');
     var hls = new Hls();
-    hls.loadSource('getQueryVariable("stream")');
+    var streamurl = getQueryVariable("stream");
+    hls.loadSource('streamurl');
     hls.attachMedia(video);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
