@@ -32,7 +32,7 @@ function getQueryVariable(variable)
 
 <script>
     (function(){
-        var url = getQueryVariable("manifesturl");
+        var url = getQueryVariable("stream");
         var player = dashjs.MediaPlayer().create();
         player.initialize(document.querySelector("#audioPlayer1"), url, true);
     })();
