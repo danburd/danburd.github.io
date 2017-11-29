@@ -7,6 +7,9 @@ body {
 a {
     color: #88bbdd;
 }
+a:hover { 
+  text-decoration: underline;
+}
 table, th, td {
   padding: 5px;
   text-align: left;
