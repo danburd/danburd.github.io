@@ -5,7 +5,8 @@ body {
   font-size: 0.9em;
 }
 a {
-    color: #88bbdd;
+  color: #88bbdd;
+  text-decoration: none;
 }
 a:hover { 
   text-decoration: underline;
