@@ -17,4 +17,8 @@ table, th, td {
   border: 1px solid #e7e7e7;
   border-collapse: collapse;
   font-size: 0.97em;
+  margin: 0 auto;
+}
+html, body {
+  width: 100%;
 }
