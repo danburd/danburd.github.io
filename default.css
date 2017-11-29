@@ -2,7 +2,7 @@ body {
   background-color: #222222;
   color: #e7e7e7;
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 90%;
+  font-size: 0.9em;
 }
 a {
     color: #88bbdd;
@@ -12,5 +12,5 @@ table, th, td {
   text-align: left;
   border: 1px solid #e7e7e7;
   border-collapse: collapse;
-  font-size: 90%;
+  font-size: 0.9em;
 }
