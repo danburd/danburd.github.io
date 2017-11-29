@@ -5,3 +5,9 @@ body {
 a {
     color: royalblue;
 }
+table, th, td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+}
