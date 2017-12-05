@@ -1,0 +1,40 @@
+#EXTM3U
+
+#EXTINF:0,BBC World Service
+https://as-hls-ww-live.akamaized.net/pool_27/live/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,BBC Radio 3 
+https://as-hls-ww-live.akamaized.net/pool_7/live/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,BBC Radio 1
+https://as-hls-ww-live.akamaized.net/pool_7/live/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,BBC Radio 1xtra
+https://as-hls-ww-live.akamaized.net/pool_7/live/bbc_1xtra/bbc_1xtra.isml/bbc_1xtra-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,BBC Radio 2
+https://as-hls-ww-live.akamaized.net/pool_7/live/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,BBC Radio 4 FM
+https://as-hls-ww-live.akamaized.net/pool_6/live/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,BBC Radio 4 LW
+https://as-hls-ww-live.akamaized.net/pool_6/live/bbc_radio_fourlw/bbc_radio_fourlw.isml/bbc_radio_fourlw-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,BBC Radio 4 Extra
+https://as-hls-ww-live.akamaized.net/pool_6/live/bbc_radio_four_extra/bbc_radio_four_extra.isml/bbc_radio_four_extra-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,BBC Radio 5 Live
+https://as-hls-ww-live.akamaized.net/pool_6/live/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,BBC Radio 6 Music
+https://as-hls-ww-live.akamaized.net/pool_6/live/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,BBC Asian Network
+https://as-hls-ww-live.akamaized.net/pool_6/live/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,BBC Radio nan Gàidheal
+https://as-hls-ww-live.akamaized.net/pool_7/live/bbc_radio_nan_gaidheal/bbc_radio_nan_gaidheal.isml/bbc_radio_nan_gaidheal-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,BBC Radio Cymru
+https://as-hls-ww-live.akamaized.net/pool_7/live/bbc_radio_cymru/bbc_radio_cymru.isml/bbc_radio_cymru-audio%3d320000.norewind.m3u8
