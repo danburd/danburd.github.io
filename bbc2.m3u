@@ -1,7 +1,7 @@
 #EXTM3U
 
 #EXTINF:0,BBC World Service (HLS)
-https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/aks/bbc_world_service.m3u8
+https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/aks/bbc_world_service_news_internet.m3u8
 
 #EXTINF:0,BBC World Service (mp3)
 http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
