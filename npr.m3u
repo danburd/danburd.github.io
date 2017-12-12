@@ -35,3 +35,9 @@ http://peridot.streamguys.com:5230/wsiu-hd1
 
 #EXTINF:0,NPR Program Stream
 https://nprdmp-live01-mp3.akacast.akamaistream.net/7/998/364916/v1/npr.akacast.akamaistream.net/nprdmp_live01_mp3
+
+#EXTINF:0,WAMU — Washington DC
+http://wamu-1.streamguys.com
+
+#EXTINF:0,WETA — Washington DC
+http://stream.weta.org:8000/fmlive
