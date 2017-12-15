@@ -3,7 +3,8 @@
 <head>
   <title>ABC News Streams</title>
   <link rel="stylesheet" type="text/css" href="https://danburd.github.io/default.css">
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <style>
     .left{float:left; width:608px;}
   </style>
@@ -12,7 +13,7 @@
 
 <a href="http://abcnews.go.com/Live">ABC News</a>
 <br>
-<br>
+<br><!--
   
 <div id="abc1">
   ABC News 1 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live01@423395/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live01@423395/master.m3u8">hls.js</a>)
@@ -27,17 +28,17 @@
       height: 342
     });
   </script>
-</div>
-<!--
+</div>-->
+
   
-<div id="11" class="left">
+<div id="abc11" class="left">
 ABC News 1 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live01@423395/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live01@423395/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="12"></video><script>
+<video controls muted autoplay width="608" height="342" id="abc12"></video><script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('12');
+    var video = document.getElementById('abc12');
     var hls = new Hls();
     hls.loadSource('https://abclive1-lh.akamaihd.net/i/abc_live01@423395/index_400_av-p.m3u8');
-    hls.attachMedia(12);
+    hls.attachMedia(abc12);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -45,14 +46,14 @@ ABC News 1 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live01@423395/master
 </script>
 </div>
 
-<div id="21" class="left">
+<div id="abc21" class="left">
 ABC News 2 (<a href="https://abclive-lh.akamaihd.net/i/abc_live2@136328/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive-lh.akamaihd.net/i/abc_live2@136328/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="22"></video><script>
+<video controls muted autoplay width="608" height="342" id="abc22"></video><script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('22');
+    var video = document.getElementById('abc22');
     var hls = new Hls();
     hls.loadSource('https://abclive-lh.akamaihd.net/i/abc_live2@136328/index_400_av-p.m3u8');
-    hls.attachMedia(22);
+    hls.attachMedia(abc22);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -60,14 +61,14 @@ ABC News 2 (<a href="https://abclive-lh.akamaihd.net/i/abc_live2@136328/master.m
 </script>
 </div>
 
-<div id="31" class="left">
+<div id="abc31" class="left">
 ABC News 3 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live03@423397/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live03@423397/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="32"></video><script>
+<video controls muted autoplay width="608" height="342" id="abc32"></video><script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('32');
+    var video = document.getElementById('abc32');
     var hls = new Hls();
     hls.loadSource('https://abclive1-lh.akamaihd.net/i/abc_live03@423397/index_400_av-p.m3u8');
-    hls.attachMedia(32);
+    hls.attachMedia(abc32);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -75,14 +76,14 @@ ABC News 3 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live03@423397/master
 </script>
 </div>
 
-<div id="41" class="left">
+<div id="abc41" class="left">
 ABC News 4 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live04@423398/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live04@423398/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="42"></video><script>
+<video controls muted autoplay width="608" height="342" id="abc42"></video><script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('42');
+    var video = document.getElementById('abc42');
     var hls = new Hls();
     hls.loadSource('https://abclive1-lh.akamaihd.net/i/abc_live04@423398/index_400_av-p.m3u8');
-    hls.attachMedia(42);
+    hls.attachMedia(abc42);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -90,14 +91,14 @@ ABC News 4 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live04@423398/master
 </script>
 </div>
 
-<div id="51" class="left">
+<div id="abc51" class="left">
 ABC News 5 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live05@423399/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live05@423399/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="52"></video><script>
+<video controls muted autoplay width="608" height="342" id="abc52"></video><script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('52');
+    var video = document.getElementById('abc52');
     var hls = new Hls();
     hls.loadSource('https://abclive1-lh.akamaihd.net/i/abc_live05@423399/index_400_av-p.m3u8');
-    hls.attachMedia(52);
+    hls.attachMedia(abc52);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -105,14 +106,14 @@ ABC News 5 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live05@423399/master
 </script>
 </div>
 
-<div id="61" class="left">
+<div id="abc61" class="left">
 ABC News 6 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live06@423400/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live06@423400/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="62"></video><script>
+<video controls muted autoplay width="608" height="342" id="abc62"></video><script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('62');
+    var video = document.getElementById('abc62');
     var hls = new Hls();
     hls.loadSource('https://abclive1-lh.akamaihd.net/i/abc_live06@423400/index_400_av-p.m3u8');
-    hls.attachMedia(62);
+    hls.attachMedia(abc62);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -120,14 +121,14 @@ ABC News 6 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live06@423400/master
 </script>
 </div>
 
-<div id="71" class="left">
+<div id="abc71" class="left">
 ABC News 7 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live07@423401/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live07@423401/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="72"></video><script>
+<video controls muted autoplay width="608" height="342" id="abc72"></video><script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('72');
+    var video = document.getElementById('abc72');
     var hls = new Hls();
     hls.loadSource('https://abclive1-lh.akamaihd.net/i/abc_live07@423401/index_400_av-p.m3u8');
-    hls.attachMedia(72);
+    hls.attachMedia(abc72);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -135,14 +136,14 @@ ABC News 7 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live07@423401/master
 </script>
 </div>
 
-<div id="81" class="left">
+<div id="abc81" class="left">
 ABC News 8 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live08@423402/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live08@423402/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="82"></video><script>
+<video controls muted autoplay width="608" height="342" id="abc82"></video><script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('82');
+    var video = document.getElementById('abc82');
     var hls = new Hls();
     hls.loadSource('https://abclive1-lh.akamaihd.net/i/abc_live08@423402/index_400_av-p.m3u8');
-    hls.attachMedia(82);
+    hls.attachMedia(abc82);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -150,14 +151,14 @@ ABC News 8 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live08@423402/master
 </script>
 </div>
 
-<div id="91" class="left">
+<div id="abc91" class="left">
 ABC News 9 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live09@420891/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live09@420891/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="92"></video><script>
+<video controls muted autoplay width="608" height="342" id="abc92"></video><script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('92');
+    var video = document.getElementById('abc92');
     var hls = new Hls();
     hls.loadSource('https://abclive1-lh.akamaihd.net/i/abc_live09@420891/index_400_av-p.m3u8');
-    hls.attachMedia(92);
+    hls.attachMedia(abc92);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -165,14 +166,14 @@ ABC News 9 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live09@420891/master
 </script>
 </div>
 
-<div id="101" class="left">
+<div id="abc101" class="left">
 ABC News 10 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live10@420897/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live10@420897/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="102"></video><script>
+<video controls muted autoplay width="608" height="342" id="abc102"></video><script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('102');
+    var video = document.getElementById('abc102');
     var hls = new Hls();
     hls.loadSource('https://abclive1-lh.akamaihd.net/i/abc_live10@420897/index_400_av-p.m3u8');
-    hls.attachMedia(102);
+    hls.attachMedia(abc102);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -180,14 +181,14 @@ ABC News 10 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live10@420897/maste
 </script>
 </div>
 
-<div id="111" class="left">
+<div id="abc111" class="left">
 ABC News 11 (<a href="https://abclive2-lh.akamaihd.net/i/abc_live11@423404/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive2-lh.akamaihd.net/i/abc_live11@423404/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="112"></video><script>
+<video controls muted autoplay width="608" height="342" id="abc112"></video><script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('112');
+    var video = document.getElementById('abc112');
     var hls = new Hls();
     hls.loadSource('https://abclive2-lh.akamaihd.net/i/abc_live11@423404/index_400_av-p.m3u8');
-    hls.attachMedia(112);
+    hls.attachMedia(abc112);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -195,14 +196,14 @@ ABC News 11 (<a href="https://abclive2-lh.akamaihd.net/i/abc_live11@423404/maste
 </script>
 </div>
 
-<div id="121" class="left">
+<div id="abc121" class="left">
 ABC News 12 (<a href="https://abclive2-lh.akamaihd.net/i/abc_live12@423405/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive2-lh.akamaihd.net/i/abc_live12@423405/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="122"></video><script>
+<video controls muted autoplay width="608" height="342" id="abc122"></video><script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('122');
+    var video = document.getElementById('abc122');
     var hls = new Hls();
     hls.loadSource('https://abclive2-lh.akamaihd.net/i/abc_live12@423405/index_400_av-p.m3u8');
-    hls.attachMedia(122);
+    hls.attachMedia(abc122);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -210,21 +211,21 @@ ABC News 12 (<a href="https://abclive2-lh.akamaihd.net/i/abc_live12@423405/maste
 </script>
 </div>
 
-<div id="131" class="left">
+<div id="abc131" class="left">
 ABC News 4-2 (<a href="https://abclive-lh.akamaihd.net/i/abc_live4@136330/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://abclive-lh.akamaihd.net/i/abc_live4@136330/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="132"></video>
+<video controls muted autoplay width="608" height="342" id="abc132"></video>
 <script>
   if(Hls.isSupported()) {
-    var video = document.getElementById('132');
+    var video = document.getElementById('abc132');
     var hls = new Hls();
     hls.loadSource('https://abclive-lh.akamaihd.net/i/abc_live4@136330/index_400_av-p.m3u8');
-    hls.attachMedia(132);
+    hls.attachMedia(abc132);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
  }
 </script>
-</div>-->
+</div>
 
 </body>
 </html>
