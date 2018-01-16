@@ -15,11 +15,8 @@ https://as-hls-ww-live.akamaized.net/pool_7/live/bbc_1xtra/bbc_1xtra.isml/bbc_1x
 #EXTINF:0,BBC Radio 2
 https://as-hls-ww-live.akamaized.net/pool_7/live/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%3d320000.norewind.m3u8
 
-#EXTINF:0,BBC Radio 4 FM
+#EXTINF:0,BBC Radio 4
 https://as-hls-ww-live.akamaized.net/pool_6/live/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d320000.norewind.m3u8
-
-#EXTINF:0,BBC Radio 4 LW
-https://as-hls-ww-live.akamaized.net/pool_6/live/bbc_radio_fourlw/bbc_radio_fourlw.isml/bbc_radio_fourlw-audio%3d320000.norewind.m3u8
 
 #EXTINF:0,BBC Radio 4 Extra
 https://as-hls-ww-live.akamaized.net/pool_6/live/bbc_radio_four_extra/bbc_radio_four_extra.isml/bbc_radio_four_extra-audio%3d320000.norewind.m3u8
