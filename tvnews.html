@@ -3,7 +3,7 @@
 <head>
   <title>TV News Streams</title>
   <link rel="stylesheet" type="text/css" href="https://danburd.github.io/default.css">
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <style>
     .left{float:left; width:608px;}
   </style>
@@ -12,169 +12,193 @@
 
 <div id="cbs" class="left">
 CBS News (<a href="https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="cbs1"></video>
 <script>
-  var player = new Clappr.Player({
-    source: "https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8",
-    parentId: "#cbs",
-    autoPlay: true,
-    mute: true,
-    width: 608,
-    height: 342
+  if(Hls.isSupported()) {
+    var video = document.getElementById('cbs1');
+    var hls = new Hls();
+    hls.loadSource('https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8');
+    hls.attachMedia(cbs1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
   });
+ }
 </script>
-</div>
+</div>  
 
 <div id="msnbc" class="left">
 MSNBC (<a href="https://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="msnbc1"></video>
 <script>
-  var player = new Clappr.Player({
-    source: "https://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8",
-    parentId: "#msnbc",
-    autoPlay: true,
-    mute: true,
-    width: 608,
-    height: 342
+  if(Hls.isSupported()) {
+    var video = document.getElementById('msnbc1');
+    var hls = new Hls();
+    hls.loadSource('https://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/master.m3u8');
+    hls.attachMedia(msnbc1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
   });
+ }
 </script>
 </div>
 
 <div id="bloomberg" class="left">
 Bloomberg (<a href="https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_live.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_live.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="bloomberg1"></video>
 <script>
-  var player = new Clappr.Player({
-    source: "https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_live.m3u8",
-    parentId: "#bloomberg",
-    autoPlay: true,
-    mute: true,
-    width: 608,
-    height: 342
+  if(Hls.isSupported()) {
+    var video = document.getElementById('bloomberg1');
+    var hls = new Hls();
+    hls.loadSource('https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_live.m3u8');
+    hls.attachMedia(bloomberg1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
   });
+ }
 </script>
 </div>
 
 <div id="france" class="left">
 France 24 (<a href="https://static.france24.com/live/F24_EN_LO_HLS/live_ios.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://static.france24.com/live/F24_EN_LO_HLS/live_ios.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="france1"></video>
 <script>
-  var player = new Clappr.Player({
-    source: "https://static.france24.com/live/F24_EN_LO_HLS/live_ios.m3u8",
-    parentId: "#france",
-    autoPlay: true,
-    mute: true,
-    width: 608,
-    height: 342
+  if(Hls.isSupported()) {
+    var video = document.getElementById('france1');
+    var hls = new Hls();
+    hls.loadSource('https://static.france24.com/live/F24_EN_LO_HLS/live_ios.m3u8');
+    hls.attachMedia(france1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
   });
+ }
 </script>
 </div>
 
 <div id="deutche" class="left">
 Deutche Welle (<a href="https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="deutche1"></video>
 <script>
-  var player = new Clappr.Player({
-    source: "https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8",
-    parentId: "#deutche",
-    autoPlay: true,
-    mute: true,
-    width: 608,
-    height: 342
+  if(Hls.isSupported()) {
+    var video = document.getElementById('deutche1');
+    var hls = new Hls();
+    hls.loadSource('https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8');
+    hls.attachMedia(deutche1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
   });
+ }
 </script>
 </div>
 
 <div id="jazeera" class="left">
 Al Jazeera (<a href="http://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=http://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="jazeera1"></video>
 <script>
-  var player = new Clappr.Player({
-    source: "http://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index.m3u8",
-    parentId: "#jazeera",
-    autoPlay: true,
-    mute: true,
-    width: 608,
-    height: 342
+  if(Hls.isSupported()) {
+    var video = document.getElementById('jazeera1');
+    var hls = new Hls();
+    hls.loadSource('http://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index.m3u8');
+    hls.attachMedia(jazeera1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
   });
+ }
 </script>
 </div><!--
 
 <div id="nhk" class="left">
 NHK (<a href="https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="nhk1"></video>
 <script>
-  var player = new Clappr.Player({
-    source: "https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8",
-    parentId: "#nhk",
-    autoPlay: true,
-    mute: true,
-    width: 608,
-    height: 342
+  if(Hls.isSupported()) {
+    var video = document.getElementById('nhk1');
+    var hls = new Hls();
+    hls.loadSource('https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8');
+    hls.attachMedia(nhk1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
   });
+ }
 </script>
 </div>
 
 <div id="arirang" class="left">
 Arirang (<a href="http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="arirang1"></video>
 <script>
-  var player = new Clappr.Player({
-    source: "http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
-    parentId: "#arirang",
-    autoPlay: true,
-    mute: true,
-    width: 608,
-    height: 342
+  if(Hls.isSupported()) {
+    var video = document.getElementById('arirang1');
+    var hls = new Hls();
+    hls.loadSource('http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8');
+    hls.attachMedia(arirang1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
   });
+ }
 </script>
 </div>
   
 <div id="voice" class="left">
 Voice of America (<a href="https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="voice1"></video>
 <script>
-  var player = new Clappr.Player({
-    source: "https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8",
-    parentId: "#voice",
-    autoPlay: true,
-    mute: true,
-    width: 608,
-    height: 342
+  if(Hls.isSupported()) {
+    var video = document.getElementById('voice1');
+    var hls = new Hls();
+    hls.loadSource('https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8');
+    hls.attachMedia(voice1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
   });
+ }
 </script>
 </div>
 
 <div id="politico" class="left">
 Politico (<a href="https://politico-lh.akamaihd.net/i/PoliticoLive_1@359706/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://politico-lh.akamaihd.net/i/PoliticoLive_1@359706/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="politico1"></video>
 <script>
-  var player = new Clappr.Player({
-    source: "https://politico-lh.akamaihd.net/i/PoliticoLive_1@359706/master.m3u8",
-    parentId: "#politico",
-    autoPlay: true,
-    mute: true,
-    width: 608,
-    height: 342
+  if(Hls.isSupported()) {
+    var video = document.getElementById('politico1');
+    var hls = new Hls();
+    hls.loadSource('https://politico-lh.akamaihd.net/i/PoliticoLive_1@359706/master.m3u8');
+    hls.attachMedia(politico1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
   });
+ }
 </script>
 </div>
 
 <div id="rt" class="left">
 RT (<a href="">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="rt1"></video>
 <script>
-  var player = new Clappr.Player({
-    source: "",
-    parentId: "#",
-    autoPlay: true,
-    mute: true,
-    width: 608,
-    height: 342
+  if(Hls.isSupported()) {
+    var video = document.getElementById('rt1');
+    var hls = new Hls();
+    hls.loadSource('');
+    hls.attachMedia(rt1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
   });
+ }
 </script>
 </div>
 
 <div id="" class="left">
 (<a href="">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id=""></video>
 <script>
-  var player = new Clappr.Player({
-    source: "",
-    parentId: "#",
-    autoPlay: true,
-    mute: true,
-    width: 608,
-    height: 342
+  if(Hls.isSupported()) {
+    var video = document.getElementById('');
+    var hls = new Hls();
+    hls.loadSource('');
+    hls.attachMedia();
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
   });
+ }
 </script>
 </div>
 -->
