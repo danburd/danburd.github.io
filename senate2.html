@@ -120,15 +120,15 @@ Appropriations (
 Armed Services (
 
 <script>
-	document.write('<a href="https://armed-f.akamaihd.net/i/armed' + MMDDYY + '_1@76445/master.m3u8">Direct</a>');
+	document.write('<a href="https://armed-f.akamaihd.net/i/armedA' + MMDDYY + '_1@76445/master.m3u8">Direct</a>');
 </script>,
 
 <script>
-	document.write('<a href="https://danburd.github.io/hlsjsvideo.html?stream=https://armed-f.akamaihd.net/i/armed' + MMDDYY + '_1@76445/master.m3u8">hls.js</a>');
+	document.write('<a href="https://danburd.github.io/hlsjsvideo.html?stream=https://armed-f.akamaihd.net/i/armedA' + MMDDYY + '_1@76445/master.m3u8">hls.js</a>');
 </script>,
 
 <script>
-	document.write('<a href="https://www.senate.gov/isvp/?comm=armed&filename=armed' + MMDDYY + '">ISVP</a>');
+	document.write('<a href="https://www.senate.gov/isvp/?comm=armed&filename=armedA' + MMDDYY + '">ISVP</a>');
 </script>,
 	
 <a href="https://www.armed-services.senate.gov/hearings">Committee</a>)
@@ -138,7 +138,7 @@ Armed Services (
   if(Hls.isSupported()) {
     var video = document.getElementById('armed1');
     var hls = new Hls();
-    hls.loadSource('https://armed-f.akamaihd.net/i/armed'+MMDDYY+'_1@76445/master.m3u8');
+    hls.loadSource('https://armed-f.akamaihd.net/i/armedA'+MMDDYY+'_1@76445/master.m3u8');
     hls.attachMedia(armed1);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
