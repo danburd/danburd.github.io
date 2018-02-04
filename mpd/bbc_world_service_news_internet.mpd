@@ -19,6 +19,7 @@
                        media="bbc_world_service_news_internet-$RepresentationID$-$Number$.m4s" startNumber="1" duration="307200"/>
         <Representation id="audio=128000" bandwidth="128000"/>
         <Representation id="audio=320000" bandwidth="320000"/>
-    </AdaptationSet> 
+    </AdaptationSet>
+    
   </Period>
 </MPD>
