@@ -33,8 +33,17 @@ http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p
 #EXTINF:0,BBC Asian Network
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_asianet_mf_p
 
+#EXTINF:0,BBC Radio Scotland
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_scotlandfm_mf_p
+
 #EXTINF:0,BBC Radio nan Gàidheal
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_nangaidheal_mf_p
+
+#EXTINF:0,BBC Radio Ulster
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_ulster_mf_p
+
+#EXTINF:0,BBC Radio Wales
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_walesmw_mf_p
 
 #EXTINF:0,BBC Radio Cymru
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_cymru_mf_p
