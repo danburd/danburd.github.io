@@ -21,7 +21,7 @@
         <Representation id="audio=96000" bandwidth="96000"/>
     </AdaptationSet>
   
-    <AdaptationSet group="1" contentType="audio" lang="en" minBandwidth="128000" maxBandwidth="320000"
+    <AdaptationSet group="2" contentType="audio" lang="en" minBandwidth="128000" maxBandwidth="320000"
                    segmentAlignment="true" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
