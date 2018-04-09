@@ -6,6 +6,9 @@ http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws
 #EXTINF:0,BBC Radio 3 
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
 
+#EXTINF:0,BBC Radio 4 FM
+http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
+
 #EXTINF:0,BBC Radio 6 Music
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p
 
@@ -26,9 +29,6 @@ http://bbcmedia.ic.llnwd.net/stream/bbcmedia_cymru_mf_p
 
 #EXTINF:0,BBC Asian Network
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_asianet_mf_p
-
-#EXTINF:0,BBC Radio 4 FM
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
 
 #EXTINF:0,BBC Radio 4 Extra
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4extra_mf_p
