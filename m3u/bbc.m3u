@@ -6,7 +6,7 @@ http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
 #EXTINF:0,BBC Radio 3 
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
 
-#EXTINF:0,BBC Radio 4 FM
+#EXTINF:0,BBC Radio 4
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
 
 #EXTINF:0,BBC Radio 6 Music
@@ -44,6 +44,3 @@ http://bbcmedia.ic.llnwd.net/stream/bbcmedia_ulster_mf_p
 
 #EXTINF:0,BBC Radio Wales
 http://bbcmedia.ic.llnwd.net/stream/bbcmedia_walesmw_mf_p
-
-#EXTINF:0,BBC Radio 4 LW
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4lw_mf_p
