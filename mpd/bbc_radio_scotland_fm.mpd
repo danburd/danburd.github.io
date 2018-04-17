@@ -11,13 +11,13 @@
     <BaseURL dvb:priority="1" dvb:weight="1" serviceLocation="aks">https://as-dash-ww-live.akamaized.net/pool_7/live/bbc_radio_scotland_fm/bbc_radio_scotland_fm.isml/dash/</BaseURL>
 
     <Period id="1" start="PT0S">
-    <AdaptationSet group="1" contentType="audio" lang="en" minBandwidth="48000" maxBandwidth="320000"
+    <AdaptationSet group="1" contentType="audio" lang="en" minBandwidth="320000" maxBandwidth="320000"
                    segmentAlignment="true" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
         <SegmentTemplate timescale="48000" initialization="bbc_radio_scotland_fm-$RepresentationID$.dash"
                        media="bbc_radio_scotland_fm-$RepresentationID$-$Number$.m4s" startNumber="1" duration="307200"/>
-        <Representation id="audio=48000" bandwidth="48000"/>
+        <Representation id="audio=320000" bandwidth="320000"/>
         <Representation id="audio=320000" bandwidth="320000"/>
     </AdaptationSet>
   </Period>
