@@ -3,11 +3,11 @@
 #EXTINF:0,BBC World Service
 https://danburd.github.io/mpd/bbc_world_service.mpd
 
-#EXTINF:0,BBC Radio 3 
-https://danburd.github.io/mpd/bbc_radio_three.mpd
-
 #EXTINF:0,BBC Radio 4
 https://danburd.github.io/mpd/bbc_radio_fourfm.mpd
+
+#EXTINF:0,BBC Radio 3 
+https://danburd.github.io/mpd/bbc_radio_three.mpd
 
 #EXTINF:0,BBC Radio 6 Music
 https://danburd.github.io/mpd/bbc_6music.mpd
