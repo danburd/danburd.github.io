@@ -13,7 +13,7 @@
 
 <a href="https://www.c-span.org/schedule/?channel=today">Schedule</a><br>
 
-<div id="C-SPAN1" class="left">
+<!--<div id="C-SPAN1" class="left">
 C-SPAN 1  (<a href="https://cspan1-lh.akamaihd.net/i/cspan1_1@304727/master.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://cspan1-lh.akamaihd.net/i/cspan1_1@304727/master.m3u8">hls.js</a>)
 <video controls muted autoplay width="608" height="342" id="cspan1"></video>
 <script>
@@ -54,6 +54,38 @@ C-SPAN 3 (<a href="https://cspan3-lh.akamaihd.net/i/cspan3_1@304729/master.m3u8"
     var hls = new Hls();
     hls.loadSource('https://cspan3nontve-lh.akamaihd.net/i/CSpan3NonTVE_1@312670/master.m3u8');
     hls.attachMedia(cspan3);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>-->
+  
+<div id="SenateFloor" class="left">
+Senate Floor (<a href="https://granicusliveus1-a.akamaihd.net/senate/G0988_005/playlist.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://granicusliveus1-a.akamaihd.net/senate/G0988_005/playlist.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="senatefloor"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('senatefloor');
+    var hls = new Hls();
+    hls.loadSource('https://granicusliveus1-a.akamaihd.net/senate/G0988_005/playlist.m3u8');
+    hls.attachMedia(senatefloor);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+  
+<div id="HouseFloor" class="left">
+House Floor (<a href="https://granicusliveus4-a.akamaihd.net/clerkhouse/G0813_020/playlist.m3u8">Direct</a>, <a href="https://danburd.github.io/hlsjsvideo.html?stream=https://granicusliveus4-a.akamaihd.net/clerkhouse/G0813_020/playlist.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="housefloor"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('housefloor');
+    var hls = new Hls();
+    hls.loadSource('https://granicusliveus4-a.akamaihd.net/clerkhouse/G0813_020/playlist.m3u8');
+    hls.attachMedia(housefloor);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
@@ -161,10 +193,10 @@ Dot Org 5 (<a href="https://dotorg5-lh.akamaihd.net/i/DotOrg5_1@129000/master.m3
     <td><a href="https://danburd.github.io/house.html">House Hearings</a></td>
   </tr>
   <tr>
-    <td><a href="https://danburd.github.io/hlsjsvideo.html?stream=http://granicusliveus1-a.akamaihd.net/senate/G0988_005/playlist.m3u8">Senate Floor</a></td>
+    <td><a href="https://danburd.github.io/hlsjsvideo.html?stream=https://granicusliveus1-a.akamaihd.net/senate/G0988_005/playlist.m3u8">Senate Floor</a></td>
   </tr>
   <tr>
-    <td><a href="https://danburd.github.io/hlsjsvideo.html?stream=http://granicusliveus4-a.akamaihd.net/clerkhouse/G0813_020/playlist.m3u8">House Floor</a></td>
+    <td><a href="https://danburd.github.io/hlsjsvideo.html?stream=https://granicusliveus4-a.akamaihd.net/clerkhouse/G0813_020/playlist.m3u8">House Floor</a></td>
   </tr>
   <tr>
     <td><a href="https://www.youtube.com/user/whitehouse/videos?view=2&flow=grid">White House</a></td>
