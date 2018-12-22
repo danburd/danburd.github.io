@@ -10,7 +10,7 @@ http://8.38.78.173:8093/stream
 https://danburd.github.io/mpd/bbc_radio_three.mpd
 
 #EXTINF:0,WETA
-http://stream.weta.org:8000/fmlive
+https://stream.weta.org:8010/fmlive
 
 #EXTINF:0,Viva La Voce
-http://stream.weta.org:8006/fmlive
+https://stream.weta.org:8008/viva
