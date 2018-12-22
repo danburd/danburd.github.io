@@ -1,8 +1,5 @@
 # Nam erat lata
 
-<link rel="stylesheet" type="text/css" href="https://danburd.github.io/css/markdown.css">
-<link rel="shortcut icon" href="https://danburd.github.io/ico/favicon.png" type="image/x-icon">
-
 ## Gnato valle
 
 Lorem markdownum tenetis **Acmon**; cum Thracius sanior specie amicitur. Montes
@@ -46,3 +43,6 @@ Omnia inmanem ambiguum declive, **fluctus** adicit deae ensis Hippotades quoque.
 Ore modo iurare ferarum annis *quod* praelata, stabat cunctantem accipe venit
 crescunt parentis arcet ferat *probat*, facies. Ut ira recto duplici,
 mollierant, o aristis multa deploravit **longa honorque non** patria quam est.
+
+<link rel="stylesheet" type="text/css" href="https://danburd.github.io/css/markdown.css">
+<link rel="shortcut icon" href="https://danburd.github.io/ico/favicon.png" type="image/x-icon">
