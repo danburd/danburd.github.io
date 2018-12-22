@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="https://danburd.github.io/css/markdown.css">
+<link rel="stylesheet" type="text/css" href="/css/markdown.css">
 <link rel="shortcut icon" href="https://danburd.github.io/ico/favicon.png" type="image/x-icon">
 
 # Nam erat lata
