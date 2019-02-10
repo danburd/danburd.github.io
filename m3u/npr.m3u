@@ -1,10 +1,10 @@
 #EXTM3U
 
-#EXTINF:0,WUKY — Lexington KY
-http://stream.qx.net:8000/xstream
-
 #EXTINF:0,WAMU — Washington DC
 https://hd1.wamu.org
+
+#EXTINF:0,WUKY — Lexington KY
+http://stream.qx.net:8000/xstream
 
 #EXTINF:0,WBOI — Fort Wayne IN*
 http://12.bteradio.com:8300/WBOI.mp3
