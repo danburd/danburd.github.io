@@ -6,9 +6,6 @@ http://8.38.78.173:8045/stream
 #EXTINF:0,Audiophile Classical
 http://8.38.78.173:8093/stream
 
-#EXTINF:0,BBC Radio 3 320 DASH
-https://danburd.github.io/mpd/bbc_radio_three.mpd
-
 #EXTINF:0,WETA
 https://stream.weta.org:8010/fmlive
 
