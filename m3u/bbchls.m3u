@@ -1,7 +1,7 @@
 #EXTM3U
 
 #EXTINF:0,BBC World Service
-https://as-hls-ww-live.akamaized.net/pool_904/live/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d320000.norewind.m3u8
+https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d320000.norewind.m3u8
 
 #EXTINF:0,BBC Radio 4
 https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d320000.norewind.m3u8
