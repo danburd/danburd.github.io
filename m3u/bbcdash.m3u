@@ -1,46 +1,46 @@
 #EXTM3U
 
 #EXTINF:0,BBC World Service
-/mpd/bbc_world_service.mpd
+https://www.danburd.com/mpd/bbc_world_service.mpd
 
 #EXTINF:0,BBC Radio 4
-/mpd/bbc_radio_fourfm.mpd
+https://www.danburd.com/mpd/bbc_radio_fourfm.mpd
 
-#EXTINF:0,BBC Radio 3 
-/mpd/bbc_radio_three.mpd
+#EXTINF:0,BBC Radio 3
+https://www.danburd.com/mpd/bbc_radio_three.mpd
 
 #EXTINF:0,BBC Radio 6 Music
-/mpd/bbc_6music.mpd
+https://www.danburd.com/mpd/bbc_6music.mpd
 
 #EXTINF:0,BBC Radio 2
-/mpd/bbc_radio_two.mpd
+https://www.danburd.com/mpd/bbc_radio_two.mpd
 
 #EXTINF:0,BBC Radio 1
-/mpd/bbc_radio_one.mpd
+https://www.danburd.com/mpd/bbc_radio_one.mpd
 
 #EXTINF:0,BBC Radio 1xtra
-/mpd/bbc_1xtra.mpd
-
-#EXTINF:0,BBC Radio nan Gàidheal
-/mpd/bbc_radio_nan_gaidheal.mpd
-
-#EXTINF:0,BBC Radio Cymru
-/mpd/bbc_radio_cymru.mpd
-
-#EXTINF:0,BBC Asian Network
-/mpd/bbc_asian_network.mpd
+https://www.danburd.com/mpd/bbc_1xtra.mpd
 
 #EXTINF:0,BBC Radio 4 Extra
-/mpd/bbc_radio_four_extra.mpd
+https://www.danburd.com/mpd/bbc_radio_four_extra.mpd
 
 #EXTINF:0,BBC Radio 5 Live
-/mpd/bbc_radio_five_live.mpd
+https://www.danburd.com/mpd/bbc_radio_five_live.mpd
+
+#EXTINF:0,BBC Radio nan Gàidheal
+https://www.danburd.com/mpd/bbc_radio_nan_gaidheal.mpd
+
+#EXTINF:0,BBC Radio Cymru
+https://www.danburd.com/mpd/bbc_radio_cymru.mpd
+
+#EXTINF:0,BBC Asian Network
+https://www.danburd.com/mpd/bbc_asian_network.mpd
 
 #EXTINF:0,BBC Radio Scotland
-/mpd/bbc_radio_scotland_fm.mpd
+https://www.danburd.com/mpd/bbc_radio_scotland_fm.mpd
 
 #EXTINF:0,BBC Radio Ulster
-/mpd/bbc_radio_ulster.mpd
+https://www.danburd.com/mpd/bbc_radio_ulster.mpd
 
 #EXTINF:0,BBC Radio Wales
-/mpd/bbc_radio_wales_fm.mpd
+https://www.danburd.com/mpd/bbc_radio_wales_fm.mpd
