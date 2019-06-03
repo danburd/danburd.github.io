@@ -6,8 +6,6 @@
   <link rel="shortcut icon" href="/ico/favicon.png" type="image/x-icon">
   <style>
     table, th, td {
-      padding: 2px !important;
-      border: none !important;
       margin: 0 auto;
     }
     html, body {
@@ -20,45 +18,73 @@
 <table>
   <tr>
    <td></td>
-   <td><a href="https://stream.weta.org:8010/fmlive">Direct</a></td>
+   <td><a href="https://stream.weta.org:8010/fmlive">MP3</a></td>
    <td>WETA</td>
    <td><audio controls preload="none"><source src="https://stream.weta.org:8010/fmlive" type="audio/mpeg"></audio></td>
+   <td>128</td>
+   <td>USA</td>
+   <td><a href="https://en.wikipedia.org/wiki/WETA_(FM)">Wikipedia</a></td>
    <td><a href="https://weta.org/fm/playlists">Schedule</a></td>
   </tr>
   <tr>
    <td></td>
-   <td><a href="https://stream.weta.org:8008/viva">Direct</a></td>
+   <td><a href="https://stream.weta.org:8008/viva">MP3</a></td>
    <td>Viva La Voce</td>
+   <td>128</td>
+   <td>USA</td>
+   <td>N/A</td>
    <td><audio controls preload="none"><source src="https://stream.weta.org:8008/viva" type="audio/mpeg"></audio></td>
    <td><a href="https://weta.org/fm/vlvplaylist">Schedule</a></td>
   </tr>
   <tr>
    <td></td>
-   <td><a href="https://ice24.securenetsystems.net/WAMU">Direct</a></td>
+   <td><a href="https://ice24.securenetsystems.net/WAMU">MP3</a></td>
    <td>Bluegrass Country</td>
+   <td>64</td>
+   <td>USA</td>
+   <td>N/A</td>
    <td><audio controls preload="none"><source src="https://ice24.securenetsystems.net/WAMU" type="audio/mpeg"></audio></td>
    <td><a href="https://bluegrasscountry.org/full-schedule/">Schedule</a></td>
   </tr>
   <tr>
    <td></td>
-   <td><a href="http://94.23.201.38:8000/stream">Direct</a></td>
+   <td><a href="http://94.23.201.38:8000/stream">MP3</a></td>
    <td>AP Baroque</td>
+   <td>320</td>
+   <td>Greece</td>
+   <td>N/A</td>
    <td><audio controls preload="none"><source src="http://198.27.68.65:8541/stream" type="audio/mpeg"></audio></td>
    <td><a href="http://stream.psychomed.gr/player/#Audiophile%20Baroque">Schedule</a></td>
   </tr>
   <tr>
    <td></td>
-   <td><a href="http://94.23.201.38:8010/stream">Direct</a></td>
+   <td><a href="http://94.23.201.38:8010/stream">MP3</a></td>
    <td>AP Classical</td>
+   <td>320</td>
+   <td>Greece</td>
+   <td>N/A</td>
    <td><audio controls preload="none"><source src="http://198.27.68.65:8547/stream" type="audio/mpeg"></audio></td>
    <td><a href="http://stream.psychomed.gr/player/#Audiophile%20Classical">Schedule</a></td>
   </tr>
   <tr>
-    <td><a href="/dashjsaudio.html?stream=/mpd/bbc_radio_three.mpd">DASH 320</a></td>
-    <td><a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p">Direct</a></td>
+    <td><a href="/dashjsaudio.html?stream=/mpd/bbc_radio_three.mpd">DASH</a></td>
+    <td><a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p">MP3</a></td>
     <td>BBC Radio 3</td>
+    <td>320</td>
+    <td>UK</td>
+    <td><a href="https://en.wikipedia.org/wiki/BBC_Radio_3">Wikipedia</a></td>
     <td><audio controls preload="none"><source src="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p" type="audio/mpeg"></audio></td>
     <td><a href="https://www.bbc.co.uk/schedules/p00fzl8t">Schedule</a></td>
+  </tr>
+  <tr>
+   <td><a href="/hlsjsaudio.html?stream=https://drradio2-lh.akamaihd.net/i/p2_9@143504/master.m3u8">HLS</a></td>
+   <td></td>
+   <td>DR P2</td>
+   <td></td>
+   <td>320</td>
+   <td>Denmark</td>
+   <td><a href="https://en.wikipedia.org/wiki/DR_P2">Wikipedia</a></td>
+   <td><a href="https://www.dr.dk/radio/p2">Schedule</a></td>
   </tr>
   <tr>
    <td></td>
@@ -68,6 +94,22 @@
    <td></td>
   </tr>
 </table>
+  
+<!--
+
+
+  <tr>
+   <td><a href="/hlsjsaudio.html?stream=">HLS</a></td>
+   <td><a href="">MP3</a></td>
+   <td></td>
+   <td><audio controls preload="none"><source src="" type="audio/mpeg"></audio></td>
+   <td>128</td>
+   <td>USA</td>
+   <td><a href="">Wikipedia</a></td>
+   <td><a href="">Schedule</a></td>
+  </tr>
+
+-->
   
 </body>
 </html>
