@@ -3,6 +3,7 @@ body {
   color: #e7e7e7;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 0.9em;
+  width: 99%;
 }
 a {
   color: #88bbdd;
@@ -18,4 +19,7 @@ td {
   border-collapse: separate;
   font-size: 0.97em;
   empty-cells: hide;
+}
+table, th, td {
+  margin: 0 auto;
 }
