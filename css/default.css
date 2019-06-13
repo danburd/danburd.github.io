@@ -25,3 +25,6 @@ table, th, td {
 .direct {
   font-style: italic;
 }
+.left {
+  float:left; width:608px;
+}
