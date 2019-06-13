@@ -22,3 +22,6 @@ td {
 table, th, td {
   margin: 0 auto;
 }
+.direct {
+  font-style: italic;
+}
