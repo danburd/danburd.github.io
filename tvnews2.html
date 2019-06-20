@@ -1,0 +1,191 @@
+<html>  
+<head>
+  <title>TV News Streams</title>
+  <link rel="stylesheet" type="text/css" href="/css/default.css">
+  <link rel="shortcut icon" href="/ico/favicon.png" type="image/x-icon">
+  <script src="/js/hls.min.js"></script>
+</head>
+<body>
+
+<a href="/tvnews.html">Alternate</a><br><br>
+
+<div id="CBSN" class="left">
+CBSN  (<a href="https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="cbsn"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('cbsn');
+    var hls = new Hls();
+    hls.loadSource('https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8');
+    hls.attachMedia(cbsn);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="Bloomberg" class="left">
+Bloomberg  (<a href="https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_live.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_live.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="bloomberg"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('bloomberg');
+    var hls = new Hls();
+    hls.loadSource('https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_live.m3u8');
+    hls.attachMedia(bloomberg);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="VoiceofAmerica" class="left">
+Voice of America  (<a href="https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="voiceofamerica"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('voiceofamerica');
+    var hls = new Hls();
+    hls.loadSource('https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8');
+    hls.attachMedia(voiceofamerica);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="DeutcheWelle" class="left">
+Deutche Welle  (<a href="https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="deutchewelle"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('deutchewelle');
+    var hls = new Hls();
+    hls.loadSource('https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8');
+    hls.attachMedia(deutchewelle);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="NHK World" class="left">
+NHK World  (<a href="https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="nhkworld"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('nhkworld');
+    var hls = new Hls();
+    hls.loadSource('https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8');
+    hls.attachMedia(nhkworld);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="CNA" class="left">
+CNA  (<a href="https://drsh196ivjwe8.cloudfront.net/hls/cnai/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://drsh196ivjwe8.cloudfront.net/hls/cnai/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="cna"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('cna');
+    var hls = new Hls();
+    hls.loadSource('https://drsh196ivjwe8.cloudfront.net/hls/cnai/master.m3u8');
+    hls.attachMedia(cna);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="TRTWorld" class="left">
+TRT World  (<a href="https://api.trtworld.com/livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://api.trtworld.com/livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="trtworld"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('trtworld');
+    var hls = new Hls();
+    hls.loadSource('https://api.trtworld.com/livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8');
+    hls.attachMedia(trtworld);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="PressTV" class="left">
+Press TV  (<a href="https://5a61de8ed719d.streamlock.net/liveprs/smil:liveprs.smil/playlist.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://5a61de8ed719d.streamlock.net/liveprs/smil:liveprs.smil/playlist.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="presstv"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('presstv');
+    var hls = new Hls();
+    hls.loadSource('https://5a61de8ed719d.streamlock.net/liveprs/smil:liveprs.smil/playlist.m3u8');
+    hls.attachMedia(presstv);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="RussiaToday" class="left">
+Russia Today  (<a href="https://rt-news.secure.footprint.net/1103.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://rt-news.secure.footprint.net/1103.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="russiatoday"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('russiatoday');
+    var hls = new Hls();
+    hls.loadSource('https://rt-news.secure.footprint.net/1103.m3u8');
+    hls.attachMedia(russiatoday);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="CGTN" class="left">
+CGTN  (<a href="https://news.cgtn.com/resource/live/english/cgtn-news.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://news.cgtn.com/resource/live/english/cgtn-news.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="cgtn"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('cgtn');
+    var hls = new Hls();
+    hls.loadSource('https://news.cgtn.com/resource/live/english/cgtn-news.m3u8');
+    hls.attachMedia(cgtn);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<!--
+<div id="Stream" class="left">
+Stream  (<a href="">HLS</a>, <a href="/hlsjsvideo.html?stream=">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="stream"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('stream');
+    var hls = new Hls();
+    hls.loadSource('');
+    hls.attachMedia(stream);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+-->
+
+</body>
+</html>
