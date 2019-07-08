@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mp3.js Audio</title>
+    <link rel="stylesheet" type="text/css" href="/css/default.css">
+    <link rel="shortcut icon" href="/ico/favicon.png" type="image/x-icon">
+    <style>
+        audio {
+            box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 5px 0px;
+            width: 66%;
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+
+<script>
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
+</script>
+
+<div></div>
+  <script>
+    <audio controls autoplay><source src="stream" type="audio/mpeg"></audio>
+    $("div").html("<audio src='" + stream + "' controls autoplay></audio>");
+  </script>
+</body>
+</html>
