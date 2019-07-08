@@ -33,7 +33,7 @@ function getQueryVariable(variable)
 
 <script>
 p = document.createElement("p");
-p.innerHTML = "<audio controls autoplay src="+stream+"></audio>";
+p.innerHTML = "<audio controls autoplay src=+"getQueryVariable("stream")"+></audio>";
 document.body.appendChild(p);
 </script>
 
