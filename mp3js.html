@@ -30,12 +30,18 @@ function getQueryVariable(variable)
 }
 </script>
 
+<script>
+p = document.createElement("p");
+p.innerHTML = "<audio controls autoplay src="+stream+"></audio>";
+document.body.appendChild(p);
+</script>
+
+<!--
 <div id="player"></div>
 <script type="text/javascript">
     document.getElementById('player').innerHTML="<audio controls autoplay src="+stream+"></audio>";
 </script>
     
-<!--
 <div></div>
   <script>
     $("div").html("<audio src='" + stream + "' controls autoplay></audio>");
