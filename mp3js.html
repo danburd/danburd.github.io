@@ -31,22 +31,11 @@ function getQueryVariable(variable)
 }
 </script>
 
+<audio controls autoplay src="" id="player"></audio>
+
 <script>
-p = document.createElement("p");
-p.innerHTML = "<audio controls autoplay src=+getQueryVariable("stream")+></audio>";
-document.body.appendChild(p);
+   document.getElementById("player").src = getQueryVariable("stream");
 </script>
 
-<!--
-<div id="player"></div>
-<script type="text/javascript">
-    document.getElementById('player').innerHTML="<audio controls autoplay src="+stream+"></audio>";
-</script>
-    
-<div></div>
-  <script>
-    $("div").html("<audio src='" + stream + "' controls autoplay></audio>");
-  </script>
--->
 </body>
 </html>
