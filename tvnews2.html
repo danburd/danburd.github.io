@@ -122,13 +122,13 @@ TRT World  (<a href="https://api.trtworld.com/livestream/v1/WcM3Oa2LHD9iUjWDSRUI
 </div>
 
 <div id="PressTV" class="left">
-Press TV  (<a href="https://5a61de8ed719d.streamlock.net/liveprs/smil:liveprs.smil/playlist.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://5a61de8ed719d.streamlock.net/liveprs/smil:liveprs.smil/playlist.m3u8">hls.js</a>)
+Press TV  (<a href="https://live2.presstv.com/liveprs/smil:liveprs.smil/playlist.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://live2.presstv.com/liveprs/smil:liveprs.smil/playlist.m3u8">hls.js</a>)
 <video controls muted autoplay width="608" height="342" id="presstv"></video>
 <script>
   if(Hls.isSupported()) {
     var video = document.getElementById('presstv');
     var hls = new Hls();
-    hls.loadSource('https://5a61de8ed719d.streamlock.net/liveprs/smil:liveprs.smil/playlist.m3u8');
+    hls.loadSource('https://live2.presstv.com/liveprs/smil:liveprs.smil/playlist.m3u8');
     hls.attachMedia(presstv);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
