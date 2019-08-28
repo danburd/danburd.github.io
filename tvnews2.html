@@ -90,13 +90,13 @@ NHK World  (<a href="https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/glob
 </div>
 
 <div id="CNA" class="left">
-CNA  (<a href="https://drsh196ivjwe8.cloudfront.net/hls/cnai/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://drsh196ivjwe8.cloudfront.net/hls/cnai/master.m3u8">hls.js</a>)
+CNA  (<a href="https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8">hls.js</a>)
 <video controls muted autoplay width="608" height="342" id="cna"></video>
 <script>
   if(Hls.isSupported()) {
     var video = document.getElementById('cna');
     var hls = new Hls();
-    hls.loadSource('https://drsh196ivjwe8.cloudfront.net/hls/cnai/master.m3u8');
+    hls.loadSource('https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8');
     hls.attachMedia(cna);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
