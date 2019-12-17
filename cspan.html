@@ -5,10 +5,32 @@
   <link rel="stylesheet" type="text/css" href="/css/default.css">
   <link rel="shortcut icon" href="/ico/favicon.png" type="image/x-icon">
   <script src="/js/hls.min.js"></script>
+  <script src="/js/dash.all.min.js"></script>
 </head>
 <body>
 
 <a href="https://www.c-span.org/schedule/?channel=today">Schedule</a><br><br>
+  
+<div id="SenateFloor" class="left">
+Senate Floor (<a href="https://granicusliveus1-a.akamaihd.net/senate/G0988_005/playlist.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://granicusliveus1-a.akamaihd.net/senate/G0988_005/playlist.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="senatefloor"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('senatefloor');
+    var hls = new Hls();
+    hls.loadSource('https://granicusliveus1-a.akamaihd.net/senate/G0988_005/playlist.m3u8');
+    hls.attachMedia(senatefloor);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+  
+<div id="HouseFloor" class="left">
+House Floor (<a href="https://houseliveprod.streaming.mediaservices.windows.net/bd5b64e0-d322-4399-9b23-538fd2a68886/30382037-bd04-4a46-abdf-6462cca04098.ism/manifest(format=mpd-time-csf,filter=trimmed)">DASH</a>, <a href="/dashjsvideo.html?stream=https://houseliveprod.streaming.mediaservices.windows.net/bd5b64e0-d322-4399-9b23-538fd2a68886/30382037-bd04-4a46-abdf-6462cca04098.ism/manifest(format%3Dmpd-time-csf,filter%3Dtrimmed)">dash.js</a>)
+<video data-dashjs-player controls muted autoplay width="608" height="342" src="https://houseliveprod.streaming.mediaservices.windows.net/bd5b64e0-d322-4399-9b23-538fd2a68886/30382037-bd04-4a46-abdf-6462cca04098.ism/manifest(format=mpd-time-csf,filter=trimmed)"></video>
+</div><!--
 
 <div id="C-SPAN1" class="left">
 C-SPAN 1  (<a href="https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8">hls.js</a>)
@@ -56,7 +78,7 @@ C-SPAN 3 (<a href="https://skystreams-lh.akamaihd.net/i/SkyC3_1@500808/master.m3
   });
  }
 </script>
-</div>
+</div>-->
 
 <div id="DotOrg1" class="left">
 Dot Org 1 (<a href="https://dotorg1-lh.akamaihd.net/i/dotorg1_1@301849/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://dotorg1-lh.akamaihd.net/i/dotorg1_1@301849/master.m3u8">hls.js</a>)
@@ -138,130 +160,5 @@ Dot Org 5 (<a href="https://dotorg5-lh.akamaihd.net/i/DotOrg5_1@129000/master.m3
 </script>
 </div>
   
-<div id="SenateFloor" class="left">
-Senate Floor (<a href="https://granicusliveus1-a.akamaihd.net/senate/G0988_005/playlist.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://granicusliveus1-a.akamaihd.net/senate/G0988_005/playlist.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="senatefloor"></video>
-<script>
-  if(Hls.isSupported()) {
-    var video = document.getElementById('senatefloor');
-    var hls = new Hls();
-    hls.loadSource('https://granicusliveus1-a.akamaihd.net/senate/G0988_005/playlist.m3u8');
-    hls.attachMedia(senatefloor);
-    hls.on(Hls.Events.MANIFEST_PARSED,function() {
-      video.play();
-  });
- }
-</script>
-</div>
-  
-<div id="HouseFloor" class="left">
-House Floor (<a href="https://granicusliveus4-a.akamaihd.net/clerkhouse/G0813_020/playlist.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://granicusliveus4-a.akamaihd.net/clerkhouse/G0813_020/playlist.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="housefloor"></video>
-<script>
-  if(Hls.isSupported()) {
-    var video = document.getElementById('housefloor');
-    var hls = new Hls();
-    hls.loadSource('https://granicusliveus4-a.akamaihd.net/clerkhouse/G0813_020/playlist.m3u8');
-    hls.attachMedia(housefloor);
-    hls.on(Hls.Events.MANIFEST_PARSED,function() {
-      video.play();
-  });
- }
-</script>
-</div>
-  <!--
-  <table>
-  <tr>
-    <td><b>Other Live News Streams</b></td>
-  </tr>
-  <tr>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Official</b></td>
-  </tr>
-  <tr>
-    <td><a href="/senate.html">Senate Hearings</a></td>
-  </tr>
-  <tr>
-    <td><a href="/senate2.html">Senate Hearings (Alternate)</a></td>
-  </tr>
-  <tr>
-    <td><a href="/house.html">House Hearings</a></td>
-  </tr>
-  <tr>
-    <td><a href="/hlsjsvideo.html?stream=https://granicusliveus1-a.akamaihd.net/senate/G0988_005/playlist.m3u8">Senate Floor</a></td>
-  </tr>
-  <tr>
-    <td><a href="/hlsjsvideo.html?stream=https://granicusliveus4-a.akamaihd.net/clerkhouse/G0813_020/playlist.m3u8">House Floor</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/user/whitehouse/videos?view=2&flow=grid">White House</a></td>
-  </tr>
-  <tr>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>HLS Streams</b></td>
-  </tr>
-  <tr>
-    <td><a href="/abcnews.html">ABC News</a></td>
-  </tr>
-  <tr>
-    <td><a href="/tvnews.html">TV News</a></td>
-  </tr>
-  <tr>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Youtube Accounts</b></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/user/PBSNewsHour/videos?view=2&flow=grid">PBS Newshour</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/user/NBCNews/videos?view=2&flow=grid">NBC News</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/user/ABCNews/videos?view=2&flow=grid">ABC News</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/user/CBSNewsOnline/videos?view=2&flow=grid">CBS News</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/user/FoxNewsChannel/videos?view=2&flow=grid">Fox News</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/user/TheNewYorkTimes/videos?view=2&flow=grid">New York Times</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/user/WashingtonPost/videos?view=2&flow=grid">Washington Post</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/user/Bloomberg/videos?view=2&flow=grid">Bloomberg</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/user/TimeMagazine/videos?view=2&flow=grid">TIME</a></td>
-  </tr>
-  <tr>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Youtube Playlists</b></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/live">Live</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/playlist?list=PLU12uITxBEPHOJO1FU8qll6gQmKcXp5S7">Live Now</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/playlist?list=PL3ZQ5CpNulQmA2Tegc98c0XXJTzuKb0wS">Live Now News</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/playlist?list=PLU12uITxBEPHHlOIWGAIezbshH82rGpKp">Upcoming Live Streams</a></td>
-  </tr>
-  </table><br>
--->
 </body>
 </html>
