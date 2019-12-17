@@ -1,214 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ABC News Streams</title>
+    <title>dash.js video</title>
   <link rel="stylesheet" type="text/css" href="/css/default.css">
   <link rel="shortcut icon" href="/ico/favicon.png" type="image/x-icon">
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
-  <style>
-    .left{float:left; width:608px;}
-  </style>
+    <script src="/js/dash.all.min.js"></script>
+    <style>
+        video {
+            box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 5px 0px;
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
-  
-<a href="http://abcnews.go.com/Live">ABC News</a>
-<br>
-<br>
-  
-<div id="abc1" class="left">
-ABC News 1 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live01@423395/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live01@423395/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive1-lh.akamaihd.net/i/abc_live01@423395/index_400_av-p.m3u8",
-    parentId: "#abc1",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
 
-<div id="abc2" class="left">
-ABC News 2 (<a href="https://abclive-lh.akamaihd.net/i/abc_live2@136328/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive-lh.akamaihd.net/i/abc_live2@136328/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive-lh.akamaihd.net/i/abc_live2@136328/master.m3u8/index_400_av-p.m3u8",
-    parentId: "#abc2",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
+<video data-dashjs-player autoplay src="https://houseliveprod.streaming.mediaservices.windows.net/bd5b64e0-d322-4399-9b23-538fd2a68886/30382037-bd04-4a46-abdf-6462cca04098.ism/manifest(format=mpd-time-csf,filter=trimmed)" controls></video>
 
-<div id="abc3" class="left">
-ABC News 3 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live03@423397/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live03@423397/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive1-lh.akamaihd.net/i/abc_live03@423397/index_400_av-p.m3u8",
-    parentId: "#abc3",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
-
-<div id="abc4" class="left">
-ABC News 4 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live04@423398/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live04@423398/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive1-lh.akamaihd.net/i/abc_live04@423398/index_400_av-p.m3u8",
-    parentId: "#abc4",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
-
-<div id="abc5" class="left">
-ABC News 5 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live05@423399/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live05@423399/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive1-lh.akamaihd.net/i/abc_live05@423399/index_400_av-p.m3u8",
-    parentId: "#abc5",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
-
-<div id="abc6" class="left">
-ABC News 6 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live06@423400/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live06@423400/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive1-lh.akamaihd.net/i/abc_live06@423400/index_400_av-p.m3u8",
-    parentId: "#abc6",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
-
-<div id="abc7" class="left">
-ABC News 7 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live07@423401/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live07@423401/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive1-lh.akamaihd.net/i/abc_live07@423401/index_400_av-p.m3u8",
-    parentId: "#abc7",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
-
-<div id="abc8" class="left">
-ABC News 8 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live08@423402/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live08@423402/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive1-lh.akamaihd.net/i/abc_live08@423402/index_400_av-p.m3u8",
-    parentId: "#abc8",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
-
-<div id="abc9" class="left">
-ABC News 9 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live09@420891/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live09@420891/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive1-lh.akamaihd.net/i/abc_live09@420891/index_400_av-p.m3u8",
-    parentId: "#abc9",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
-
-<div id="abc10" class="left">
-ABC News 10 (<a href="https://abclive1-lh.akamaihd.net/i/abc_live10@420897/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive1-lh.akamaihd.net/i/abc_live10@420897/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive1-lh.akamaihd.net/i/abc_live10@420897/index_400_av-p.m3u8",
-    parentId: "#abc10",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
-
-<div id="abc11" class="left">
-ABC News 11 (<a href="https://abclive2-lh.akamaihd.net/i/abc_live11@423404/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive2-lh.akamaihd.net/i/abc_live11@423404/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive2-lh.akamaihd.net/i/abc_live11@423404/index_400_av-p.m3u8",
-    parentId: "#abc11",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
-
-<div id="abc12" class="left">
-ABC News 12 (<a href="https://abclive2-lh.akamaihd.net/i/abc_live12@423405/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive2-lh.akamaihd.net/i/abc_live12@423405/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive2-lh.akamaihd.net/i/abc_live12@423405/index_400_av-p.m3u8",
-    parentId: "#abc12",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
-
-<div id="abc13" class="left">
-ABC News 13 (<a href="https://abclive-lh.akamaihd.net/i/abc_live4@136330/master.m3u8">Direct</a>, <a href="/hlsjsvideo.html?stream=https://abclive-lh.akamaihd.net/i/abc_live4@136330/master.m3u8">hls.js</a>)
-<script>
-  var player = new Clappr.Player({
-    source: "https://abclive-lh.akamaihd.net/i/abc_live4@136330/index_400_av-p.m3u8",
-    parentId: "#abc13",
-    autoPlay: true,
-    mute: true,
-    controls: true,
-    width: 608,
-    height: 342
-  });
-</script>
-</div>
-  
 </body>
 </html>
