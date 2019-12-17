@@ -30,55 +30,7 @@ Senate Floor (<a href="https://granicusliveus1-a.akamaihd.net/senate/G0988_005/p
 <div id="HouseFloor" class="left">
 House Floor (<a href="https://houseliveprod.streaming.mediaservices.windows.net/bd5b64e0-d322-4399-9b23-538fd2a68886/30382037-bd04-4a46-abdf-6462cca04098.ism/manifest(format=mpd-time-csf,filter=trimmed)">DASH</a>, <a href="/dashjsvideo.html?stream=https://houseliveprod.streaming.mediaservices.windows.net/bd5b64e0-d322-4399-9b23-538fd2a68886/30382037-bd04-4a46-abdf-6462cca04098.ism/manifest(format%3Dmpd-time-csf,filter%3Dtrimmed)">dash.js</a>)
 <video data-dashjs-player controls muted autoplay width="608" height="342" src="https://houseliveprod.streaming.mediaservices.windows.net/bd5b64e0-d322-4399-9b23-538fd2a68886/30382037-bd04-4a46-abdf-6462cca04098.ism/manifest(format=mpd-time-csf,filter=trimmed)"></video>
-</div><!--
-
-<div id="C-SPAN1" class="left">
-C-SPAN 1  (<a href="https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="cspan1"></video>
-<script>
-  if(Hls.isSupported()) {
-    var video = document.getElementById('cspan1');
-    var hls = new Hls();
-    hls.loadSource('https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8');
-    hls.attachMedia(cspan1);
-    hls.on(Hls.Events.MANIFEST_PARSED,function() {
-      video.play();
-  });
- }
-</script>
 </div>
-
-<div id="C-SPAN2" class="left">
-C-SPAN 2 (<a href="https://skystreams-lh.akamaihd.net/i/SkyC2_1@500807/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://skystreams-lh.akamaihd.net/i/SkyC2_1@500807/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="cspan2"></video>
-<script>
-  if(Hls.isSupported()) {
-    var video = document.getElementById('cspan2');
-    var hls = new Hls();
-    hls.loadSource('https://skystreams-lh.akamaihd.net/i/SkyC2_1@500807/master.m3u8');
-    hls.attachMedia(cspan2);
-    hls.on(Hls.Events.MANIFEST_PARSED,function() {
-      video.play();
-  });
- }
-</script>
-</div>
-
-<div id="C-SPAN3" class="left">
-C-SPAN 3 (<a href="https://skystreams-lh.akamaihd.net/i/SkyC3_1@500808/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://skystreams-lh.akamaihd.net/i/SkyC3_1@500808/master.m3u8">hls.js</a>)
-<video controls muted autoplay width="608" height="342" id="cspan3"></video>
-<script>
-  if(Hls.isSupported()) {
-    var video = document.getElementById('cspan3');
-    var hls = new Hls();
-    hls.loadSource('https://skystreams-lh.akamaihd.net/i/SkyC3_1@500808/master.m3u8');
-    hls.attachMedia(cspan3);
-    hls.on(Hls.Events.MANIFEST_PARSED,function() {
-      video.play();
-  });
- }
-</script>
-</div>-->
 
 <div id="DotOrg1" class="left">
 Dot Org 1 (<a href="https://dotorg1-lh.akamaihd.net/i/dotorg1_1@301849/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://dotorg1-lh.akamaihd.net/i/dotorg1_1@301849/master.m3u8">hls.js</a>)
@@ -153,6 +105,54 @@ Dot Org 5 (<a href="https://dotorg5-lh.akamaihd.net/i/DotOrg5_1@129000/master.m3
     var hls = new Hls();
     hls.loadSource('https://dotorg5-lh.akamaihd.net/i/DotOrg5_1@129000/master.m3u8');
     hls.attachMedia(dotorg5);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+  
+<div id="C-SPAN1" class="left">
+C-SPAN 1  (<a href="https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="cspan1"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('cspan1');
+    var hls = new Hls();
+    hls.loadSource('https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8');
+    hls.attachMedia(cspan1);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="C-SPAN2" class="left">
+C-SPAN 2 (<a href="https://skystreams-lh.akamaihd.net/i/SkyC2_1@500807/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://skystreams-lh.akamaihd.net/i/SkyC2_1@500807/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="cspan2"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('cspan2');
+    var hls = new Hls();
+    hls.loadSource('https://skystreams-lh.akamaihd.net/i/SkyC2_1@500807/master.m3u8');
+    hls.attachMedia(cspan2);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+</div>
+
+<div id="C-SPAN3" class="left">
+C-SPAN 3 (<a href="https://skystreams-lh.akamaihd.net/i/SkyC3_1@500808/master.m3u8">HLS</a>, <a href="/hlsjsvideo.html?stream=https://skystreams-lh.akamaihd.net/i/SkyC3_1@500808/master.m3u8">hls.js</a>)
+<video controls muted autoplay width="608" height="342" id="cspan3"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('cspan3');
+    var hls = new Hls();
+    hls.loadSource('https://skystreams-lh.akamaihd.net/i/SkyC3_1@500808/master.m3u8');
+    hls.attachMedia(cspan3);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
