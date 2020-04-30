@@ -23,6 +23,13 @@ td {
 table, th, td {
   margin: 0 auto;
 }
+ul {
+  list-style-position: inside;
+  text-align: left;
+  margin: 0 auto;
+  position: relative;
+  width: 400px
+}
 .direct {
   font-style: italic;
 }
