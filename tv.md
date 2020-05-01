@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>TV News Streams</title>
-  <meta name="viewport" content="width=device-width, initial scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/default.css">
-  <link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
-</head>
-<body>
+<title>TV Streams</title>
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
+
 
 [House](house.html)
 [Senate](senate.html)
