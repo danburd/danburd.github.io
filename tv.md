@@ -5,10 +5,11 @@
 
 
 [House](house.html)
+
 [Senate](senate.html)
 
-| Live Now News Playlist | [Youtube](https://www.youtube.com/playlist?list=PL3ZQ5CpNulQmA2Tegc98c0XXJTzuKb0wS) | [Invidious](https://invidio.us/playlist?list=PL3ZQ5CpNulQmA2Tegc98c0XXJTzuKb0wS) |
 |-|-|-|
+| Live Now News Playlist | [Youtube](https://www.youtube.com/playlist?list=PL3ZQ5CpNulQmA2Tegc98c0XXJTzuKb0wS) | [Invidious](https://invidio.us/playlist?list=PL3ZQ5CpNulQmA2Tegc98c0XXJTzuKb0wS) |
 
 ## US Networks
 
