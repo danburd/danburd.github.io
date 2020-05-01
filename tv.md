@@ -1,4 +1,4 @@
-# TV News Streams
+# TV Streams
 
 <link rel="stylesheet" type="text/css" href="css/markdown.css">
 <link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
@@ -52,6 +52,5 @@
 | PTV World |  |  | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://59aeddfe9f01c.streamlock.net/live/8090/player.m3u8) | [HLS](https://59aeddfe9f01c.streamlock.net/live/8090/player.m3u8) | Pakistan | English | Public | [Website](https://www.ptv.com.pk/ptvCorporate/worldlive) | [Wikipedia](https://en.wikipedia.org/wiki/PTV_World) |
 | Press TV |  |  | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://live2.presstv.com/liveprs/smil:liveprs.smil/playlist.m3u8) | [HLS](https://live2.presstv.com/liveprs/smil:liveprs.smil/playlist.m3u8) | Iran | English | Public | [Website](https://www.presstv.com/Default/Live) | [Wikipedia](https://en.wikipedia.org/wiki/Press_TV) |
 | CGTN |  |  | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://news.cgtn.com/resource/live/english/cgtn-news.m3u8) | [HLS](https://news.cgtn.com/resource/live/english/cgtn-news.m3u8) | China | English | Public | [Website](https://www.cgtn.com/channel/en.do) | [Wikipedia](https://en.wikipedia.org/wiki/CGTN_(TV_channel)) |
-| i24 News |  |  | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://i24alive1-a.akamaihd.net/6e3dd61ac4c34d6f8fb9698b565b9f50/eu-central-1/5377161796001/playlist-all_dvr.m3u8) | [HLS](https://i24alive1-a.akamaihd.net/6e3dd61ac4c34d6f8fb9698b565b9f50/eu-central-1/5377161796001/playlist-all_dvr.m3u8) | Israel | English | Private | [Website](https://www.i24news.tv/en) | [Wikipedia](https://en.wikipedia.org/wiki/I24_News) |
 | RTHK TV 31 |  |  |  | [HLS](https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8) | Hong Kong | Cantonese | Public | [Website](https://www.rthk.hk/tv) | [Wikipedia](https://en.wikipedia.org/wiki/RTHK_TV_31,_31A) |
 | RTHK TV 32 |  |  |  | [HLS](https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8) | Hong Kong | Cantonese | Public | [Website](https://www.rthk.hk/tv) |  |
