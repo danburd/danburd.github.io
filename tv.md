@@ -1,7 +1,7 @@
-<link rel="stylesheet" type="text/css" href="css/default.css">
-<link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
-
 # TV News Streams
+
+<link rel="stylesheet" type="text/css" href="css/markdown.css">
+<link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
 
 |-|-|-|
 | Congress | [House](house.html) | [Senate](senate.html)
