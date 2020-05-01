@@ -1,6 +1,8 @@
 body,table,th,tr,td {
   background-color: #222222;
   color: #e7e7e7;
+}
+td {
   empty-cells: hide;
   border-collapse: separate;
   padding: 5px;
