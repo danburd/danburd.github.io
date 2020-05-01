@@ -1,6 +1,7 @@
-<title>TV News Streams</title>
 <link rel="stylesheet" type="text/css" href="css/default.css">
 <link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
+
+# TV News Streams
 
 |-|-|-|
 | Congress | [House](house.html) | [Senate](senate.html)
