@@ -6,8 +6,8 @@
 |-|-|
 | [Schedule](http://www.house.gov/legislative/) | [Official](https://www.congress.gov/committees/video) |
 
-| Committee | YT | YT | Inv | Inv |
-|-|-|-|-|-|
+| Committee | YT | YT | Inv | Inv | Official | Committee Website |
+|-|-|-|-|-|-|-|
 | Agriculture | [Live](https://www.youtube.com/channel/UCOWh2WJxPywHIaccDWb8Mvg/live) | [Archive](https://www.youtube.com/channel/UCOWh2WJxPywHIaccDWb8Mvg/videos?view=2&flow=grid) | [Live](https://invidio.us/channel/UCOWh2WJxPywHIaccDWb8Mvg/live) | [Archive](https://invidio.us/channel/UCOWh2WJxPywHIaccDWb8Mvg/videos?view=2&flow=grid) | [Official](https://www.congress.gov/committees/video/house-agriculture/hsag00) | [Committee Website](https://agriculture.house.gov/) |
 | Appropriations | [Live](https://www.youtube.com/channel/UCMaSlF09S0fpoRshS2t_7XA/live) | [Archive](https://www.youtube.com/channel/UCMaSlF09S0fpoRshS2t_7XA/videos?view=2&flow=grid) | [Live](https://invidio.us/channel/UCMaSlF09S0fpoRshS2t_7XA/live) | [Archive](https://invidio.us/channel/UCMaSlF09S0fpoRshS2t_7XA/videos?view=2&flow=grid) | [Official](https://www.congress.gov/committees/video/house-appropriations/hsap00) | [Committee Website](https://appropriations.house.gov/) |
 | Armed Services | [Live](https://www.youtube.com/channel/UCD506yORW2voSanqEgLOUIQ/live) | [Archive](https://www.youtube.com/channel/UCD506yORW2voSanqEgLOUIQ/videos?view=2&flow=grid) | [Live](https://invidio.us/channel/UCD506yORW2voSanqEgLOUIQ/live) | [Archive](https://invidio.us/channel/UCD506yORW2voSanqEgLOUIQ/videos?view=2&flow=grid) | [Official](https://www.congress.gov/committees/video/house-armed-services/hsas00) | [Committee Website](https://armedservices.house.gov/) |
