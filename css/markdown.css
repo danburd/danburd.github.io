@@ -6,3 +6,8 @@ a {
   color: #88bbdd;
   text-decoration: none;
 }
+td {
+  padding: 5px;
+  border: 1px solid #e7e7e7;
+  empty-cells: hide;
+}
