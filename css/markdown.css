@@ -2,6 +2,9 @@ body,table,th,tr,td {
   background-color: #222222;
   color: #e7e7e7;
 }
+td:empty{
+  display: none;
+}
 a {
   color: #88bbdd;
   text-decoration: none;
