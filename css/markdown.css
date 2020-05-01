@@ -7,6 +7,9 @@ td {
   border-collapse: separate;
   padding: 5px;
 }
+td:empty {
+  visibility: hidden;
+}
 a {
   color: #88bbdd;
   text-decoration: none;
