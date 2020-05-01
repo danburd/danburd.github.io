@@ -1,13 +1,9 @@
 <link rel="stylesheet" type="text/css" href="css/markdown.css">
 <link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
 
-
-[House](house.html)
-
-[Senate](senate.html)
-
 |-|-|-|
 | Live Now News Playlist | [Youtube](https://www.youtube.com/playlist?list=PL3ZQ5CpNulQmA2Tegc98c0XXJTzuKb0wS) | [Invidious](https://invidio.us/playlist?list=PL3ZQ5CpNulQmA2Tegc98c0XXJTzuKb0wS) |
+| Congress | [House](house.html) | [Senate](senate.html)
 
 ## US Networks
 
