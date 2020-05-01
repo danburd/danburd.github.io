@@ -9,7 +9,7 @@
 
 ## US Networks
 
-|Station|YT|YT|Inv|Inv|hls.js|HLS|Page|
+| Station | YT | YT | Inv | Inv | hls.js | HLS | Page| 
 |-|-|-|-|-|-|-|-|
 | NBC News | [Live](https://www.youtube.com/c/NBCNews/live) | [Archive](https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/videos?view=2&flow=grid) | [Live](https://invidio.us/channel/UCeY0bbntWzzVIaj2z3QigXg/live) | [Archive](https://invidio.us/channel/UCeY0bbntWzzVIaj2z3QigXg) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://nbcnews1.akamaized.net/hls/live/723422/nbc-news0324020117-ua/master.m3u8) | [HLS](https://nbcnews1.akamaized.net/hls/live/723422/nbc-news0324020117-ua/master.m3u8) |
 | ABC News | [Live](https://www.youtube.com/c/ABCNews/live) | [Archive](https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q/videos?view=2&flow=grid) | [Live](https://invidio.us/channel/UCBi2mrWuNuyYy4gbM6fU18Q/live) | [Archive](https://invidio.us/channel/UCBi2mrWuNuyYy4gbM6fU18Q) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8) | [HLS](https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8) | [Page](https://www.danburd.com/abcnews.html) |
