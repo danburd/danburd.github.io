@@ -17,7 +17,7 @@ var current_month = <?= $init['MMDDYY']; ?>;
 </script>
 
 |-|
-| [Schedule](https://www.senate.gov/committees/committee_hearings.htm) |
+| [Schedule](https://www.senate.gov/committees/hearings_meetings.htm) |
 
 | Committee | HLS | hls.js | ISVP | Committee Website |
 |-|-|-|-|-|
