@@ -3,6 +3,7 @@ body,table,th,tr,td {
   color: #e7e7e7;
   empty-cells: hide;
   border-collapse: separate;
+  padding: 5px;
 }
 a {
   color: #88bbdd;
