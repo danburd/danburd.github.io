@@ -4,7 +4,7 @@
 <link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
 
 |-|-|
-| [Schedule](http://www.house.gov/legislative/) | [Official](https://www.congress.gov/committees/video) |
+| [Schedule](https://www.house.gov/legislative-activity) | [Official](https://www.congress.gov/committees/video) |
 
 | Committee | YT | YT | Inv | Inv | Official | Committee Website |
 |-|-|-|-|-|-|-|
