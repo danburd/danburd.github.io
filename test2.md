@@ -3,33 +3,25 @@
 <link rel="stylesheet" type="text/css" href="css/markdown.css">
 <link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
 
-</div>
+### [Afghanistan](#AF): Radio Television Afghanistan (RTA)
 
-<div id="AF">
-
-### Afghanistan: Radio Television Afghanistan (RTA)
-
-[Website](http://www.rta.gov.af/) , [Wikipedia](https://en.wikipedia.org/wiki/Radio_Television_Afghanistan) , [Permalink](#AF)
+[Website](http://www.rta.gov.af/), [Wikipedia](https://en.wikipedia.org/wiki/Radio_Television_Afghanistan), [Permalink](#AF)
 
 |-|
 | | | | | | | | | | | Radio Television Afghanistan | [Website](http://www.rta.gov.af/)[Wikipedia](https://en.wikipedia.org/wiki/Radio_Television_Afghanistan)Stream not currently available |
-</div>
 
-<div id="AX">
 
-### Åland Islands: Ålands Radio
+### [Åland Islands](#AX): Ålands Radio
 
-[Website](https://alandsradio.ax/) , [Permalink](#AX)
+[Website](https://alandsradio.ax/), [Permalink](#AX)
 
 |-|
 | | | | [MP3](https://stream.alandsradio.ax/stream.ogg) | [mp3.js](mp3js.html?stream=https://stream.alandsradio.ax/stream.ogg) | | | | | Ålands Radio | [Website](https://alandsradio.ax/)| | Swedish language |
-</div>
 
-<div id="AL">
 
-### Albania: Radio Televizioni Shqiptar (RTSH)
+### [Albania](#AL): Radio Televizioni Shqiptar (RTSH)
 
-[Website](https://www.rtsh.al/) , [Wikipedia](https://en.wikipedia.org/wiki/Radio_Televizioni_Shqiptar) , [Permalink](#AL)
+[Website](https://www.rtsh.al/), [Wikipedia](https://en.wikipedia.org/wiki/Radio_Televizioni_Shqiptar), [Permalink](#AL)
 
 |-|
 | | | | [MP3](http://149.202.220.47:8888/radiotirana1) | [mp3.js](mp3js.html?stream=http://149.202.220.47:8888/radiotirana1) | [HLS](http://corehls01al.ekranet.com/hls/radiotirana1/index.m3u8) | [hls.js](/hlsjsaudio.html?stream=http://corehls01al.ekranet.com/hls/radiotirana1/index.m3u8) | Radio Tirana 1 | [Website](https://www.rtsh.al/pt/)| | News, talk, features WARNING: HLS has high data usage |
