@@ -2467,7 +2467,7 @@
 | | | | | [MP3](https://www.wqln.org:8443/) | [mp3.js](mp3js.html?stream=https://www.wqln.org:8443/) | WQLN | [Website](https://www.wqln.org/Departments/Radio/Listen-Live) | [Wikipedia](https://en.wikipedia.org/wiki/WQLN-FM) | Erie, PA |
 | | | | | [MP3](http://peridot.streamguys.com:5230/wsiu-hd1) | [mp3.js](mp3js.html?stream=http://peridot.streamguys.com:5230/wsiu-hd1) | WSIU | [Website](https://www.wsiu.org/) | [Wikipedia](https://en.wikipedia.org/wiki/WSIU_(FM)) | Carbondale, IL |
 | | | | | [MP3](https://hd1.wamu.org/) | [mp3.js](mp3js.html?stream=https://hd1.wamu.org/) | WAMU | [Website](https://wamu.org/) | [Wikipedia](https://en.wikipedia.org/wiki/WAMU) | Washington, DC |
-| | | | | [MP3](https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM.mp3) | [mp3.js](mp3js.html?stream=https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM.mp3) | WETA | [Website](https://weta.org/) | [Wikipedia](https://en.wikipedia.org/wiki/WETA_(FM)) | Washington, DC |
+| | | [HLS](https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM_ADP.m3u8) | | [MP3](https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM.mp3) | [mp3.js](mp3js.html?stream=https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM.mp3) | WETA | [Website](https://weta.org/) | [Wikipedia](https://en.wikipedia.org/wiki/WETA_(FM)) | Washington, DC |
 
 
 ### United States: American Public Media (APM)
