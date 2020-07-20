@@ -28,6 +28,7 @@
 | New York Times | [Live](https://www.youtube.com/c/NYTimes/live) | [Archive](https://www.youtube.com/channel/UCqnbDFdCpuN8CMEg0VuEBqA/videos?view=2&flow=grid) | [Live](https://invidio.us/channel/UCqnbDFdCpuN8CMEg0VuEBqA/live) | [Archive](https://invidio.us/channel/UCqnbDFdCpuN8CMEg0VuEBqA) |
 | USA Today | [Live](https://www.youtube.com/c/USAToday/live) | [Archive](https://www.youtube.com/channel/UCP6HGa63sBC7-KHtkme-p-g/videos?view=2&flow=grid) | [Live](https://invidio.us/channel/UCP6HGa63sBC7-KHtkme-p-g/live) | [Archive](https://invidio.us/channel/UCP6HGa63sBC7-KHtkme-p-g) |
 | Politico | [Live](https://www.youtube.com/c/Politico/live) | [Archive](https://www.youtube.com/channel/UCgjtvMmHXbutALaw9XzRkAg/videos?view=2&flow=grid) | [Live](https://invidio.us/channel/UCgjtvMmHXbutALaw9XzRkAg/live) | [Archive](https://invidio.us/channel/UCgjtvMmHXbutALaw9XzRkAg) |
+| PBS Newshour | [Live](https://www.youtube.com/c/PBSNewsHour/live) | [Archive](https://www.youtube.com/c/PBSNewsHour/videos?view=2&flow=grid) | [Live](https://invidio.us/channel/UC6ZFN9Tx6xh-skXCuRHCDpQ/live) | [Archive](https://invidio.us/channel/UC6ZFN9Tx6xh-skXCuRHCDpQ) |
 
 ## International Networks
 
