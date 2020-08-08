@@ -18,7 +18,7 @@
 | NBC News | [Live](https://www.youtube.com/c/NBCNews/live) | [Archive](https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/videos?view=2&flow=grid) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://nbcnewshls-i.akamaihd.net/hls/live/1005170/nnn_live1/index.m3u8) | [HLS](https://nbcnewshls-i.akamaihd.net/hls/live/1005170/nnn_live1/index.m3u8) | [Page](https://www.danburd.com/nbcnews.html) |
 | CBS News | [Live](https://www.youtube.com/c/CBSNews/live) | [Archive](https://www.youtube.com/channel/UC8p1vwvWtl6T73JiExfWs1g/videos?view=2&flow=grid) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8) | [HLS](https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8) |
 | FOX News | [Live](https://www.youtube.com/c/FOXNews/live) | [Archive](https://www.youtube.com/channel/UCXIJgqnII2ZOINSWNOGFThA/videos?view=2&flow=grid) |
-| CNN | [Live](https://www.youtube.com/channel/UCupvZG-5ko_eiXAupbDfxWw/live) | [Archive](https://invidio.us/channel/UCupvZG-5ko_eiXAupbDfxWw) |
+| CNN | [Live](https://www.youtube.com/channel/UCupvZG-5ko_eiXAupbDfxWw/live) | [Archive](https://www.youtube.com/channel/UCupvZG-5ko_eiXAupbDfxWw) |
 | MSNBC | [Live](https://www.youtube.com/c/msnbc/live) | [Archive](https://www.youtube.com/channel/UCaXkIU1QidjPwiAYu6GcHjg/videos?view=2&flow=grid) |
 | Fox Business News | [Live](https://www.youtube.com/channel/UCCXoCcu9Rp7NPbTzIvogpZg/live) | [Archive](https://www.youtube.com/channel/UCCXoCcu9Rp7NPbTzIvogpZg/videos?view=2&flow=grid) |
 | CNBC | [Live](https://www.youtube.com/c/CNBC/live) | [Archive](https://www.youtube.com/channel/UCvJJ_dzjViJCoLf5uKUTwoA/videos?view=2&flow=grid) |
