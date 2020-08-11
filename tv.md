@@ -13,21 +13,21 @@
 
 | Station | YT | YT | hls.js | HLS | Page | 
 |-|-|-|-|-|-|
-| C-SPAN | [Live](https://www.youtube.com/c/cspan/live) | [Archive](https://www.youtube.com/channel/UCb--64Gl51jIEVE-GLDAVTg/videos?view=2&live_view=503) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8) | [HLS](https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8) | [Page](https://www.danburd.com/cspan.html) |
-| ABC News | [Live](https://www.youtube.com/c/ABCNews/live) | [Archive](https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q/videos?view=2&live_view=503) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8) | [HLS](https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8) | [Page](https://www.danburd.com/abcnews.html) |
-| NBC News | [Live](https://www.youtube.com/c/NBCNews/live) | [Archive](https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/videos?view=2&live_view=503) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://nbcnewshls-i.akamaihd.net/hls/live/1005170/nnn_live1/index.m3u8) | [HLS](https://nbcnewshls-i.akamaihd.net/hls/live/1005170/nnn_live1/index.m3u8) | [Page](https://www.danburd.com/nbcnews.html) |
-| CBS News | [Live](https://www.youtube.com/c/CBSNews/live) | [Archive](https://www.youtube.com/channel/UC8p1vwvWtl6T73JiExfWs1g/videos?view=2&live_view=503) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8) | [HLS](https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8) |
-| FOX News | [Live](https://www.youtube.com/c/FOXNews/live) | [Archive](https://www.youtube.com/channel/UCXIJgqnII2ZOINSWNOGFThA/videos?view=2&live_view=503) |
+| C-SPAN | [Live](https://www.youtube.com/c/cspan/live) | [Archive](https://www.youtube.com/c/cspan/videos?view=2&live_view=503) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8) | [HLS](https://skystreams-lh.akamaihd.net/i/SkyC1_1@500806/master.m3u8) | [Page](https://www.danburd.com/cspan.html) |
+| ABC News | [Live](https://www.youtube.com/c/ABCNews/live) | [Archive](https://www.youtube.com/c/ABCNews/videos?view=2&live_view=503) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8) | [HLS](https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8) | [Page](https://www.danburd.com/abcnews.html) |
+| NBC News | [Live](https://www.youtube.com/c/NBCNews/live) | [Archive](https://www.youtube.com/c/NBCNews/videos?view=2&live_view=503) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://nbcnewshls-i.akamaihd.net/hls/live/1005170/nnn_live1/index.m3u8) | [HLS](https://nbcnewshls-i.akamaihd.net/hls/live/1005170/nnn_live1/index.m3u8) | [Page](https://www.danburd.com/nbcnews.html) |
+| CBS News | [Live](https://www.youtube.com/c/CBSNews/live) | [Archive](https://www.youtube.com/c/CBSNews/videos?view=2&live_view=503) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8) | [HLS](https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8) |
+| FOX News | [Live](https://www.youtube.com/c/FOXNews/live) | [Archive](https://www.youtube.com/c/FOXNews/videos?view=2&live_view=503) |
 | CNN | [Live](https://www.youtube.com/channel/UCupvZG-5ko_eiXAupbDfxWw/live) | [Archive](https://www.youtube.com/channel/UCupvZG-5ko_eiXAupbDfxWw/videos?view=2&live_view=503) |
-| MSNBC | [Live](https://www.youtube.com/c/msnbc/live) | [Archive](https://www.youtube.com/channel/UCaXkIU1QidjPwiAYu6GcHjg/videos?view=2&live_view=503) |
+| MSNBC | [Live](https://www.youtube.com/c/msnbc/live) | [Archive](https://www.youtube.com/c/msnbc/videos?view=2&live_view=503) |
 | Fox Business News | [Live](https://www.youtube.com/c/FoxBusiness/live) | [Archive](https://www.youtube.com/c/FoxBusiness/videos?view=2&live_view=503) |
-| CNBC | [Live](https://www.youtube.com/c/CNBC/live) | [Archive](https://www.youtube.com/channel/UCvJJ_dzjViJCoLf5uKUTwoA/videos?view=2&live_view=503) |
+| CNBC | [Live](https://www.youtube.com/c/CNBC/live) | [Archive](https://www.youtube.com/c/CNBC/videos?view=2&live_view=503) |
 | Bloomberg | [Live](https://www.youtube.com/c/BloombergNews/live) | [Archive](https://www.youtube.com/channel/UCUMZ7gohGI9HcU9VNsr2FJQ/videos?view=2&live_view=503) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://liveproduseast.akamaized.net/btv/desktop/us_live.m3u8) | [HLS](https://liveproduseast.akamaized.net/btv/desktop/us_live.m3u8) |
-| PBS Newshour | [Live](https://www.youtube.com/c/PBSNewshour/live) | [Archive](https://www.youtube.com/channel/UC6ZFN9Tx6xh-skXCuRHCDpQ/videos?view=2&live_view=503) |
-| Washington Post | [Live](https://www.youtube.com/c/washingtonpost/live) | [Archive](https://www.youtube.com/channel/UCHd62-u_v4DvJ8TCFtpi4GA/videos?view=2&live_view=503) |
-| New York Times | [Live](https://www.youtube.com/c/NYTimes/live) | [Archive](https://www.youtube.com/channel/UCqnbDFdCpuN8CMEg0VuEBqA/videos?view=2&live_view=503) |
-| USA Today | [Live](https://www.youtube.com/c/USAToday/live) | [Archive](https://www.youtube.com/channel/UCP6HGa63sBC7-KHtkme-p-g/videos?view=2&live_view=503) |
-| Politico | [Live](https://www.youtube.com/c/Politico/live) | [Archive](https://www.youtube.com/channel/UCgjtvMmHXbutALaw9XzRkAg/videos?view=2&live_view=503) |
+| PBS Newshour | [Live](https://www.youtube.com/c/PBSNewshour/live) | [Archive](https://www.youtube.com/c/PBSNewshour/videos?view=2&live_view=503) |
+| Washington Post | [Live](https://www.youtube.com/c/washingtonpost/live) | [Archive](https://www.youtube.com/c/washingtonpost/videos?view=2&live_view=503) |
+| New York Times | [Live](https://www.youtube.com/c/NYTimes/live) | [Archive](ttps://www.youtube.com/c/NYTimes/videos?view=2&live_view=503) |
+| USA Today | [Live](https://www.youtube.com/c/USAToday/live) | [Archive](https://www.youtube.com/c/USAToday/videos?view=2&live_view=503) |
+| Politico | [Live](https://www.youtube.com/c/Politico/live) | [Archive](https://www.youtube.com/c/Politico/videos?view=2&live_view=503) |
 | PBS Newshour | [Live](https://www.youtube.com/c/PBSNewsHour/live) | [Archive](https://www.youtube.com/c/PBSNewsHour/videos?view=2&live_view=503) |
 
 ## International Networks
