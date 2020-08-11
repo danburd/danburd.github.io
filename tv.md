@@ -25,7 +25,7 @@
 | Bloomberg | [Live](https://www.youtube.com/c/BloombergNews/live) | [Archive](https://www.youtube.com/channel/UCUMZ7gohGI9HcU9VNsr2FJQ/videos?view=2&live_view=503) | [hls.js](https://www.danburd.com/hlsjsvideo.html?stream=https://liveproduseast.akamaized.net/btv/desktop/us_live.m3u8) | [HLS](https://liveproduseast.akamaized.net/btv/desktop/us_live.m3u8) |
 | PBS Newshour | [Live](https://www.youtube.com/c/PBSNewshour/live) | [Archive](https://www.youtube.com/c/PBSNewshour/videos?view=2&live_view=503) |
 | Washington Post | [Live](https://www.youtube.com/c/washingtonpost/live) | [Archive](https://www.youtube.com/c/washingtonpost/videos?view=2&live_view=503) |
-| New York Times | [Live](https://www.youtube.com/c/NYTimes/live) | [Archive](ttps://www.youtube.com/c/NYTimes/videos?view=2&live_view=503) |
+| New York Times | [Live](https://www.youtube.com/c/NYTimes/live) | [Archive](https://www.youtube.com/c/NYTimes/videos?view=2&live_view=503) |
 | USA Today | [Live](https://www.youtube.com/c/USAToday/live) | [Archive](https://www.youtube.com/c/USAToday/videos?view=2&live_view=503) |
 | Politico | [Live](https://www.youtube.com/c/Politico/live) | [Archive](https://www.youtube.com/c/Politico/videos?view=2&live_view=503) |
 | PBS Newshour | [Live](https://www.youtube.com/c/PBSNewsHour/live) | [Archive](https://www.youtube.com/c/PBSNewsHour/videos?view=2&live_view=503) |
