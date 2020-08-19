@@ -26,6 +26,8 @@
 | PBS Newshour | [Live](https://www.youtube.com/c/PBSNewshour/live) | [Upcoming](https://www.youtube.com/c/PBSNewshour/videos?view=2&live_view=502) | [Archive](https://www.youtube.com/c/PBSNewshour/videos?view=2&live_view=503) |
 | Washington Post | [Live](https://www.youtube.com/c/washingtonpost/live) | [Upcoming](https://www.youtube.com/c/washingtonpost/videos?view=2&live_view=502) | [Archive](https://www.youtube.com/c/washingtonpost/videos?view=2&live_view=503) |
 | New York Times | [Live](https://www.youtube.com/c/NYTimes/live) | [Upcoming](https://www.youtube.com/c/NYTimes/videos?view=2&live_view=502) | [Archive](https://www.youtube.com/c/NYTimes/videos?view=2&live_view=503) |
+| Associated Press | [Live](https://www.youtube.com/c/ap/live) | [Upcoming](https://www.youtube.com/c/ap/videos?view=2&live_view=502) | [Archive](https://www.youtube.com/c/ap/videos?view=2&live_view=503)
+| Reuters | [Live](https://www.youtube.com/c/Reuters/) | [Upcoming](https://www.youtube.com/c/Reuters/videos?view=2&live_view=502) | [Archive]((https://www.youtube.com/c/Reuters/videos?view=2&live_view=503)
 | USA Today | [Live](https://www.youtube.com/c/USAToday/live) | [Upcoming](https://www.youtube.com/c/USAToday/videos?view=2&live_view=502) | [Archive](https://www.youtube.com/c/USAToday/videos?view=2&live_view=503) |
 | Politico | [Live](https://www.youtube.com/c/Politico/live) | [Upcoming](https://www.youtube.com/c/Politico/videos?view=2&live_view=502) | [Archive](https://www.youtube.com/c/Politico/videos?view=2&live_view=503) |
 
