@@ -1,0 +1,34 @@
+# Classical radio
+
+<link rel="stylesheet" type="text/css" href="css/markdown.css">
+<link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
+
+| hls.js | mp3 | Station | Bitrate | Nation | Schedule | Wikipedia |
+| --- | --- | --- | --- | --- | --- | --- |
+|     | [MP3](https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM.mp3) | WETA | 128 | USA | [Schedule](https://weta.org/fm/playlists) | [Wikipedia](https://en.wikipedia.org/wiki/WETA_(FM)) |
+|     | [MP3](https://playerservices.streamtheworld.com/api/livestream-redirect/WETAVLV.mp3) | Viva La Voce | 128 | USA | [Schedule](https://weta.org/fm/vlvplaylist) | N/A |
+|     | [MP3](https://ice24.securenetsystems.net/WAMU) | Bluegrass Country | 64  | USA | [Schedule](https://bluegrasscountry.org/full-schedule/) | N/A |
+|     | [MP3](http://94.23.201.38:8000/stream) | AP Baroque | 320 | Greece | [Schedule](http://stream.psychomed.gr/player/#Audiophile%20Baroque) | N/A |
+|     | [MP3](http://94.23.201.38:8010/stream) | AP Classical | 320 | Greece | [Schedule](http://stream.psychomed.gr/player/#Audiophile%20Classical) | N/A |
+| [dash.js](/dashjsaudio.html?stream=/mpd/bbc_radio_three.mpd) | [MP3](http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p) | BBC Radio 3 | 320 | UK  | [Schedule](https://www.bbc.co.uk/schedules/p00fzl8t) | [Wikipedia](https://en.wikipedia.org/wiki/BBC_Radio_3) |
+| [hls.js](/hlsjsaudio.html?stream=https://drradio2-lh.akamaihd.net/i/p2_9@143504/master.m3u8) |     | DR P2 | 320 | Denmark | [Schedule](https://www.dr.dk/radio/p2) | [Wikipedia](https://en.wikipedia.org/wiki/DR_P2) |
+| [hls.js](/hlsjsaudio.html?stream=https://ruv-rondo-live-hls.secure.footprint.net/hls-live/ruv-ras3/_definst_/live.m3u8) |     | RÚV Rondó | 320 | Iceland | [Schedule](https://www.ruv.is/rondo) | [Wikipedia](https://en.wikipedia.org/wiki/R%C3%9AV#Radio) |
+|     | [MP3](https://http-live.sr.se/p2musik-mp3-192) | Sveriges Radio P2 | 192 | Sweden | [Schedule](https://sverigesradio.se/sida/tabla.aspx?programid=2562) | [Wikipedia](https://en.wikipedia.org/wiki/Sveriges_Radio_P2) |
+|     | [MP3](https://icecast.omroep.nl/radio4-bb-mp3) | NPO Radio 4 | 192 | Netherlands | [Schedule](https://www.nporadio4.nl/gids-gemist) | [Wikipedia](https://en.wikipedia.org/wiki/NPO_Radio_4) |
+|     | [MP3](http://icecast2.rte.ie/lyric) | RTÉ Lyric FM | 160 | Ireland | [Schedule](https://www.rte.ie/lyricfm/#!) | [Wikipedia](https://en.wikipedia.org/wiki/RT%C3%89_lyric_fm) |
+| [hls.js](/hlsjsaudio.html?stream=https://nrk-klassisk.akamaized.net/42/0/hls/nrk-klassisk/playlist.m3u8) |     | NRK Klassisk | 128 | Norway | [Schedule](https://radio.nrk.no/guide) | [Wikipedia](https://en.wikipedia.org/wiki/NRK_Klassisk) |
+| [hls.js](/hlsjsaudio.html?stream=https://hlsliveamdgl0-lh.akamaihd.net/i/rnerc_1@586399/master.m3u8) |     | Radio Clásica | 128 | Spain | [Schedule](http://www.rtve.es/radio/radioclasica/programacion/) | [Wikipedia](https://en.wikipedia.org/wiki/Radio_Cl%C3%A1sica) |
+|     | [MP3](http://radiocast.rtp.pt/antena280a.mp3) | Antena 2 | 128 | Portugal | [Schedule](https://www.rtp.pt/antena2/programacao) | [Wikipedia](https://en.wikipedia.org/wiki/Antena_2_(Portugal)) |
+|     | [MP3](https://direct.francemusique.fr/live/francemusiqueeasyclassique-hifi.aac) | Easy Classique | 128 | France | [Schedule](https://www.francemusique.com/) | [Wikipedia](https://en.wikipedia.org/wiki/France_Musique) |
+|     | [MP3](https://direct.francemusique.fr/live/francemusiqueclassiqueplus-hifi.aac) | Classique Plus | 128 | France | [Schedule](https://www.francemusique.com/) | [Wikipedia](https://en.wikipedia.org/wiki/France_Musique) |
+|     | [MP3](https://direct.francemusique.fr/live/francemusiqueconcertsradiofrance-hifi.aac) | Concerts Radio France | 128 | France | [Schedule](https://www.francemusique.com/) | [Wikipedia](https://en.wikipedia.org/wiki/France_Musique) |
+|     | [MP3](http://icecast.vrtcdn.be/klara-high.mp3) | Radio Klara | 128 | Belgium (Flemish) | [Schedule](https://klara.be/playlists/dagoverzicht) | [Wikipedia](https://en.wikipedia.org/wiki/Klara_(radio_station)) |
+|     | [MP3](http://icecast.vrtcdn.be/klaracontinuo-high.mp3) | Klara Continuo | 128 | Belgium (Flemish) | [Schedule](https://klara.be/playlists/continuo) | [Wikipedia](https://en.wikipedia.org/wiki/Klara_continuo) |
+|     | [MP3](https://radios.rtbf.be/musiq3-128.aac) | Musiq'3 | 128 | Belgium (French) | [Schedule](https://www.rtbf.be/musiq3/grille-programme) | [Wikipedia](https://en.wikipedia.org/wiki/Musiq%273) |
+| [hls.js](/hlsjsaudio.html?stream=https://lsaplus.swisstxt.ch/audio/drs2_96.stream/playlist.m3u8) |     | Radio SRF 2 Kultur | 96  | Switzerland (German) | [Schedule](https://www.srf.ch/radio-srf-2-kultur/programm/musik) | [Wikipedia](https://en.wikipedia.org/wiki/Radio_SRF_2_Kultur) |
+| [hls.js](/hlsjsaudio.html?stream=https://lsaplus.swisstxt.ch/audio/espace-2_96.stream/playlist.m3u8) |     | Espace 2 | 96  | Switzerland (French) | [Schedule](https://www.rts.ch/espace-2/quel-titre/) | [Wikipedia](https://en.wikipedia.org/wiki/Espace_2) |
+| [hls.js](/hlsjsaudio.html?stream=https://lsaplus.swisstxt.ch/audio/retedue_96.stream/playlist.m3u8) |     | RSI Rete Due | 96  | Switzerland (Italian) | [Schedule](https://www.rsi.ch/palinsesto/list/ "https://www.rsi.ch/palinsesto/list/#") | [Wikipedia](https://en.wikipedia.org/wiki/RSI_Rete_Due) |
+| [hls.js](/hlsjsaudio.html?stream=https://abcradiolivehls-lh.akamaihd.net/i/classicfmnsw_1@327292/master.m3u8) |     | ABC Classic | 64  | Australia | [Schedule](https://www.abc.net.au/classic/programs/schedule/) | [Wikipedia](https://en.wikipedia.org/wiki/ABC_Classic) |
+| [hls.js](/hlsjsaudio.html?stream=https://abcradiolivehls-lh.akamaihd.net/i/classic2_1@327291/master.m3u8) |     | ABC Classic 2 | 64  | Australia | [Schedule](https://radio.abc.net.au/stations/classic2/live) | [Wikipedia](https://en.wikipedia.org/wiki/ABC_Classic_2) |
+|     | [MP3](https://stream-ice.radionz.co.nz/concert.mp3) | RNZ Concert | 64  | New Zealand | [Schedule](https://www.rnz.co.nz/concert/schedules) | [Wikipedia](https://en.wikipedia.org/wiki/RNZ_Concert) |
+| [hls.js](/hlsjsaudio.html?stream=https://rthkaudio4-lh.akamaihd.net/i/radio4_1@355867/master.m3u8) |     | RTHK Radio 4 | 56  | Hong Kong | [Schedule](https://www.rthk.hk/?lang=en) | [Wikipedia](https://en.wikipedia.org/wiki/RTHK) |
