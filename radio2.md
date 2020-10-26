@@ -302,10 +302,10 @@
 [Website](https://www.ortb.bj/), [Wikipedia](https://en.wikipedia.org/wiki/Office_de_Radiodiffusion_et_T%C3%A9l%C3%A9vision_du_B%C3%A9nin), [Permalink](#benin-office-de-radiodiffusion-et-télévision-du-bénin-ortb)
 
 |-|
-
-
-
-
+| | | | | [MP3](https://www.radioking.com/play/radio-benin/) | [mp3.js](mp3js.html?stream=https://www.radioking.com/play/radio-benin/) | Radio Benin | [Website](https://www.ortb.bj/radiobenin.html) | |  |
+| | | | | [MP3](https://www.radioking.com/play/radio-parakou) | [mp3.js](mp3js.html?stream=https://www.radioking.com/play/radio-parakou) | Radio Parakou | [Website](https://www.ortb.bj/radioparakou.html) | |  |
+| | | | | [MP3](https://www.radioking.com/play/atlantic-fm-benin) | [mp3.js](mp3js.html?stream=https://www.radioking.com/play/atlantic-fm-benin) | Radio Atlantic FM | [Website](https://www.ortb.bj/radioatlanticfm.html) | |  |
+| | | | | [MP3](https://www.radioking.com/play/radio-benin-alafia/) | [mp3.js](mp3js.html?stream=https://www.radioking.com/play/radio-benin-alafia/) | Radio Benin Alafia | [Website](https://ortb.bj/radiobeninalafia.html) | |  |
 
 
 ### Bermuda: No known public radio
@@ -320,8 +320,8 @@
 [Website](http://www.bbs.bt), [Wikipedia](https://en.wikipedia.org/wiki/Bhutan_Broadcasting_Service), [Permalink](#bhutan-bhutan-broadcasting-service-bbs)
 
 |-|
-
-
+| | | | | | | Channel 1 | [Website](http://www.bbs.bt/news/?page_id=51531) | |  |
+| | | | | | | Channel 2 | [Website](http://www.bbs.bt/news/?page_id=51531) | |  |
 
 
 ### Bolivia: Red Patria Nueva
@@ -344,6 +344,7 @@
 [Website](https://bhrt.ba/), [Wikipedia](https://en.wikipedia.org/wiki/Radio_and_Television_of_Bosnia_and_Herzegovina), [Permalink](#bosnia-and-herzegovina-bosnian-herzegovinian-radio-television-bhrt)
 
 |-|
+| | | [HLS](https://webtvstream.bhtelecom.ba/hls16/bh_radio1.m3u8) | [hls.js](/hlsjsaudio.html?stream=https://webtvstream.bhtelecom.ba/hls16/bh_radio1.m3u8) | | | BH Radio 1 | [Website](https://bhrt.ba/bhr1-uzivo/) | [Wikipedia](https://en.wikipedia.org/wiki/BH_Radio_1) |  |
 
 
 ### Bosnia and Herzegovina: Radio-Television of the Federation of Bosnia and Herzegovina (RTVFBiH)
@@ -351,6 +352,7 @@
 [Website](http://www.rtvfbih.ba/), [Wikipedia](https://en.wikipedia.org/wiki/Radio-Television_of_the_Federation_of_Bosnia_and_Herzegovina), [Permalink](#bosnia-and-herzegovina-radio-television-of-the-federation-of-bosnia-and-herzegovina-rtvfbih)
 
 |-|
+| | | | | | | Federalni Radio | | [Wikipedia](https://en.wikipedia.org/wiki/Federalni_Radio) |  |
 
 
 ### Bosnia and Herzegovina: Radio-Television of Republika Srpska (RTRS)
@@ -358,6 +360,7 @@
 [Website](http://www.rtrs.tv/), [Wikipedia](https://en.wikipedia.org/wiki/Radio_Televizija_Republike_Srpske), [Permalink](#bosnia-and-herzegovina-radio-television-of-republika-srpska-rtrs)
 
 |-|
+| | | [HLS](https://parh.rtrs.tv/radio/live/playlist.m3u8) | [hls.js](/hlsjsaudio.html?stream=https://parh.rtrs.tv/radio/live/playlist.m3u8) | | | Radio Republike Srpske | [Website](https://lat.rtrs.tv/program/uzivo.php?c=2) | [Wikipedia](https://en.wikipedia.org/wiki/Radio_Republike_Srpske) |  |
 
 
 ### Botswana: Radio Botswana (RB)
@@ -365,8 +368,8 @@
 [Website](http://www.gov.bw/), [Wikipedia](https://en.wikipedia.org/wiki/Radio_Botswana), [Permalink](#botswana-radio-botswana-rb)
 
 |-|
-
-
+| | | | | [MP3](http://168.167.134.26:8000/rb1) | [mp3.js](mp3js.html?stream=http://168.167.134.26:8000/rb1) | Radio Botswana 1 | | |  |
+| | | | | [MP3](http://168.167.134.26:8000/rb2) | [mp3.js](mp3js.html?stream=http://168.167.134.26:8000/rb2) | Radio Botswana 2 | | |  |
 
 
 ### Bouvet Island: No known public radio
@@ -404,11 +407,11 @@
 [Website](http://www.rtb.gov.bn/), [Wikipedia](https://en.wikipedia.org/wiki/Radio_Television_Brunei), [Permalink](#brunei-radio-television-brunei-rtb)
 
 |-|
-
-
-
-
-
+| | | [HLS](https://rtb-radio.glue.live/rd005/playlist.m3u8) | [hls.js](/hlsjsaudio.html?stream=https://rtb-radio.glue.live/rd005/playlist.m3u8) | | | Nasional FM | [Website](http://www.rtb.gov.bn/SitePages/Nasional%20FM.aspx) | | News |
+| | | [HLS](https://rtb-radio.glue.live/rd003/playlist.m3u8) | [hls.js](/hlsjsaudio.html?stream=https://rtb-radio.glue.live/rd003/playlist.m3u8) | | | Pilihan FM | [Website](http://www.rtb.gov.bn/SitePages/Pilihan%20FM.aspx) | | English, oldies |
+| | | [HLS](https://rtb-radio.glue.live/rd001/playlist.m3u8) | [hls.js](/hlsjsaudio.html?stream=https://rtb-radio.glue.live/rd001/playlist.m3u8) | | | Pelangi FM | [Website](http://www.rtb.gov.bn/SitePages/Pelangi%20FM.aspx) | | English and Malay music |
+| | | [HLS](https://rtb-radio.glue.live/rd002/playlist.m3u8) | [hls.js](/hlsjsaudio.html?stream=https://rtb-radio.glue.live/rd002/playlist.m3u8) | | | Harmoni FM | [Website](http://www.rtb.gov.bn/SitePages/Harmoni%20FM.aspx) | | Family and sports |
+| | | [HLS](https://rtb-radio.glue.live/rd004/playlist.m3u8) | [hls.js](/hlsjsaudio.html?stream=https://rtb-radio.glue.live/rd004/playlist.m3u8) | | | Rangkaian Nur Islam | [Website](http://www.rtb.gov.bn/SitePages/Rangkaian%20Nur%20Islam.aspx) | | Religious |
 
 
 ### Bulgaria: Bâlgarsko Nacionalno Radio (BNR)
