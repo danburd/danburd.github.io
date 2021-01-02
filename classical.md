@@ -5,6 +5,18 @@
 
 | hls.js | mp3 | Station | Bitrate | Nation | Schedule | Wikipedia |
 | --- | --- | --- | --- | --- | --- | --- |
+|     | [MP3](https://ycradio.stream.publicradio.org/ycradio.aac) | YourClassical Radio | 48  | USA | [Schedule](https://www.yourclassical.org/listen/radio) |     |
+|     | [MP3](https://holiday.stream.publicradio.org/holiday_yc.aac) | YourClassical Holiday | 48  | USA | [Schedule](https://www.yourclassical.org/listen/holiday) |     |
+|     | [MP3](https://hygge.stream.publicradio.org/hygge.aac) | YourClassical Hygge | 48  | USA | [Schedule](https://www.yourclassical.org/listen/hygge) |     |
+|     | [MP3](https://peacefulpiano.stream.publicradio.org/peacefulpiano.aac) | YourClassical Peaceful Piano | 48  | USA | [Schedule](https://www.yourclassical.org/listen/peaceful-piano) |     |
+|     | [MP3](https://classicalkids.stream.publicradio.org/classicalkids.aac) | YourClassical Kids | 48  | USA | [Schedule](https://www.yourclassical.org/listen/kids-classical) |     |
+|     | [MP3](https://relax.stream.publicradio.org/relax.aac) | YourClassical Relax | 48  | USA | [Schedule](https://www.yourclassical.org/listen/relax) |     |
+|     | [MP3](https://focus.stream.publicradio.org/focus.aac) | YourClassical Focus | 48  | USA | [Schedule](https://www.yourclassical.org/listen/focus) |     |
+|     | [MP3](https://concertband.stream.publicradio.org/concertband.aac) | YourClassical Concert Band | 48  | USA | [Schedule](https://www.yourclassical.org/listen/concertband) |     |
+|     | [MP3](https://lullabies.stream.publicradio.org/lullabies.aac) | YourClassical Lullabies | 48  | USA | [Schedule](https://www.yourclassical.org/listen/lullabies) |     |
+|     | [MP3](https://choral.stream.publicradio.org/choral.aac) | YourClassical Choral | 48  | USA | [Schedule](https://www.yourclassical.org/listen/choral) |     |
+|     | [MP3](https://chambermusic.stream.publicradio.org/chambermusic.aac) | YourClassical Chamber Music | 48  | USA | [Schedule](https://www.yourclassical.org/listen/chamber-music) |     |
+|     | [MP3](https://favorites.stream.publicradio.org/favorites.aac) | YourClassical Favorites | 48  | USA | [Schedule](https://www.yourclassical.org/listen/favorites) |     |
 |     | [MP3](https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM.mp3) | WETA | 128 | USA | [Schedule](https://weta.org/fm/playlists) | [Wikipedia](https://en.wikipedia.org/wiki/WETA_(FM)) |
 |     | [MP3](https://playerservices.streamtheworld.com/api/livestream-redirect/WETAVLV.mp3) | Viva La Voce | 128 | USA | [Schedule](https://weta.org/fm/vlvplaylist) | N/A |
 |     | [MP3](https://ice24.securenetsystems.net/WAMU) | Bluegrass Country | 64  | USA | [Schedule](https://bluegrasscountry.org/full-schedule/) | N/A |
