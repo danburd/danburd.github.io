@@ -5,8 +5,6 @@
 
 | hls.js | mp3 | Station | Bitrate | Nation | Schedule | Wikipedia |
 | --- | --- | --- | --- | --- | --- | --- |
-|     | [MP3](http://94.23.201.38:8000/stream) | AP Baroque | 320 | Greece | [Schedule](http://stream.psychomed.gr/player/#Audiophile%20Baroque) | N/A |
-|     | [MP3](http://94.23.201.38:8010/stream) | AP Classical | 320 | Greece | [Schedule](http://stream.psychomed.gr/player/#Audiophile%20Classical) | N/A |
 |     | [MP3](https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM.mp3) | WETA | 128 | USA | [Schedule](https://weta.org/fm/playlists) | [Wikipedia](https://en.wikipedia.org/wiki/WETA_(FM)) |
 |     | [MP3](https://playerservices.streamtheworld.com/api/livestream-redirect/WETAVLV.mp3) | Viva La Voce | 128 | USA | [Schedule](https://weta.org/fm/vlvplaylist) | N/A |
 |     | [MP3](https://ice24.securenetsystems.net/WAMU) | Bluegrass Country | 64  | USA | [Schedule](https://bluegrasscountry.org/full-schedule/) | N/A |
