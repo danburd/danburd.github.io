@@ -30,7 +30,7 @@
 | [hls.js](/hlsjsaudio.html?stream=https://abcradiolivehls-lh.akamaihd.net/i/classic2_1@327291/master.m3u8) |     | ABC Classic 2 | 64  | Australia | [Schedule](https://radio.abc.net.au/stations/classic2/live) | [Wikipedia](https://en.wikipedia.org/wiki/ABC_Classic_2) |
 |     | [MP3](https://stream-ice.radionz.co.nz/concert.mp3) | RNZ Concert | 64  | New Zealand | [Schedule](https://www.rnz.co.nz/concert/schedules) | [Wikipedia](https://en.wikipedia.org/wiki/RNZ_Concert) |
 | [hls.js](/hlsjsaudio.html?stream=https://rthkaudio4-lh.akamaihd.net/i/radio4_1@355867/master.m3u8) |     | RTHK Radio 4 | 56  | Hong Kong | [Schedule](https://www.rthk.hk/?lang=en) | [Wikipedia](https://en.wikipedia.org/wiki/RTHK) |
-|     | [MP3](https://ycradio.stream.publicradio.org/ycradio.aac) | YourClassical Radio | 48  | USA | [Schedule](https://www.yourclassical.org/listen/radio) |     |
+|     | [MP3](https://ycradio.stream.publicradio.org/ycradio.aac) | YourClassical Radio | 48  | USA | [Schedule](https://www.yourclassical.org/listen/radio) | [Wikipedia](https://en.wikipedia.org/wiki/Classical_24) |
 |     | [MP3](https://holiday.stream.publicradio.org/holiday_yc.aac) | YourClassical Holiday | 48  | USA | [Schedule](https://www.yourclassical.org/listen/holiday) |     |
 |     | [MP3](https://hygge.stream.publicradio.org/hygge.aac) | YourClassical Hygge | 48  | USA | [Schedule](https://www.yourclassical.org/listen/hygge) |     |
 |     | [MP3](https://peacefulpiano.stream.publicradio.org/peacefulpiano.aac) | YourClassical Peaceful Piano | 48  | USA | [Schedule](https://www.yourclassical.org/listen/peaceful-piano) |     |
