@@ -1,19 +1,7 @@
 #EXTM3U
 
-#EXTINF:0,WETA
-https://stream.weta.org:8010/fmlive
-
-#EXTINF:0,Viva La Voce
-https://stream.weta.org:8008/viva
-
-#EXTINF:0,Bluegrass Country
-https://ice24.securenetsystems.net/WAMU
-
-#EXTINF:0,Audiophile Baroque
-http://94.23.201.38:8000/stream
-
-#EXTINF:0,Audiophile Classical
-http://94.23.201.38:8010/stream
+#EXTINF:0,WETA - 128
+https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM.mp3
 
 #EXTINF:0,BBC Radio 3
 https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%3d320000.norewind.m3u8
@@ -24,38 +12,44 @@ https://drradio2-lh.akamaihd.net/i/p2_9@143504/master.m3u8
 #EXTINF:0,Iceland - 320 - RÚV Rondó
 https://ruv-rondo-live-hls.secure.footprint.net/hls-live/ruv-ras3/_definst_/live.m3u8
 
+#EXTINF:0,France - 192 - Easy Classique
+https://direct.francemusique.fr/live/francemusiqueeasyclassique-hifi.aac
+
+#EXTINF:0,France - 192 - France Musique Opéra
+https://stream.radiofrance.fr/francemusiqueopera/francemusiqueopera.m3u8
+
+#EXTINF:0,France - 192 - France Musique La Baroque
+https://stream.radiofrance.fr/francemusiquebaroque/francemusiquebaroque.m3u8
+
+#EXTINF:0,France - 192 - Classique Plus
+https://direct.francemusique.fr/live/francemusiqueclassiqueplus-hifi.aac
+
+#EXTINF:0,France - 192 - Concerts Radio France
+https://direct.francemusique.fr/live/francemusiqueconcertsradiofrance-hifi.aac
+
 #EXTINF:0,Sweden - 192 - Sveriges Radio P2
 https://http-live.sr.se/p2musik-mp3-192
 
 #EXTINF:0,Netherlands - 192 - NPO Radio 4
-http://icecast.omroep.nl/radio4-bb-mp3
+https://icecast.omroep.nl/radio4-bb-mp3
 
 #EXTINF:0,Ireland - 160 - RTÉ Lyric FM
-http://icecast2.rte.ie/lyric
+https://www.rte.ie/manifests/lyric.m3u8
 
 #EXTINF:0,Norway - 128 - NRK Klassisk
 https://nrk-klassisk.akamaized.net/42/0/hls/nrk-klassisk/playlist.m3u8
 
 #EXTINF:0,Spain - 128 - Radio Clásica
-http://hlsliveamdgl0-lh.akamaihd.net/i/rnerc_1@586399/master.m3u8
+https://hlsliveamdgl0-lh.akamaihd.net/i/rnerc_1@586399/master.m3u8
 
 #EXTINF:0,Portugal - 128 - Antena 2
-http://radiocast.rtp.pt/antena280a.mp3
-
-#EXTINF:0,France - 128 - Easy Classique
-https://direct.francemusique.fr/live/francemusiqueeasyclassique-hifi.aac
-
-#EXTINF:0,France - 128 - Classique Plus
-https://direct.francemusique.fr/live/francemusiqueclassiqueplus-hifi.aac
-
-#EXTINF:0,France - 128 - Concerts Radio France
-https://direct.francemusique.fr/live/francemusiqueconcertsradiofrance-hifi.aac
+https://streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8
 
 #EXTINF:0,Belgium - 128 - Radio Klara
-http://icecast.vrtcdn.be/klara-high.mp3
+https://live-radio-cf-vrt.akamaized.net/groupa/live/a9f36fda-cb3c-4b4e-9405-a5bba55654c0/live.isml/.m3u8
 
 #EXTINF:0,Belgium - 128 - Klara Continuo
-http://icecast.vrtcdn.be/klaracontinuo-high.mp3
+https://live-radio-cf-vrt.akamaized.net/groupa/live/0d06dbbe-92d4-4cfe-a0b3-ccc6b7a32ec4/live.isml/.m3u8
 
 #EXTINF:0,Belgium - 128 - Musiq'3
 https://radios.rtbf.be/musiq3-128.aac
@@ -80,3 +74,39 @@ https://stream-ice.radionz.co.nz/concert.mp3
 
 #EXTINF:0,Hong Kong - 56 - RTHK Radio 4
 https://rthkaudio4-lh.akamaihd.net/i/radio4_1@355867/master.m3u8
+
+#EXTINF:0,YourClassical Radio - 48
+https://ycradio.stream.publicradio.org/ycradio.aac
+
+#EXTINF:0,YourClassical Holiday - 48
+https://holiday.stream.publicradio.org/holiday_yc.aac
+
+#EXTINF:0,YourClassical Hygge - 48
+https://hygge.stream.publicradio.org/hygge.aac
+
+#EXTINF:0,YourClassical Peaceful Piano - 48
+https://peacefulpiano.stream.publicradio.org/peacefulpiano.aac
+
+#EXTINF:0,YourClassical Kids - 48
+https://classicalkids.stream.publicradio.org/classicalkids.aac
+
+#EXTINF:0,YourClassical Relax - 48
+https://relax.stream.publicradio.org/relax.aac
+
+#EXTINF:0,YourClassical Focus - 48
+https://focus.stream.publicradio.org/focus.aac
+
+#EXTINF:0,YourClassical Concert Band - 48
+https://concertband.stream.publicradio.org/concertband.aac
+
+#EXTINF:0,YourClassical Lullabies - 48
+https://lullabies.stream.publicradio.org/lullabies.aac
+
+#EXTINF:0,YourClassical Choral - 48
+https://choral.stream.publicradio.org/choral.aac
+
+#EXTINF:0,YourClassical Chamber Music - 48
+https://chambermusic.stream.publicradio.org/chambermusic.aac
+
+#EXTINF:0,YourClassical Favorites - 48
+https://favorites.stream.publicradio.org/favorites.aac
