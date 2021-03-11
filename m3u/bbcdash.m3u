@@ -6,6 +6,9 @@ https://www.danburd.com/mpd/bbc_world_service.mpd
 #EXTINF:0,BBC Radio 4
 https://www.danburd.com/mpd/bbc_radio_fourfm.mpd
 
+#EXTINF:0,BBC Radio 4 Extra
+https://www.danburd.com/mpd/bbc_radio_four_extra.mpd
+
 #EXTINF:0,BBC Radio 3
 https://www.danburd.com/mpd/bbc_radio_three.mpd
 
@@ -21,8 +24,8 @@ https://www.danburd.com/mpd/bbc_radio_one.mpd
 #EXTINF:0,BBC Radio 1xtra
 https://www.danburd.com/mpd/bbc_1xtra.mpd
 
-#EXTINF:0,BBC Radio 4 Extra
-https://www.danburd.com/mpd/bbc_radio_four_extra.mpd
+#EXTINF:0,BBC Radio 1 Dance
+https://www.danburd.com/mpd/bbc_radio_one_dance.mpd
 
 #EXTINF:0,BBC Radio 5 Live
 https://www.danburd.com/mpd/bbc_radio_five_live.mpd
