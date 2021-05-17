@@ -1,0 +1,5 @@
+URL/URL path to exclude: danburd.com (and all subdomains)
+
+time period of domain ownership: 2009 to present
+
+time period to exclude: 2010-01-01 to 2020-12-31
