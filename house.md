@@ -7,8 +7,8 @@
 [Schedule](https://www.house.gov/legislative-activity)  
 [Official](https://www.congress.gov/committees/video)
 
-| Committee | YT  | YT  | Official | Committee Website |
-| --- | --- | --- | --- | --- |
+| Committee | YT  | YT  | Official | Committee Website | Wikipedia |
+| --- | --- | --- | --- | --- | --- |
 | Agriculture | [Live](https://www.youtube.com/channel/UCOWh2WJxPywHIaccDWb8Mvg/live) | [Archive](https://www.youtube.com/channel/UCOWh2WJxPywHIaccDWb8Mvg/videos?view=2&live_view=503) | [Official](https://www.congress.gov/committees/video/house-agriculture/hsag00) | [Committee Website](https://agriculture.house.gov/) | [Wikipedia](https://en.wikipedia.org/wiki/United_States_House_Committee_on_Agriculture) |
 | Appropriations | [Live](https://www.youtube.com/channel/UCMaSlF09S0fpoRshS2t_7XA/live) | [Archive](https://www.youtube.com/channel/UCMaSlF09S0fpoRshS2t_7XA/videos?view=2&live_view=503) | [Official](https://www.congress.gov/committees/video/house-appropriations/hsap00) | [Committee Website](https://appropriations.house.gov/) | [Wikipedia](https://en.wikipedia.org/wiki/United_States_House_Committee_on_Appropriations) |
 | Armed Services | [Live](https://www.youtube.com/channel/UCD506yORW2voSanqEgLOUIQ/live) | [Archive](https://www.youtube.com/channel/UCD506yORW2voSanqEgLOUIQ/videos?view=2&live_view=503) | [Official](https://www.congress.gov/committees/video/house-armed-services/hsas00) | [Committee Website](https://armedservices.house.gov/) | [Wikipedia](https://en.wikipedia.org/wiki/United_States_House_Committee_on_Armed_Services) |
