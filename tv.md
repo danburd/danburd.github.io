@@ -55,6 +55,6 @@
 | Sky News | [Youtube](https://www.youtube.com/c/skynews/live) |     |     | UK  | English | Private | [Website](https://news.sky.com/story/watch-sky-news-live-10315632) | [Wikipedia](https://en.wikipedia.org/wiki/Sky_News#Sky_News_International) |
 | TVC News | [Youtube](https://www.youtube.com/c/TVCNewsNigeria/live) |     |     | Nigeria | Various | Private | [Website](https://tvcnews.tv/live-streaming/) | [Wikipedia](https://en.wikipedia.org/wiki/TVC_News) |
 | Africanews | [Youtube](https://www.youtube.com/c/africanews/live) |     |     | Congo | Various | Private | [Website](https://www.africanews.com/live/) | [Wikipedia](https://en.wikipedia.org/wiki/Africanews) |
-| KBS World | [Youtube](https://www.youtube.com/channel/UC5BMQOsAB8hKUyHu9KI6yig/live) |     |     | South Korea | Korean | Public | [Website](https://kbsworld.kbs.co.kr/index_en.php) | [Wikipedia](https://en.wikipedia.org/wiki/KBS_World_(TV_channel)) |
+| KBS World | [Youtube](https://www.youtube.com/c/kbsworldtv/live) |     |     | South Korea | Korean | Public | [Website](https://kbsworld.kbs.co.kr/index_en.php) | [Wikipedia](https://en.wikipedia.org/wiki/KBS_World_(TV_channel)) |
 | RTHK TV 31 |     |     | [HLS](https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8) | Hong Kong | Cantonese | Public | [Website](https://www.rthk.hk/tv) | [Wikipedia](https://en.wikipedia.org/wiki/RTHK_TV_31,_31A) |
 | RTHK TV 32 |     |     | [HLS](https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8) | Hong Kong | Cantonese | Public | [Website](https://www.rthk.hk/tv) |     |
