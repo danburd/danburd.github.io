@@ -31,7 +31,7 @@
 | USA Today | [Live](https://www.youtube.com/c/USAToday/live) | [Upcoming](https://www.youtube.com/c/USAToday/videos?view=2&live_view=502) | [Archive](https://www.youtube.com/c/USAToday/videos?view=2&live_view=503) |
 | Politico | [Live](https://www.youtube.com/c/Politico/live) | [Upcoming](https://www.youtube.com/c/Politico/videos?view=2&live_view=502) | [Archive](https://www.youtube.com/c/Politico/videos?view=2&live_view=503) |
 
-## International Networks
+## International Networks ([list](https://en.wikipedia.org/wiki/List_of_world_news_channels))
 
 | Station | YT | hls.js | HLS | Nation | Language | Funding | Website | Wikipedia |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
