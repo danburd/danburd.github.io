@@ -18,7 +18,7 @@ Panda Cam 1 (<a href="/hlsjsvideo.html?stream=https://nzp-ms05.si.edu/live_edge_
   if(Hls.isSupported()) {
     var video = document.getElementById('panda22');
     var hls = new Hls();
-    hls.loadSource('https://nzp-ms06.si.edu/live_edge_panda/smil:panda02_all.smil/playlist.m3u8');
+    hls.loadSource('https://nzp-ms04.si.edu/live_edge_panda/smil:panda02_all.smil/playlist.m3u8');
     hls.attachMedia(panda22);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
@@ -33,7 +33,7 @@ Panda Cam 2 (<a href="/hlsjsvideo.html?stream=https://nzp-ms05.si.edu/live_edge_
   if(Hls.isSupported()) {
     var video = document.getElementById('panda32');
     var hls = new Hls();
-    hls.loadSource('https://nzp-ms06.si.edu/live_edge_panda/smil:panda03_all.smil/playlist.m3u8');
+    hls.loadSource('https://nzp-ms05.si.edu/live_edge_panda/smil:panda03_all.smil/playlist.m3u8');
     hls.attachMedia(panda32);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
