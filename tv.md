@@ -7,7 +7,7 @@
 [Senate](/senate.html)  
 [Live Now News Playlist](https://www.youtube.com/playlist?list=PL3ZQ5CpNulQmA2Tegc98c0XXJTzuKb0wS)  
 [Upcoming Live Streams](https://www.youtube.com/playlist?list=PLU12uITxBEPHHlOIWGAIezbshH82rGpKp)  
-[Recent Live Streams](https://www.youtube.com/playlist?list=PLU12uITxBEPFteq84ODnPRJjskBgVQC2M)
+[Recent Live Streams](https://www.youtube.com/playlist?list=PLU12uITxBEPFteq84ODnPRJjskBgVQC2M)  
 [Panda](/panda.html)
 
 ## International Networks ([list](https://en.wikipedia.org/wiki/List_of_world_news_channels))
