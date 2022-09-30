@@ -30,7 +30,7 @@
 | DC2  | Pentagon, Bay U9 | 11 & F St NW | Archives  | [ETA](https://buseta.wmata.com/m/index?q=6001295) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_18231) |
 | DC2  | 11 & F St NW     | Pentagon     | Pentagon  | [ETA](https://buseta.wmata.com/m/index?q=1001041) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_22003) |
 
-## Arrival Times
+## Arrivals
 
 | Bus  | Location          | Destination   | Direction | ETA                                               | Schedule                                                     |
 | ---- | ----------------- | ------------- | --------- | ------------------------------------------------- | ------------------------------------------------------------ |
@@ -49,5 +49,5 @@
 
 ## PDF's
 
-  - https://www.wmata.com/schedules/timetables/upload/7A_211226.pdf
-  - https://www.wmata.com/schedules/timetables/upload/22A,F%2028F_220529.pdf
+  - [7A](https://www.wmata.com/schedules/timetables/upload/7A_211226.pdf)
+  - [22A](https://www.wmata.com/schedules/timetables/upload/22A,F%2028F_220529.pdf)
