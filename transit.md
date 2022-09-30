@@ -1,5 +1,8 @@
 # Transit
 
+<link rel="stylesheet" type="text/css" href="css/markdown.css">
+<link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
+
 ## Departing
 
 | Bus  | Location                 | Destination        | Direction | ETA                                               | Schedule                                                     |
@@ -21,18 +24,21 @@
 | 22A  | Pentagon City, Bay C | 31st Rd & S Abingdon     | Ballston  | [ETA](https://buseta.wmata.com/m/index?q=6001402) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27717) |
 
 ## Intermediate
+
 | Bus  | Location         | Destination  | Direction | ETA                                               | Schedule                                                     |
 | ---- | ---------------- | ------------ | --------- | ------------------------------------------------- | ------------------------------------------------------------ |
 | DC2  | Pentagon, Bay U9 | 11 & F St NW | Archives  | [ETA](https://buseta.wmata.com/m/index?q=6001295) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_18231) |
 | DC2  | 11 & F St NW     | Pentagon     | Pentagon  | [ETA](https://buseta.wmata.com/m/index?q=1001041) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_22003) |
 
 ## Arrival Times
+
 | Bus  | Location          | Destination   | Direction | ETA                                               | Schedule                                                     |
 | ---- | ----------------- | ------------- | --------- | ------------------------------------------------- | ------------------------------------------------------------ |
 | 7A   | Pentagon, Bay U11 | Pentagon      | Pentagon  | [ETA](https://buseta.wmata.com/m/index?q=6000938) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_14595) |
 | 7A   | 12th and S Hayes  | Pentagon City | Pentagon  | [ETA](https://buseta.wmata.com/m/index?q=6001385) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27613) |
 
 ## Metrorail
+
 | Station          | ETA                                                          |
 | ---------------- | ------------------------------------------------------------ |
 | Pentagon         | [ETA](https://www.wmata.com/js/nexttrain/nexttrain.html#C07) |
@@ -42,5 +48,6 @@
 | Ballston         | [ETA](https://www.wmata.com/js/nexttrain/nexttrain.html#K04) |
 
 ## PDF's
+
   - https://www.wmata.com/schedules/timetables/upload/7A_211226.pdf
   - https://www.wmata.com/schedules/timetables/upload/22A,F%2028F_220529.pdf
