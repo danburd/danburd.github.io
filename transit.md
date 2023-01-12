@@ -19,9 +19,10 @@
 | 7A   | Pentagon, Bay U5     | 31st & S Abingdon (near) | Van Dorn  | [ETA](https://buseta.wmata.com/m/index?q=6000884) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_14261) |
 | 22A  | Pentagon, Bay U4     | 31st Rd & S Abingdon     | Ballston  | [ETA](https://buseta.wmata.com/m/index?q=6000904) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_14313) |
 | 22A  | Barcroft             | 31st & S Abingdon (near) | Pentagon  | [ETA](https://buseta.wmata.com/m/index?q=6001398) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27713) |
-| 22A  | Ballston, Bay T3     | 31st & S Abingdon (near) | Pentagon  | [ETA](https://buseta.wmata.com/m/index?q=6001406) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27884) |
+| 22A  | Ballston, Bay G     | 31st & S Abingdon (near) | Pentagon  | [ETA](https://buseta.wmata.com/m/index?q=6001072) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_28055) |
 | 7A   | Pentagon City, Bay C | 31st & S Abingdon (near) | Van Dorn  | [ETA](https://buseta.wmata.com/m/index?q=6001402) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27717) |
 | 22A  | Pentagon City, Bay C | 31st Rd & S Abingdon     | Ballston  | [ETA](https://buseta.wmata.com/m/index?q=6001402) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27717) |
+| 7A, 22A | Shirlington, Bay B | 31st & S Abingdon (near) | Van Dorn / Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
 
 ## Intermediate
 
