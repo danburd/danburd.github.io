@@ -11,6 +11,7 @@
 | 22A  | 31st & #4510             | Ballston, Barcroft | Ballston  | [ETA](https://buseta.wmata.com/m/index?q=6000025) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2199) |
 | 7A   | 31st & S Abingdon (near) | Van Dorn           | Van Dorn  | [ETA](https://buseta.wmata.com/m/index?q=6000022) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2180) |
 | 22A  | 31st & S Abingdon (near) | Pentagon           | Pentagon  | [ETA](https://buseta.wmata.com/m/index?q=6000022) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2180) |
+| 31   | King St & N Dearing      | Alexandria         | Braddock Metro | [ETA](https://tracker.dashbus.com/bustime/wireless/html/eta.jsp?route=31&direction=EASTBOUND&id=4000338&showAllBusses=off) | |
 
 ## Returning
 
