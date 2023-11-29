@@ -8,7 +8,7 @@
 
     <UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-iso:2014" value="https://time.akamai.com/?iso" />
 
-    <BaseURL dvb:priority="1" dvb:weight="1" serviceLocation="aks">https://as-dash-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_scotland_fm/bbc_radio_scotland_fm.isml/dash/</BaseURL>
+    <BaseURL dvb:priority="1" dvb:weight="1" serviceLocation="aks">https://as-dash-ww.live.cf.md.bbci.co.uk/pool_904/live/ww/bbc_radio_scotland_fm/bbc_radio_scotland_fm.isml/dash/</BaseURL>
 
     <Period id="1" start="PT0S">
     <AdaptationSet group="1" contentType="audio" lang="en" minBandwidth="320000" maxBandwidth="320000"
