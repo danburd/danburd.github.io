@@ -11,7 +11,11 @@
 | 22A  | 31st & #4510             | Ballston, Barcroft | Ballston  | [ETA](https://buseta.wmata.com/m/index?q=6000025) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2199) |
 | 7A   | 31st & S Abingdon (near) | Van Dorn           | Van Dorn  | [ETA](https://buseta.wmata.com/m/index?q=6000022) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2180) |
 | 22A  | 31st & S Abingdon (near) | Pentagon           | Pentagon  | [ETA](https://buseta.wmata.com/m/index?q=6000022) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2180) |
-| 31   | King St & N Dearing      | Alexandria         | Braddock Metro | [ETA](https://tracker.dashbus.com/bustime/wireless/html/eta.jsp?route=31&direction=EASTBOUND&id=4000338&showAllBusses=off) | |
+| 31   | King St & N Dearing      | Alexandria         | Braddock Metro | [ETA](https://dashbus.obaweb.org/tracker/#4000338) | |
+| 72 | Shirlington, Bay D | Ballston, Barcroft | Rock Spring | [ETA](https://www.arlingtontransit.com/realtime/all/6001237) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/72) |
+| 75 | Shirlington, Bay F | Wakefield | Virginia Square | [ETA](https://www.arlingtontransit.com/realtime/75/6001270) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/75) |
+| 77 | Shirlington, Bay E | Quincy Square | Quincy Square | [ETA](https://www.arlingtontransit.com/realtime/77/6001276) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/77) |
+| 87/X | Shirlington, Bay E | Gunston | Pentagon Metro | [ETA](https://www.arlingtontransit.com/realtime/87/6001276) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/87) |
 
 ## Returning
 
@@ -24,6 +28,8 @@
 | 7A   | Pentagon City, Bay C | 31st & S Abingdon (near) | Van Dorn  | [ETA](https://buseta.wmata.com/m/index?q=6001402) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27717) |
 | 22A  | Pentagon City, Bay C | 31st Rd & S Abingdon     | Ballston  | [ETA](https://buseta.wmata.com/m/index?q=6001402) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27717) |
 | 7A, 22A | Shirlington, Bay B | 31st & S Abingdon (near) | Van Dorn / Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
+| 87 | Gunston (28th St S @ 1334/S Mead) | Shirlington | Shirlington | [ETA](https://www.arlingtontransit.com/realtime/87/6000073) | |
+| 75 | Wakefield (S Dinwiddie St @ S George Mason Dr) | Shirlington | Shirlington | [ETA](https://www.arlingtontransit.com/realtime/75/6001259) | |
 
 ## Intermediate
 
