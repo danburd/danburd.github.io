@@ -31,13 +31,6 @@
 | 87 | Gunston (28th St S @ 1334/S Mead) | Shirlington | Shirlington | [ETA](https://www.arlingtontransit.com/realtime/87/6000073) | |
 | 75 | Wakefield (Dinwiddie @ George Mason) | Shirlington | Shirlington | [ETA](https://www.arlingtontransit.com/realtime/75/6001259) | |
 
-## Intermediate
-
-| Bus  | Location         | Destination  | Direction | ETA                                               | Schedule                                                     |
-| ---- | ---------------- | ------------ | --------- | ------------------------------------------------- | ------------------------------------------------------------ |
-| DC2  | Pentagon, Bay U9 | 11 & F St NW | Archives  | [ETA](https://buseta.wmata.com/m/index?q=6001295) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_18231) |
-| DC2  | 11 & F St NW     | Pentagon     | Pentagon  | [ETA](https://buseta.wmata.com/m/index?q=1001041) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_22003) |
-
 ## Arrivals
 
 | Bus  | Location          | Destination   | Direction | ETA                                               | Schedule                                                     |
