@@ -5,7 +5,6 @@
 
 [House](/house.html)  
 [Senate](/senate.html)  
-[Panda](/panda.html)  
 [Live Now News Playlist](https://www.youtube.com/playlist?list=PL3ZQ5CpNulQmA2Tegc98c0XXJTzuKb0wS)  
 [Upcoming Live Streams](https://www.youtube.com/playlist?list=PLU12uITxBEPHHlOIWGAIezbshH82rGpKp)  
 [Recent Live Streams](https://www.youtube.com/playlist?list=PLU12uITxBEPFteq84ODnPRJjskBgVQC2M)
