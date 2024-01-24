@@ -19,7 +19,7 @@
 | --- | -------- | ----------- | --------- | --- | -------- |
 | 10B | Bay A | | Hunting Point | [ETA](https://buseta.wmata.com/m/index?q=6001234) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16442) |
 | 23A | Bay A | | Crystal City | [ETA](https://buseta.wmata.com/m/index?q=6001234) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16442) |
-| 23B | Bay A | | Crystal City | [ETA](https://buseta.wmata.com/m/index?q=6001234) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16442) |
+| 23B | Bay A | Gunston | Crystal City | [ETA](https://buseta.wmata.com/m/index?q=6001234) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16442) |
 | 7A | Bay B | | Southern Towers | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
 | 22A | Bay B | | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
 | 7A | Bay C | | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001236) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16456) |
@@ -29,7 +29,7 @@
 | 23B | Bay D | | Ballston | [ETA](https://buseta.wmata.com/m/index?q=6001237) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16448) |
 | 23T | Bay D | | Tysons | [ETA](https://buseta.wmata.com/m/index?q=6001237) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16448) |
 | 72 | Bay D | Ballston, Barcroft | Rock Spring | [ETA](https://www.arlingtontransit.com/realtime/72/6001237) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/72) |
-| 77 | Bay E | | Quincy Square | [ETA](https://www.arlingtontransit.com/realtime/77/6001276) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/77) |
+| 77 | Bay E | | Court House | [ETA](https://www.arlingtontransit.com/realtime/77/6001276) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/77) |
 | 87/X | Bay E | Gunston | Pentagon Metro | [ETA](https://www.arlingtontransit.com/realtime/87/6001276) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/87) |
 | 75 | Bay F | Wakefield | Virginia Square | [ETA](https://www.arlingtontransit.com/realtime/75/6001270) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/75) |
 | 36A/B | Bay G | | Mark Center & Potomac Yard | [ETA](https://dashbus.obaweb.org/tracker/m/?q=71_719) | [Schedule](https://dashbus.obaweb.org/tracker/where/schedule?id=71_719) |
