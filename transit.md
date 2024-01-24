@@ -12,6 +12,7 @@
 | 7A | 31st & S Abingdon (near) | | Van Dorn | [ETA](https://buseta.wmata.com/m/index?q=6000022) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2180) |
 | 22A | 31st & S Abingdon (near) | | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6000022) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2180) |
 | 31 | King St & N Dearing | Old Town | Braddock Metro | [ETA](https://dashbus.obaweb.org/tracker/m/?q=1_1846) | [Schedule](https://dashbus.obaweb.org/tracker/where/schedule?id=1_1846) |
+| 31 | King St & N Dearing | | NVCC | [ETA](https://dashbus.obaweb.org/tracker/m/?q=1_1845) | [Schedule](https://dashbus.obaweb.org/tracker/where/schedule?id=1_1845) |
 
 ## Shirlington
 
@@ -45,12 +46,11 @@
 | 22A | Ballston, Bay G | 31st & S Abingdon (near) | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001072) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_28055) |
 | 7A | Pentagon City, Bay C | 31st & S Abingdon (near) | Van Dorn | [ETA](https://buseta.wmata.com/m/index?q=6001402) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27717) |
 | 22A | Pentagon City, Bay C | 31st Rd & S Abingdon | Ballston | [ETA](https://buseta.wmata.com/m/index?q=6001402) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27717) |
-| 7A, 22A | Shirlington, Bay B | 31st & S Abingdon (near) | Van Dorn / Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
 | 87 | Gunston (28th St S @ 1334/S Mead) | | Shirlington | [ETA](https://www.arlingtontransit.com/realtime/87/6000073) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/87) |
+| 23B | Gunston (Arlington Ridge & Lang) | Shirlington | [ETA](https://buseta.wmata.com/m/index?q=6000084) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2674) |
 | 75 | Wakefield (Dinwiddie @ George Mason) | | Shirlington | [ETA](https://www.arlingtontransit.com/realtime/75/6001259) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/75) |
-| 31 | King St & N Dearing | | NVCC | [ETA](https://dashbus.obaweb.org/tracker/m/?q=1_1845) | [Schedule](https://dashbus.obaweb.org/tracker/where/schedule?id=1_1845) |
 
-## Arrivals
+## Other Arrivals
 
 | Bus | Location | Destination | Direction | ETA | Schedule |
 | --- | -------- | ----------- | --------- | --- | -------- |
@@ -72,7 +72,7 @@
  - [7A](https://www.wmata.com/schedules/timetables/upload/7A_211226.pdf)
  - [22A](https://www.wmata.com/schedules/timetables/upload/22A,F%2028F_220529.pdf)
 
- ## iRide Eligible MetroBus Routes
+## iRide Eligible MetroBus Routes
 
 [Information](https://www.arlingtontransit.com/about/programs/iride-for-arlington-students/)
 
