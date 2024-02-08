@@ -31,7 +31,7 @@
 | 23T | Bay D | | Tysons | [ETA](https://buseta.wmata.com/m/index?q=6001237) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16448) |
 | 72 | Bay D | Ballston, Barcroft | Rock Spring | [ETA](https://www.arlingtontransit.com/realtime/72/6001237) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/72) |
 | 77 | Bay E | | Court House | [ETA](https://www.arlingtontransit.com/realtime/77/6001276) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/77) |
-| 87/X | Bay E | Gunston | Pentagon Metro | [ETA](https://www.arlingtontransit.com/realtime/87/6001276) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/87) |
+| 87/X | Bay E | Gunston | Pentagon | [ETA](https://www.arlingtontransit.com/realtime/87/6001276) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/87) |
 | 75 | Bay F | Wakefield | Virginia Square | [ETA](https://www.arlingtontransit.com/realtime/75/6001270) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/75) |
 | 36A/B | Bay G | | Mark Center & Potomac Yard | [ETA](https://dashbus.obaweb.org/tracker/m/?q=71_719) | [Schedule](https://dashbus.obaweb.org/tracker/where/schedule?id=71_719) |
 
@@ -47,7 +47,7 @@
 | 7A | Pentagon City, Bay C | 31st & S Abingdon (near) | Van Dorn | [ETA](https://buseta.wmata.com/m/index?q=6001402) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27717) |
 | 22A | Pentagon City, Bay C | 31st Rd & S Abingdon | Ballston | [ETA](https://buseta.wmata.com/m/index?q=6001402) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27717) |
 | 87 | Gunston (28th St S @ 1334/S Mead) | | Shirlington | [ETA](https://www.arlingtontransit.com/realtime/87/6000073) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/87) |
-| 23B | Gunston (Arlington Ridge & Lang) | Shirlington | [ETA](https://buseta.wmata.com/m/index?q=6000084) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2674) |
+| 23B | Gunston (Arlington Ridge & Lang) | | Shirlington | [ETA](https://buseta.wmata.com/m/index?q=6000084) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2674) |
 | 75 | Wakefield (Dinwiddie @ George Mason) | | Shirlington | [ETA](https://www.arlingtontransit.com/realtime/75/6001259) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/75) |
 
 ## Other Arrivals
