@@ -5,7 +5,9 @@
 
 
 [Schedule](https://www.house.gov/legislative-activity)  
-[Official](https://www.congress.gov/committees/video)
+[Official](https://www.congress.gov/committees/video)  
+[Live Floor](https://live.house.gov)  
+[Example Stream](/dashjsvideo.html?stream=https://houseliveprod.streaming.mediaservices.windows.net/a50864f6-54ff-47ac-83ff-c51821a27d43/f872586a-4b2a-4518-8dbf-15d0040824a7.ism/manifest(format%3Dmpd-time-csf))
 
 | Committee | Live | Streams | Official | Committee Website | [Wikipedia](https://en.wikipedia.org/wiki/List_of_United_States_House_of_Representatives_committees) |
 | --- | --- | --- | --- | --- | --- |
