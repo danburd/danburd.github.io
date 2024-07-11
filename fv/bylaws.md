@@ -1,7 +1,11 @@
+<link rel="stylesheet" type="text/css" href="/css/markdown.css">
+<link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
 <style type="text/css">
 ol { list-style-type: lower-alpha; }
 ol ol { list-style-type: decimal; }
 </style>
+
+# Fairlington Villages Bylaws
 
 - [Article I - General](#article-1)
 - [Article II - Unit Owners Association](#article-2)
