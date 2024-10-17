@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zoo Cams</title>
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/default.css">
+  <link rel="shortcut icon" href="ico/favicon.png" type="image/x-icon">
+  <script src="js/hls.min.js"></script>
+</head>
+<body>
+
+<a href="https://nationalzoo.si.edu/webcams/panda-cam">Panda</a> <a href="https://nationalzoo.si.edu/webcams/naked-mole-rat-cam">Naked Mole Rat</a> <a href="https://nationalzoo.si.edu/webcams/elephants">Elephants</a> <a href="https://nationalzoo.si.edu/webcams/lion-cam">Lions</a>
+<br>
+<br>
+<div id="nmr21" class="left">
+Naked Mole Rat Cam 1 (<a href="/hlsjsvideo.html?stream=https://nzp-wowza01.si.edu/live_edge_nmr/nmr_1080_all.smil/playlist.m3u8">Fullscreen</a>)
+<video controls muted autoplay width="608" height="342" id="nmr22"></video><script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('nmr22');
+    var hls = new Hls();
+    hls.loadSource('https://nzp-wowza01.si.edu/live_edge_nmr/nmr_1080_all.smil/playlist.m3u8');
+    hls.attachMedia(nmr22);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+  }
+</script>
+</div>
+
+<div id="nmr31" class="left">
+Naked Mole Rat Cam 2 (<a href="/hlsjsvideo.html?stream=https://nzp-wowza01.si.edu/live_edge_nmr_02/nmr_02_1080_all.smil/playlist.m3u8">Fullscreen</a>)
+<video controls muted autoplay width="608" height="342" id="nmr32"></video><script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('nmr32');
+    var hls = new Hls();
+    hls.loadSource('https://nzp-wowza01.si.edu/live_edge_nmr_02/nmr_02_1080_all.smil/playlist.m3u8');
+    hls.attachMedia(nmr32);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+  }
+</script>
+</div>
+
+<div id="elephant21" class="left">
+Elephant Cam (<a href="/hlsjsvideo.html?stream=https://nzp-wowza01.si.edu/live_edge_elephant/elephant01_all.smil/playlist.m3u8">Fullscreen</a>)
+<video controls muted autoplay width="608" height="342" id="elephant22"></video><script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('elephant22');
+    var hls = new Hls();
+    hls.loadSource('https://nzp-wowza01.si.edu/live_edge_elephant/elephant01_all.smil/playlist.m3u8');
+    hls.attachMedia(elephant22);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+  }
+</script>
+</div>
+
+<div id="lion21" class="left">
+Lion Cam (<a href="/hlsjsvideo.html?stream=https://nzp-wowza02.si.edu/live_edge_lion/smil:lion01_all.smil/playlist.m3u8">Fullscreen</a>)
+<video controls muted autoplay width="608" height="342" id="lion22"></video><script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('lion22');
+    var hls = new Hls();
+    hls.loadSource('https://nzp-wowza02.si.edu/live_edge_lion/smil:lion01_all.smil/playlist.m3u8');
+    hls.attachMedia(lion22);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+  }
+</script>
+</div>
+
+<div id="panda21" class="left">
+Panda Cam 1 (<a href="/hlsjsvideo.html?stream=https://nzp-wowza02.si.edu/live_edge_panda/smil:panda02_all.smil/playlist.m3u8">Fullscreen</a>)
+<video controls muted autoplay width="608" height="342" id="panda22"></video><script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('panda22');
+    var hls = new Hls();
+    hls.loadSource('https://nzp-wowza02.si.edu/live_edge_panda/smil:panda02_all.smil/playlist.m3u8');
+    hls.attachMedia(panda22);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+  }
+</script>
+</div>
+
+<div id="panda31" class="left">
+Panda Cam 2 (<a href="/hlsjsvideo.html?stream=https://nzp-wowza01.si.edu/live_edge_panda/smil:panda03_all.smil/playlist.m3u8">Fullscreen</a>)
+<video controls muted autoplay width="608" height="342" id="panda32"></video><script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('panda32');
+    var hls = new Hls();
+    hls.loadSource('https://nzp-wowza01.si.edu/live_edge_panda/smil:panda03_all.smil/playlist.m3u8');
+    hls.attachMedia(panda32);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+  }
+</script>
+</div>
+
+</body>
+</html>
