@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<a href="https://nationalzoo.si.edu/webcams/panda-cam">Panda</a> <a href="https://nationalzoo.si.edu/webcams/naked-mole-rat-cam">Naked Mole Rat</a> <a href="https://nationalzoo.si.edu/webcams/elephants">Elephants</a> <a href="https://nationalzoo.si.edu/webcams/lion-cam">Lions</a>
+Official sites: <a href="https://nationalzoo.si.edu/webcams/panda-cam">Pandas</a>, <a href="https://nationalzoo.si.edu/webcams/naked-mole-rat-cam">Naked Mole Rats</a>, <a href="https://nationalzoo.si.edu/webcams/elephants">Elephants</a>, <a href="https://nationalzoo.si.edu/webcams/lion-cam">Lions</a>
 <br>
 <br>
 <div id="nmr21" class="left">
@@ -43,7 +43,7 @@ Naked Mole Rat Cam 2 (<a href="/hlsjsvideo.html?stream=https://nzp-wowza01.si.ed
 </div>
 
 <div id="elephant21" class="left">
-Elephant Cam (<a href="/hlsjsvideo.html?stream=https://nzp-wowza01.si.edu/live_edge_elephant/elephant01_all.smil/playlist.m3u8">Fullscreen</a>)
+Elephant Cam 1 (<a href="/hlsjsvideo.html?stream=https://nzp-wowza01.si.edu/live_edge_elephant/elephant01_all.smil/playlist.m3u8">Fullscreen</a>)
 <video controls muted autoplay width="608" height="342" id="elephant22"></video><script>
   if(Hls.isSupported()) {
     var video = document.getElementById('elephant22');
@@ -57,14 +57,44 @@ Elephant Cam (<a href="/hlsjsvideo.html?stream=https://nzp-wowza01.si.edu/live_e
 </script>
 </div>
 
+<div id="elephant31" class="left">
+Elephant Cam 2 (<a href="/hlsjsvideo.html?stream=https://nzp-wowza02.si.edu/live_edge_elephant/elephant01_all.smil/playlist.m3u8">Fullscreen</a>)
+<video controls muted autoplay width="608" height="342" id="elephant32"></video><script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('elephant32');
+    var hls = new Hls();
+    hls.loadSource('https://nzp-wowza02.si.edu/live_edge_elephant/elephant01_all.smil/playlist.m3u8');
+    hls.attachMedia(elephant32);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+  }
+</script>
+</div>
+
 <div id="lion21" class="left">
-Lion Cam (<a href="/hlsjsvideo.html?stream=https://nzp-wowza02.si.edu/live_edge_lion/smil:lion01_all.smil/playlist.m3u8">Fullscreen</a>)
+Lion Cam 1 (<a href="/hlsjsvideo.html?stream=https://nzp-wowza01.si.edu/live_edge_lion/smil:lion01_all.smil/playlist.m3u8">Fullscreen</a>)
 <video controls muted autoplay width="608" height="342" id="lion22"></video><script>
   if(Hls.isSupported()) {
     var video = document.getElementById('lion22');
     var hls = new Hls();
-    hls.loadSource('https://nzp-wowza02.si.edu/live_edge_lion/smil:lion01_all.smil/playlist.m3u8');
+    hls.loadSource('https://nzp-wowza01.si.edu/live_edge_lion/smil:lion01_all.smil/playlist.m3u8');
     hls.attachMedia(lion22);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+  }
+</script>
+</div>
+
+<div id="lion31" class="left">
+Lion Cam 2 (<a href="/hlsjsvideo.html?stream=https://nzp-wowza02.si.edu/live_edge_lion/smil:lion01_all.smil/playlist.m3u8">Fullscreen</a>)
+<video controls muted autoplay width="608" height="342" id="lion32"></video><script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('lion32');
+    var hls = new Hls();
+    hls.loadSource('https://nzp-wowza02.si.edu/live_edge_lion/smil:lion01_all.smil/playlist.m3u8');
+    hls.attachMedia(lion32);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
   });
