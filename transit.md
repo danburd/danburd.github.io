@@ -79,11 +79,10 @@
 
 ## iRide Eligible MetroBus Routes
 
-[Information](https://www.arlingtontransit.com/about/programs/iride-for-arlington-students/)
-[Changes](https://www.apsva.us/post/changes-are-coming-to-metrobus-routes/)
-
-1A, 1B, 2A, 3Y, 4B, 7A, 10A, 10B, 16A,C,E,M, 22A, 22F, 23A, 23B, 23T, 25B, 26A, 28A, 38B, MW1
-A1X, A11, A12, A25, A27, A40, A49, A58, A66, A70, A71, A76, F20, F26, F44, F50, F60, F61, F62
+- [Information](https://www.arlingtontransit.com/about/programs/iride-for-arlington-students/)
+- [Changes](https://www.apsva.us/post/changes-are-coming-to-metrobus-routes/)
+- 1A, 1B, 2A, 3Y, 4B, 7A, 10A, 10B, 16A,C,E,M, 22A, 22F, 23A, 23B, 23T, 25B, 26A, 28A, 38B, MW1
+- A1X, A11, A12, A25, A27, A40, A49, A58, A66, A70, A71, A76, F20, F26, F44, F50, F60, F61, F62
 
 | **Retired Metrobus Routes** | **New Better Bus Routes** |
 | --------------------------- | ------------------------- |
