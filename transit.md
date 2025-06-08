@@ -11,6 +11,10 @@
 | 22A (gone) | 31st & #4510 | Barcroft | Ballston | [ETA](https://buseta.wmata.com/m/index?q=6000025) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2199) |
 | 7A (A27) | 31st & S Abingdon (near) | | Van Dorn | [ETA](https://buseta.wmata.com/m/index?q=6000022) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2180) |
 | 22A (gone) | 31st & S Abingdon (near) | | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6000022) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2180) |
+| (A71) | 34th & S Wakefield (North) | | King St Metro | [ETA](https://buseta.wmata.com/m/index?q=6000914) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_14344) |
+| (A25) | 34th & S Wakefield (North) | | Landmark | [ETA](https://buseta.wmata.com/m/index?q=6000914) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_14344) |
+| (A71) | 34th & S Wakefield (South) | | Ballston | [ETA](https://buseta.wmata.com/m/?q=6000015) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_1996) |
+| (A25) | 34th & S Wakefield (South) | | Pentagon | [ETA](https://buseta.wmata.com/m/?q=6000015) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_1996) |
 | 31 | King St & N Dearing | Old Town | Braddock Metro | [ETA](https://dashbus.obaweb.org/tracker/m/?q=4000338) | [Schedule](https://dashbus.obaweb.org/tracker/where/schedule?id=1_1846) |
 | 31 | King St & N Dearing | | NVCC | [ETA](https://dashbus.obaweb.org/tracker/m/?q=4000337) | [Schedule](https://dashbus.obaweb.org/tracker/where/schedule?id=1_1845) |
 
