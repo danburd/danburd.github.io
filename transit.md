@@ -23,7 +23,7 @@
 | --- | -------- | ----------- | --------- | --- | -------- |
 | A12 | Bay A | | Hunting Point | [ETA](https://buseta.wmata.com/m/index?q=6001234) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16442) |
 | A66 | Bay A | | Culmore | [ETA](https://buseta.wmata.com/m/index?q=6001234) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16442) |
-| A27 | Bay B | | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
+| A27 | Bay B | 31st & S Abingdon (near) | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
 | A71 | Bay B | | Ballston | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
 | A27 | Bay C | | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001236) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16456) |
 | A66 | Bay C | | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001236) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16456) |
