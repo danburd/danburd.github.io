@@ -5,7 +5,9 @@
 
 | hls.js | mp3 | Station | Bitrate | Nation | Website | Wikipedia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [hls.js](/hlsjsaudio.html?stream=https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM_ADP.m3u8) | [MP3](https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM.mp3) | WETA | 128 | USA | [Website](https://weta.org/fm/playlists) | [Wikipedia](https://en.wikipedia.org/wiki/WETA_(FM)) |
+| [hls.js](/hlsjsaudio.html?stream=https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM_ADP.m3u8) | [MP3](https://weta.streamguys1.com/wetaclassical-icy) | WETA | 128 | USA | [Website](https://weta.org/fm/playlists) | [Wikipedia](https://en.wikipedia.org/wiki/WETA_(FM)) |
+| [hls.js](/hlsjsaudio.html?stream=https://playerservices.streamtheworld.com/api/livestream-redirect/WETAVLV_ADP.m3u8) | [MP3](https://weta.streamguys1.com/wetavivalavoce-icy) | Viva La Voce | 128 | USA | [Website](https://weta.org/fm/playlists) | [Wikipedia](https://en.wikipedia.org/wiki/WETA_(FM)) |
+| | [MP3](https://weta.streamguys1.com/wetavirtuoso-icy) | Virtuoso | 128 | USA | [Website](https://weta.org/fm/playlists) | [Wikipedia](https://en.wikipedia.org/wiki/WETA_(FM)) |
 | [hls.js](/hlsjsaudio.html?stream=https://as-hls-ww.live.cf.md.bbci.co.uk/pool_23461179/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%3d320000.norewind.m3u8) | | BBC Radio 3 | 320 | UK  | [Website](https://www.bbc.co.uk/schedules/p00fzl8t) | [Wikipedia](https://en.wikipedia.org/wiki/BBC_Radio_3) |
 | [hls.js](/hlsjsaudio.html?stream=https://drliveradio.akamaized.net/hls/live/2022411/p2/masterab.m3u8) |     | DR P2 | 320 | Denmark | [Website](https://www.dr.dk/radio/p2) | [Wikipedia](https://en.wikipedia.org/wiki/DR_P2) |
 | [hls.js](/hlsjsaudio.html?stream=https://ruv-radio-live.akamaized.net/streymi/rondo/rondo.m3u8) |     | RÚV Rondó | 320 | Iceland | [Website](https://www.ruv.is/rondo) | [Wikipedia](https://en.wikipedia.org/wiki/R%C3%9AV#Radio) |
