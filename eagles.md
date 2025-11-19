@@ -21,3 +21,4 @@
 | [HLS](https://live.amperwave.net/manifest/espn-network-cloud.m3u8) | [hls.js](/hlsjsaudio.html?stream=https://live.amperwave.net/manifest/espn-network-cloud.m3u8) | | ESPN | Nationwide |
 | [HLS](https://live.amperwave.net/manifest/audacy-cbssportsaac-hlsc.m3u8) | [hls.js](/hlsjsaudio.html?stream=https://live.amperwave.net/manifest/audacy-cbssportsaac-hlsc.m3u8) | [MP3](https://live.amperwave.net/direct/audacy-cbssportsaac-imc.aac) | CBS Sports | Nationwide |
 | [HLS](https://stream.revma.ihrhls.com/zc4732/hls.m3u8) | [hls.js](/hlsjsaudio.html?stream=https://stream.revma.ihrhls.com/zc4732/hls.m3u8) | | Fox Sports | Nationwide |
+| [HLS](https://playerservices.streamtheworld.com/api/livestream-redirect/WWODEN7AAC.m3u8) | [hls.js](/hlsjsaudio.html?stream=https://playerservices.streamtheworld.com/api/livestream-redirect/WWODEN7AAC.m3u8) | | Westwood One | Nationwide |
