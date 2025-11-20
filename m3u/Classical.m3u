@@ -1,0 +1,112 @@
+#EXTM3U
+
+#EXTINF:0,WETA - 128
+https://weta.streamguys1.com/wetaclassical-icy
+
+#EXTINF:0,Viva La Voce - 128
+https://weta.streamguys1.com/wetavivalavoce-icy
+
+#EXTINF:0,Virtuoso - 128
+https://weta.streamguys1.com/wetavirtuoso-icy
+
+#EXTINF:0,BBC Radio 3
+https://as-hls-ww-live.akamaized.net/pool_23461179/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%3d320000.norewind.m3u8
+
+#EXTINF:0,Denmark - 320 - DR P2
+https://drliveradio1.akamaized.net/hls/live/2097651/p2/playlist-320000.m3u8
+
+#EXTINF:0,Iceland - 320 - RÚV Rondó
+https://ruv-radio-live.akamaized.net/streymi/rondo/rondo.m3u8
+
+#EXTINF:0,France - 192 - Easy Classique
+https://direct.francemusique.fr/live/francemusiqueeasyclassique-hifi.aac
+
+#EXTINF:0,France - 192 - France Musique Opéra
+https://stream.radiofrance.fr/francemusiqueopera/francemusiqueopera.m3u8
+
+#EXTINF:0,France - 192 - France Musique La Baroque
+https://stream.radiofrance.fr/francemusiquebaroque/francemusiquebaroque.m3u8
+
+#EXTINF:0,France - 192 - Classique Plus
+https://direct.francemusique.fr/live/francemusiqueclassiqueplus-hifi.aac
+
+#EXTINF:0,France - 192 - Concerts Radio France
+https://direct.francemusique.fr/live/francemusiqueconcertsradiofrance-hifi.aac
+
+#EXTINF:0,Sweden - 192 - Sveriges Radio P2
+https://http-live.sr.se/p2musik-mp3-192
+
+#EXTINF:0,Netherlands - 192 - NPO Radio 4
+https://icecast.omroep.nl/radio4-bb-mp3
+
+#EXTINF:0,Ireland - 160 - RTÉ Lyric FM
+https://www.rte.ie/manifests/lyric.m3u8
+
+#EXTINF:0,Norway - 128 - NRK Klassisk
+https://cdn0-47115-liveedge3.dna.contentdelivery.net/47115-liveedge3/klassisk/muxed.m3u8
+
+#EXTINF:0,Spain - 192 - Radio Clásica
+https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8
+
+#EXTINF:0,Portugal - 256 - Antena 2
+https://streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8
+
+#EXTINF:0,Belgium (Flemish) - 128 - Radio Klara
+https://icecast.vrtcdn.be/klara-high.mp3
+
+#EXTINF:0,Belgium (Flemish) - 128 - Klara Continuo
+https://icecast.vrtcdn.be/klaracontinuo-high.mp3
+
+#EXTINF:0,Belgium - 320 - Musiq'3
+https://radios.rtbf.be/musiq3-128.aac
+
+#EXTINF:0,Switzerland (German) - 96 - Radio SRF 2 Kultur
+https://stxt-audiostreaming.akamaized.net/hls/live/2117380/srf2/master.m3u8
+
+#EXTINF:0,Switzerland (French) - 96 - Espace 2
+https://stxt-audiostreaming.akamaized.net/hls/live/2117380/espace-2/master.m3u8
+
+#EXTINF:0,Switzerland (Italian) - 96 - RSI Rete Due
+https://stxt-audiostreaming.akamaized.net/hls/live/2117380/retedue/master.m3u8
+
+#EXTINF:0,Australia - 64 - ABC Classic
+https://mediaserviceslive.akamaized.net/hls/live/2038316/classicfmnsw/index.m3u8
+
+#EXTINF:0,Australia - 64 - ABC Classic 2
+https://mediaserviceslive.akamaized.net/hls/live/2038317/classic2/index.m3u8
+
+#EXTINF:0,New Zealand - 64 - RNZ Concert
+https://stream-ice.radionz.co.nz/concert.mp3
+
+#EXTINF:0,YourClassical Radio - 48
+https://ycradio.stream.publicradio.org/ycradio.aac
+
+#EXTINF:0,YourClassical Favorites - 48
+https://favorites.stream.publicradio.org/favorites.aac
+
+#EXTINF:0,YourClassical Kids - 48
+https://classicalkids.stream.publicradio.org/classicalkids.aac
+
+#EXTINF:0,YourClassical Guitar - 48
+https://guitar.stream.publicradio.org/guitar.aac
+
+#EXTINF:0,YourClassical Peaceful Piano - 48
+https://peacefulpiano.stream.publicradio.org/peacefulpiano.aac
+
+#EXTINF:0,YourClassical Relax - 48
+https://relax.stream.publicradio.org/relax.aac
+
+#EXTINF:0,YourClassical Lullabies - 48
+https://lullabies.stream.publicradio.org/lullabies.aac
+
+#EXTINF:0,YourClassical Concert Band - 48
+https://concertband.stream.publicradio.org/concertband.aac
+
+#EXTINF:0,YourClassical Choral - 48
+https://choral.stream.publicradio.org/choral.aac
+
+#EXTINF:0,YourClassical Chamber Music - 48
+https://chambermusic.stream.publicradio.org/chambermusic.aac
+
+#EXTINF:0,YourClassical Holiday - 48
+https://holiday.stream.publicradio.org/holiday_yc.aac
