@@ -24,9 +24,11 @@
 | A12 | Bay A | | Hunting Point | [ETA](https://buseta.wmata.com/m/index?q=6001234) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16442) |
 | A66 | Bay A | | Culmore | [ETA](https://buseta.wmata.com/m/index?q=6001234) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16442) |
 | A27 | Bay B | 31st & S Abingdon (near) | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
+| A29 | Bay B | 31st & S Abingdon (near) | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
 | A71 | Bay B | | Ballston | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
 | A27 | Bay C | | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001236) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16456) |
 | A66 | Bay C | | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001236) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16456) |
+| A29 | Bay C | | Metro Center | [ETA](https://buseta.wmata.com/m/index?q=6001236) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16456) |
 | A12 | Bay D | | Ballston | [ETA](https://buseta.wmata.com/m/index?q=6001237) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16448) |
 | A71 | Bay D | | King St-Old Town | [ETA](https://buseta.wmata.com/m/index?q=6001237) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16448) |
 | 72 | Bay D | Ballston, Barcroft | Rock Spring | [ETA](https://www.arlingtontransit.com/realtime/72/6001237) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/72) |
@@ -47,6 +49,7 @@
 | A71 | Ballston, Bay G | Shirlington, Bay D | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001072) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_28055) |
 | 87 | Gunston (28th St S @ 1334/S Mead) | | Shirlington | [ETA](https://www.arlingtontransit.com/realtime/87/6000073) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/87) |
 | 75 | Wakefield (Dinwiddie @ George Mason) | | Shirlington | [ETA](https://www.arlingtontransit.com/realtime/75/6001259) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/75) |
+| A29 | 13th & H NW | Shirlington, Bay B | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=1001110) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_5808)
 
 ## Other Arrivals
 
