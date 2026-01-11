@@ -44,12 +44,12 @@
 | A27 | Pentagon, Bay U5 | 31st & S Abingdon (near) | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=6000884) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_14261) |
 | A27 | Pentagon City, Bay C | 31st & S Abingdon (near) | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=6001402) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27717) |
 | A66 | Pentagon, Bay U4 | Shirlington, Bay A | Culmore | [ETA](https://buseta.wmata.com/m/index?q=6000904) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_14313) |
+| A29 | 13th & H NW | Shirlington, Bay B | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=1001110) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_5808)
+| A71 | Ballston, Bay G | Shirlington, Bay D | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001072) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_28055) |
 | A71 | Barcroft | Shirlington, Bay D | King St-Old Town | [ETA](https://buseta.wmata.com/m/index?q=6001398) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_27713) |
 | 72 | Barcroft | | Shirlington, Bay D | [ETA](https://www.arlingtontransit.com/realtime/72/6000105) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/72) |
-| A71 | Ballston, Bay G | Shirlington, Bay D | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001072) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_28055) |
 | 87 | Gunston (28th St S @ 1334/S Mead) | | Shirlington | [ETA](https://www.arlingtontransit.com/realtime/87/6000073) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/87) |
 | 75 | Wakefield (Dinwiddie @ George Mason) | | Shirlington | [ETA](https://www.arlingtontransit.com/realtime/75/6001259) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/75) |
-| A29 | 13th & H NW | Shirlington, Bay B | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=1001110) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_5808)
 
 ## Other Arrivals
 
