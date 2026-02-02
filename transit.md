@@ -8,9 +8,9 @@
 | Bus | Location | Destination | Direction | ETA | Schedule |
 | --- | -------- | ----------- | --------- | --- | -------- |
 | A27 | 31st & S Abingdon (far) | | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6000021) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2169) |
-| A27 | 31st & #4510 | Barcroft | Ballston | [ETA](https://buseta.wmata.com/m/index?q=6000025) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2199) |
-| A27 | 31st & S Abingdon (near) | | Van Dorn | [ETA](https://buseta.wmata.com/m/index?q=6000022) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2180) |
-| A71 | 34th & S Wakefield (North) | | King St Metro | [ETA](https://buseta.wmata.com/m/index?q=6000914) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_14344) |
+| A27 | 31st & #4510 | | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6000025) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2199) |
+| A27 | 31st & S Abingdon (near) | | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=6000022) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_2180) |
+| A71 | 34th & S Wakefield (North) | | King St | [ETA](https://buseta.wmata.com/m/index?q=6000914) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_14344) |
 | A25 | 34th & S Wakefield (North) | | Landmark | [ETA](https://buseta.wmata.com/m/index?q=6000914) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_14344) |
 | A71 | 34th & S Wakefield (South) | | Ballston | [ETA](https://buseta.wmata.com/m/?q=6000015) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_1996) |
 | A25 | 34th & S Wakefield (South) | | Pentagon | [ETA](https://buseta.wmata.com/m/?q=6000015) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_1996) |
@@ -24,18 +24,18 @@
 | A12 | Bay A | | Hunting Point | [ETA](https://buseta.wmata.com/m/index?q=6001234) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16442) |
 | A66 | Bay A | | Culmore | [ETA](https://buseta.wmata.com/m/index?q=6001234) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16442) |
 | A27 | Bay B | 31st & S Abingdon (near) | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
-| A29 | Bay B | 31st & S Abingdon (near) | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
+| A29 | Bay B | | Metro Center | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
 | A71 | Bay B | | Ballston | [ETA](https://buseta.wmata.com/m/index?q=6001235) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16459) |
 | A27 | Bay C | | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001236) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16456) |
 | A66 | Bay C | | Pentagon | [ETA](https://buseta.wmata.com/m/index?q=6001236) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16456) |
-| A29 | Bay C | | Metro Center | [ETA](https://buseta.wmata.com/m/index?q=6001236) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16456) |
+| A29 | Bay C | | Van Dorn St | [ETA](https://buseta.wmata.com/m/index?q=6001236) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16456) |
 | A12 | Bay D | | Ballston | [ETA](https://buseta.wmata.com/m/index?q=6001237) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16448) |
-| A71 | Bay D | | King St-Old Town | [ETA](https://buseta.wmata.com/m/index?q=6001237) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16448) |
+| A71 | Bay D | | King St | [ETA](https://buseta.wmata.com/m/index?q=6001237) | [Schedule](https://buseta.wmata.com/where/schedule?id=1_16448) |
 | 72 | Bay D | Ballston, Barcroft | Rock Spring | [ETA](https://www.arlingtontransit.com/realtime/72/6001237) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/72) |
 | 77 | Bay E | | Court House | [ETA](https://www.arlingtontransit.com/realtime/77/6001276) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/77) |
 | 87/X | Bay E | Gunston | Pentagon | [ETA](https://www.arlingtontransit.com/realtime/87/6001276) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/87) |
 | 75 | Bay F | Wakefield | Virginia Square | [ETA](https://www.arlingtontransit.com/realtime/75/6001270) | [Schedule](https://www.arlingtontransit.com/routes-schedules/schedules/timetable/ART/75) |
-| 36A/B | Bay G | | Mark Center & Potomac Yard | [ETA](https://dashbus.obaweb.org/tracker/m/?q=6001365) | [Schedule](https://dashbus.obaweb.org/tracker/where/schedule?id=71_719) |
+| 36A/B | Bay G | | Mark Center & Potomac Yard | [ETA](https://tracker.dashbus.com/tracker/m/?q=6001365) | [Schedule](https://tracker.dashbus.com/tracker/where/schedule?id=1_719) |
 
 ## Returning
 
@@ -70,7 +70,7 @@
 
 ## PDF's
 
- - [A27](https://www.wmata.com/service/bus/route-profiles/upload/A27_042525.pdf)
+ - [A27](https://www.wmata.com/initiatives/plans/Better-Bus/route-profile.cfm?route=A27)
  - [Virginia Route Profiles](https://www.wmata.com/schedules/timetables/upcoming-changes/index.cfm?state=VA)
 
 ## iRide Eligible MetroBus Routes
